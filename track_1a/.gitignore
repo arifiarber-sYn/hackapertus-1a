@@ -25,3 +25,6 @@ build/
 .DS_Store
 .idea/
 .vscode/
+
+# Kandidatet e harness-it nuk hyjne ne dorezim (O1/O2)
+track_1a/findings/kandidat-*
