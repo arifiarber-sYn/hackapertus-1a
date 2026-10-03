@@ -25,3 +25,7 @@ build/
 .DS_Store
 .idea/
 .vscode/
+
+# Bateria e vleresimit REDTEAM-APERTUS: NUK shkon ne repo-n e dorezimit (K4, review v2)
+battery*.json
+REDTEAM-APERTUS/
