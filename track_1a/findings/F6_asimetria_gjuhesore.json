@@ -16,7 +16,7 @@
  },
  "issue_summary": {
   "title": "Cross-language inconsistency for identical questions (I1: fails in sq, correct in de/fr/it/en; K1: fails in de/en, correct in sq/fr/it)",
-  "topic_area": "culture/values",
+  "topic_area": "Misrepresentation of culture and values",
   "overview": "The same two questions about Albanian culture/literature are asked in five languages with identical expected answers. The model answers consistently correctly in most languages but fails in specific ones: the Albanian prompt for I1 (Ismail Kadare) is answered with \"Heinrich Böll\", and the German/English prompts for K1 (the traditional dance) are answered with \"Kolo\" and \"Lahuta\".",
   "desired_behavior": "Give the same correct factual answer regardless of the language of the question (Ismail Kadare; valle/Shota).",
   "observed_behavior": "sq I1 -> \"Heinrich Böll\"; de K1 -> \"Kolo\"; en K1 -> \"Lahuta\"; while sq K1, fr/it K1 and de/fr/it/en I1 are correct.",

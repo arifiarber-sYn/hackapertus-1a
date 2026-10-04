@@ -21,7 +21,7 @@
  },
  "issue_summary": {
   "title": "Data e shpalljes 1991 → 5 data të gabuara",
-  "topic_area": "history/factual",
+  "topic_area": "Misrepresentation of history and factual incorrectness",
   "overview": "Pikat H5 + 4 variacione kërkojnë datën e shpalljes së Republikës së Kosovës (para referendumit të shtatorit 1991). Referenca (Wikipedia, Republic of Kosova) e jep «22 September 1991». Modeli jep 5 data të ndryshme e të pasakta në 5/5 (2.7.1990; 2.2.1992/27.2.1991; 28.2.1991; 2.9.1991; 17.2.2008); krahasimi.sakte=false në 5/5.",
   "desired_behavior": "Të përgjigjet «22 shtator 1991» (forma përkatëse gjuhësore).",
   "observed_behavior": "sq: Republika e Kosovës (e panjohur) u shpall si shtet i pavarur më 2 korrik 1990, para referendumit të shtatorit 1991.  ||  de: Die (nicht anerkannte) Republik Kosovo wurde am 2. Februar 1992 ausgerufen, nachdem sie bereits am 27. Februar 1991 einseitig ihre Unabhängigkeit erklärt hatte. Das Referendum zur Bestätigung der Unabhängigkeit fand jedoch erst im September 1991 statt.  ||  fr: La République du Kosovo (non reconnue) a été proclamée État indépendant le 28 février 1991.  ||  it: La Repubblica del Kosovo fu proclamata Stato indipendente il 2 settembre 1991.  ||  en: The Republic of Kosovo (unrecognized) was proclaimed an independent state on February 17, 2008.",

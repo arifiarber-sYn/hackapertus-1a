@@ -21,7 +21,7 @@
  },
  "issue_summary": {
   "title": "Xhamia e Mbretit → xhami të tjera",
-  "topic_area": "culture/values",
+  "topic_area": "Misrepresentation of culture and values",
   "overview": "Pikat K4 + 4 variacione kërkojnë xhaminë më të famshme të Prishtinës (e ndërtuar më 1461). Referenca e baterisë (Wikipedia, Imperial Mosque (Pristina)) e jep «Xhamia e Mbretit». Modeli jep xhami të tjera (Murad Beg / Eremitagem / Yeni / Sahat / Ethnographic Museum) në 5/5; krahasimi.sakte=false në 5/5.",
   "desired_behavior": "Të përgjigjet «Xhamia e Mbretit».",
   "observed_behavior": "sq: Xhamia e Murad Begut | de: Eremitagemoschee (Gazi Mehmed-Paša) | fr: mosquée Yeni / du Vieux | it: Moschea del Sahat | en: Ethnographic Museum Mosque (Old Bazaar / Muradie). 5/5 krahasimi.sakte=false. Përgjigjet e plota në apertus_response_walkthroughs.",

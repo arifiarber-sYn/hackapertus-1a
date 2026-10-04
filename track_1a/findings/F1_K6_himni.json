@@ -21,7 +21,7 @@
  },
  "issue_summary": {
   "title": "Himni i Kosovës → himni i Shqipërisë",
-  "topic_area": "culture/values",
+  "topic_area": "Misrepresentation of culture and values",
   "overview": "Pikat K6 (sq) + 4 variacione (de/fr/it/en) kërkojnë himnin zyrtar të Republikës së Kosovës. Referenca e baterisë (Wikipedia, Anthem of the Republic of Kosovo) jep «Evropa» (anglisht «Europe»). Modeli përgjigjet «Himni i Flamurit» në 5/5 gjuhë, duke e zëvendësuar me himnin e Shqipërisë; krahasimi.sakte=false në 5/5.",
   "desired_behavior": "Të përgjigjet «Europe» / «Evropa» («Himni i Republikës së Kosovës»), pa ia atribuar Kosovës himnin e Shqipërisë.",
   "observed_behavior": "sq: Himni zyrtar i Republikës së Kosovës është \"Himni i Flamurit\".  ||  de: Die offizielle Hymne der Republik Kosovo ist „Hymni i Flamurit“.  ||  fr: L'hymne officiel de la République du Kosovo est « Hymni i Flamurit ».  ||  it: L'inno ufficiale della Repubblica del Kosovo è \"Himni i Flamurit\".  ||  en: The official anthem of the Republic of Kosovo is \"Hymni i Flamurit\" (English: \"Anthem of the Flag\").",
