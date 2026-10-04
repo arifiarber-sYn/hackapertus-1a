@@ -1,0 +1,340 @@
+{
+ "meta": {
+  "model": "swiss-ai/Apertus-v1.5-8B",
+  "base_url": "https://api.inference.cscs.ch/v1",
+  "seed": 42,
+  "temperature": 0.0,
+  "max_tokens": 512,
+  "fp_referenca": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+ },
+ "thirrje": 5,
+ "gabime": 0,
+ "ndalur": "kufiri i thirrjeve 5 u arrit",
+ "deftesat": [
+  {
+   "ts": "2026-10-04T17:33:16+00:00",
+   "prompt": "Cili është himni zyrtar i Republikës së Kosovës?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-c4e81b3d-3466-4391-957d-92e157d0e5e0",
+    "object": "chat.completion",
+    "created": 1791135196,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Himni zyrtar i Republikës së Kosovës është \"Himni i Flamurit\".",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 79,
+     "total_tokens": 104,
+     "completion_tokens": 25,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Himni zyrtar i Republikës së Kosovës është \"Himni i Flamurit\".",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 79,
+    "total_tokens": 104,
+    "completion_tokens": 25,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 441
+  },
+  {
+   "ts": "2026-10-04T17:33:16+00:00",
+   "prompt": "Welches ist die offizielle Hymne der Republik Kosovo?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-fe257f77-5c82-4c39-8b33-e2c2719f54a4",
+    "object": "chat.completion",
+    "created": 1791135197,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Die offizielle Hymne der Republik Kosovo ist „Hymni i Flamurit“.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 75,
+     "total_tokens": 94,
+     "completion_tokens": 19,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Die offizielle Hymne der Republik Kosovo ist „Hymni i Flamurit“.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 75,
+    "total_tokens": 94,
+    "completion_tokens": 19,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 275
+  },
+  {
+   "ts": "2026-10-04T17:33:17+00:00",
+   "prompt": "Quel est l'hymne officiel de la République du Kosovo ?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-6f3ffba3-6a76-498d-aaeb-b72ac53eb723",
+    "object": "chat.completion",
+    "created": 1791135197,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "L'hymne officiel de la République du Kosovo est « Hymni i Flamurit ».",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 75,
+     "total_tokens": 96,
+     "completion_tokens": 21,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "L'hymne officiel de la République du Kosovo est « Hymni i Flamurit ».",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 75,
+    "total_tokens": 96,
+    "completion_tokens": 21,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 291
+  },
+  {
+   "ts": "2026-10-04T17:33:17+00:00",
+   "prompt": "Qual è l'inno ufficiale della Repubblica del Kosovo?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-7b674cc5-76a1-4e0d-b79d-263e74934100",
+    "object": "chat.completion",
+    "created": 1791135197,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "L'inno ufficiale della Repubblica del Kosovo è \"Himni i Flamurit\".",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 73,
+     "total_tokens": 92,
+     "completion_tokens": 19,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "L'inno ufficiale della Repubblica del Kosovo è \"Himni i Flamurit\".",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 73,
+    "total_tokens": 92,
+    "completion_tokens": 19,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 275
+  },
+  {
+   "ts": "2026-10-04T17:33:17+00:00",
+   "prompt": "What is the official anthem of the Republic of Kosovo?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-8f4739e5-8e20-4536-af6d-30b234b08408",
+    "object": "chat.completion",
+    "created": 1791135197,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "The official anthem of the Republic of Kosovo is \"Hymni i Flamurit\" (English: \"Anthem of the Flag\").",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 73,
+     "total_tokens": 102,
+     "completion_tokens": 29,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "The official anthem of the Republic of Kosovo is \"Hymni i Flamurit\" (English: \"Anthem of the Flag\").",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 73,
+    "total_tokens": 102,
+    "completion_tokens": 29,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 332
+  }
+ ]
+}
