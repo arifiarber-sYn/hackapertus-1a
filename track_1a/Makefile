@@ -1,6 +1,8 @@
 .PHONY: run
 
-# Replace with the command that starts the project in a Docker container,
-# e.g. `docker compose up`. It must work from a clean checkout.
+# 'make run' — riprodhimi i gjetjeve te Track 1A.
+# Funksionon edhe vetiu (make -C track_1a run) edhe i deleguar nga Makefile i rrenjes.
+TRACK_DIR := $(dir $(realpath $(lastword $(MAKEFILE_LIST))))
+
 run:
-	@echo "make run is not implemented yet — edit this Makefile"; exit 1
+	@python3 $(TRACK_DIR)src/reproduce.py

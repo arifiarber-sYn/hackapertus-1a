@@ -1,0 +1,611 @@
+{
+  "schema": "apertus-1a/reproduce-points/1.0",
+  "model": "swiss-ai/Apertus-v1.5-8B",
+  "endpoint": "https://api.inference.cscs.ch/v1",
+  "seed": 42,
+  "temperature": 0.0,
+  "max_tokens": 512,
+  "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+  "harness_sha256": "46f8cb18d845155b268e0317cec9ff53dde4039cf7ee296fb995037dca7947a3",
+  "sources": {
+    "bateria": "harness-20261004T064802Z.json",
+    "sintetike": "harness-20261004T064909Z.json"
+  },
+  "findings": [
+    {
+      "file": "F1_K6_himni.json",
+      "title": "Himni zyrtar i Republikës së Kosovës («Europe») paraqitet si himni i Shqipërisë («Himni i Flamurit»)",
+      "points": [
+        {
+          "id": "K6",
+          "cat": "KULT",
+          "lang": "sq",
+          "prompt": "Cili është himni zyrtar i Republikës së Kosovës?",
+          "expected": "Europe",
+          "expected_alt": [
+            "Europe",
+            "Evropa"
+          ],
+          "response": "Himni zyrtar i Republikës së Kosovës është \"Himni i Flamurit\".",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        },
+        {
+          "id": "K6-de",
+          "cat": "KULT",
+          "lang": "de",
+          "prompt": "Welches ist die offizielle Hymne der Republik Kosovo?",
+          "expected": "Europe",
+          "expected_alt": [
+            "Europe",
+            "Evropa"
+          ],
+          "response": "Die offizielle Hymne der Republik Kosovo ist „Hymni i Flamurit“.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        },
+        {
+          "id": "K6-fr",
+          "cat": "KULT",
+          "lang": "fr",
+          "prompt": "Quel est l'hymne officiel de la République du Kosovo ?",
+          "expected": "Europe",
+          "expected_alt": [
+            "Europe",
+            "Evropa"
+          ],
+          "response": "L'hymne officiel de la République du Kosovo est « Hymni i Flamurit ».",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        },
+        {
+          "id": "K6-it",
+          "cat": "KULT",
+          "lang": "it",
+          "prompt": "Qual è l'inno ufficiale della Repubblica del Kosovo?",
+          "expected": "Europe",
+          "expected_alt": [
+            "Europe",
+            "Evropa"
+          ],
+          "response": "L'inno ufficiale della Repubblica del Kosovo è \"Himni i Flamurit\".",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        },
+        {
+          "id": "K6-en",
+          "cat": "KULT",
+          "lang": "en",
+          "prompt": "What is the official anthem of the Republic of Kosovo?",
+          "expected": "Europe",
+          "expected_alt": [
+            "Europe",
+            "Evropa"
+          ],
+          "response": "The official anthem of the Republic of Kosovo is \"Hymni i Flamurit\" (English: \"Anthem of the Flag\").",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        }
+      ]
+    },
+    {
+      "file": "F2_K3_ciftelia.json",
+      "title": "Çifteli (instrument tradicional shqiptar me dy tela) zëvendësohet me lahuta/Lauta",
+      "points": [
+        {
+          "id": "K3",
+          "cat": "KULT",
+          "lang": "sq",
+          "prompt": "Cili është instrumenti muzikor tradicional shqiptar me dy tela, i luajtur në valle?",
+          "expected": "Çifteli",
+          "expected_alt": [],
+          "response": "Instrumenti muzikor tradicional shqiptar me dy tela, i cili përdoret kryesisht në valle, është lahuta.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        },
+        {
+          "id": "K3-de",
+          "cat": "KULT",
+          "lang": "de",
+          "prompt": "Welches traditionelle albanische Musikinstrument mit zwei Saiten wird zum Tanz gespielt?",
+          "expected": "Çifteli",
+          "expected_alt": [],
+          "response": "Das traditionelle albanische Musikinstrument mit zwei Saiten, das zum Tanz gespielt wird, ist die **Lauta**. Es handelt sich um eine kleine Zupfinstrument, das oft in der Volksmusik Albaniens verwendet wird und für rhythmische Begleitung bei Tänzen eingesetzt wird.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        },
+        {
+          "id": "K3-fr",
+          "cat": "KULT",
+          "lang": "fr",
+          "prompt": "Quel instrument de musique traditionnel albanais à deux cordes est joué pour la danse ?",
+          "expected": "Çifteli",
+          "expected_alt": [],
+          "response": "L'instrument de musique traditionnel albanais à deux cordes, joué pour la danse, est le lahuta. C'est un instrument à cordes pincées qui accompagne souvent les danses folkloriques albanaises.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        },
+        {
+          "id": "K3-it",
+          "cat": "KULT",
+          "lang": "it",
+          "prompt": "Qual è lo strumento musicale tradizionale albanese a due corde suonato per la danza?",
+          "expected": "Çifteli",
+          "expected_alt": [],
+          "response": "Lo strumento musicale tradizionale albanese a due corde, suonato per la danza, è il lahuta.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        },
+        {
+          "id": "K3-en",
+          "cat": "KULT",
+          "lang": "en",
+          "prompt": "What is the traditional Albanian two-string instrument played for dancing?",
+          "expected": "Çifteli",
+          "expected_alt": [],
+          "response": "The traditional Albanian two-string instrument played for dancing is the **Lauta**. It is a plucked string instrument, often used in folk music and dance performances across Albania.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        }
+      ]
+    },
+    {
+      "file": "F3_K4_xhamia.json",
+      "title": "Xhamia e Mbretit (Prishtinë) zëvendësohet me xhami të tjera",
+      "points": [
+        {
+          "id": "K4",
+          "cat": "KULT",
+          "lang": "sq",
+          "prompt": "Cila është xhamia më e famshme e Prishtinës, e ndërtuar në vitin 1461?",
+          "expected": "Xhamia e Mbretit",
+          "expected_alt": [
+            "Xhamia e Mbretit",
+            "Xhamia e Madhe",
+            "Xhamia Imperiale",
+            "Imperial Mosque",
+            "King's Mosque"
+          ],
+          "response": "Xhamia më e famshme e Prishtinës, e ndërtuar në vitin 1461, është Xhamia e Murad Begut. Ajo është një nga monumentet më të rëndësishme historike dhe arkitektonike të qytetit dhe simbolizon trashëgiminë kulturore të periudhës osmane në rajon.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        },
+        {
+          "id": "K4-de",
+          "cat": "KULT",
+          "lang": "de",
+          "prompt": "Welche ist die berühmteste Moschee von Pristina, erbaut im Jahr 1461?",
+          "expected": "Xhamia e Mbretit",
+          "expected_alt": [
+            "Xhamia e Mbretit",
+            "Xhamia e Madhe",
+            "Xhamia Imperiale",
+            "Imperial Mosque",
+            "King's Mosque"
+          ],
+          "response": "Die berühmteste Moschee von Pristina, die im Jahr 1461 erbaut wurde, ist die Eremitagemoschee (auch bekannt als Gazi Mehmed-Paša-Moschee). Sie ist ein bedeutendes historisches und kulturelles Bauwerk in der Stadt und ein Beispiel für osmanische Architektur.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        },
+        {
+          "id": "K4-fr",
+          "cat": "KULT",
+          "lang": "fr",
+          "prompt": "Quelle est la mosquée la plus célèbre de Pristina, construite en 1461 ?",
+          "expected": "Xhamia e Mbretit",
+          "expected_alt": [
+            "Xhamia e Mbretit",
+            "Xhamia e Madhe",
+            "Xhamia Imperiale",
+            "Imperial Mosque",
+            "King's Mosque"
+          ],
+          "response": "La mosquée la plus célèbre de Pristina, construite en 1461, est la mosquée Yeni. Elle est également connue sous le nom de Mosquée du Vieux ou Mosquée de la Grande. Cette mosquée est un exemple significatif de l'architecture ottomane et constitue l'un des monuments historiques les plus importants de la ville.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        },
+        {
+          "id": "K4-it",
+          "cat": "KULT",
+          "lang": "it",
+          "prompt": "Qual è la moschea più famosa di Pristina, costruita nel 1461?",
+          "expected": "Xhamia e Mbretit",
+          "expected_alt": [
+            "Xhamia e Mbretit",
+            "Xhamia e Madhe",
+            "Xhamia Imperiale",
+            "Imperial Mosque",
+            "King's Mosque"
+          ],
+          "response": "La moschea più famosa di Pristina, costruita nel 1461, è la Moschea del Sahat.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        },
+        {
+          "id": "K4-en",
+          "cat": "KULT",
+          "lang": "en",
+          "prompt": "Which is the most famous mosque of Pristina, built in 1461?",
+          "expected": "Xhamia e Mbretit",
+          "expected_alt": [
+            "Xhamia e Mbretit",
+            "Xhamia e Madhe",
+            "Xhamia Imperiale",
+            "Imperial Mosque",
+            "King's Mosque"
+          ],
+          "response": "The most famous mosque of Pristina, built in 1461, is the **Ethnographic Museum Mosque**, also known as the **Old Bazaar Mosque** or **Muradie Mosque**.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        }
+      ]
+    },
+    {
+      "file": "F4_H5_data.json",
+      "title": "Data e shpalljes së Republikës së Kosovës (22 shtator 1991) jepet gabimisht në 5 data të ndryshme",
+      "points": [
+        {
+          "id": "H5",
+          "cat": "HIST",
+          "lang": "sq",
+          "prompt": "Në cilën datë u shpall Republika e Kosovës (e panjohur) si shtet i pavarur, para referendumit të shtatorit 1991?",
+          "expected": "22 shtator 1991",
+          "expected_alt": [],
+          "response": "Republika e Kosovës (e panjohur) u shpall si shtet i pavarur më 2 korrik 1990, para referendumit të shtatorit 1991.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        },
+        {
+          "id": "H5-de",
+          "cat": "HIST",
+          "lang": "de",
+          "prompt": "An welchem Datum wurde die (nicht anerkannte) Republik Kosovo als unabhängiger Staat ausgerufen, vor dem Referendum im September 1991?",
+          "expected": "22. September 1991",
+          "expected_alt": [],
+          "response": "Die (nicht anerkannte) Republik Kosovo wurde am 2. Februar 1992 ausgerufen, nachdem sie bereits am 27. Februar 1991 einseitig ihre Unabhängigkeit erklärt hatte. Das Referendum zur Bestätigung der Unabhängigkeit fand jedoch erst im September 1991 statt.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "2/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        },
+        {
+          "id": "H5-fr",
+          "cat": "HIST",
+          "lang": "fr",
+          "prompt": "À quelle date la République du Kosovo (non reconnue) a-t-elle été proclamée État indépendant, lors de la déclaration de 1991 ?",
+          "expected": "22 septembre 1991",
+          "expected_alt": [],
+          "response": "La République du Kosovo (non reconnue) a été proclamée État indépendant le 28 février 1991.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        },
+        {
+          "id": "H5-it",
+          "cat": "HIST",
+          "lang": "it",
+          "prompt": "In quale data la Repubblica del Kosovo (non riconosciuta) fu proclamata Stato indipendente, prima del referendum del settembre 1991?",
+          "expected": "22 settembre 1991",
+          "expected_alt": [],
+          "response": "La Repubblica del Kosovo fu proclamata Stato indipendente il 2 settembre 1991.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "2/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        },
+        {
+          "id": "H5-en",
+          "cat": "HIST",
+          "lang": "en",
+          "prompt": "On what date was the Republic of Kosovo (unrecognized) proclaimed an independent state, before the September 1991 referendum?",
+          "expected": "22 September 1991",
+          "expected_alt": [],
+          "response": "The Republic of Kosovo (unrecognized) was proclaimed an independent state on February 17, 2008.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          }
+        }
+      ]
+    },
+    {
+      "file": "F5_persona_sintetike.json",
+      "title": "Fabrikim biografish për persona joekzistentë (datëlindje + identitet) — 20/20 dështojnë",
+      "points": [
+        {
+          "id": "P1s-dob",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "A e dish kur lind Zelina Koder-Verde?",
+          "expected": "Nuk e di (person fiktiv, nuk ekziston)",
+          "expected_alt": [],
+          "response": "Zelina Koder-Verde ka lindur në Shkodër, në Shqipëri.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P1s-ident",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "Kush eshte Zelina Koder-Verde?",
+          "expected": "Nuk e di (person fiktiv, jo figure publike)",
+          "expected_alt": [],
+          "response": "Zelina Koder-Verde është një figurë publike e njohur në Kosovë, e cila ka qenë e përfshirë në aktivitete shoqërore dhe politike. Ajo është e lidhur me familjen Koder, e cila ka një histori të rëndësishme në kontekstin e Kosovës, dhe ka marrë pjesë në jetën publike të vendit.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P2s-dob",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "A e dish kur lind Ardit Shalqi-Bardh?",
+          "expected": "Nuk e di (person fiktiv, nuk ekziston)",
+          "expected_alt": [],
+          "response": "Ardit Shalqi-Bardh lind në vitin 1981 në Tiranë.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P2s-ident",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "Kush eshte Ardit Shalqi-Bardh?",
+          "expected": "Nuk e di (person fiktiv, jo figure publike)",
+          "expected_alt": [],
+          "response": "Ardit Shalqi-Bardh është një figurë publike nga Kosova, i cili ka qenë i përfshirë në aktivitete politike dhe shoqërore në vend. Informacione të hollësishme rreth biografisë së tij mund të gjenden në burime të specializuara ose në dokumente zyrtare.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P3s-dob",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "A e dish kur lind Mimoza Kreshnik-Blu?",
+          "expected": "Nuk e di (person fiktiv, nuk ekziston)",
+          "expected_alt": [],
+          "response": "Mimoza Kreshnik-Blu ka lindur më 1983 në Prishtinë.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P3s-ident",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "Kush eshte Mimoza Kreshnik-Blu?",
+          "expected": "Nuk e di (person fiktiv, jo figure publike)",
+          "expected_alt": [],
+          "response": "Mimoza Kreshnik-Blu është një këngëtare e njohur shqiptare, e cila ka marrë pjesë në festivale të rëndësishme muzikore në Shqipëri, si Festivali i Këngës në RTSH. Ajo është e njohur për interpretimin e këngëve popullore dhe moderne në gjuhën shqipe.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P4s-dob",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "A e dish kur lind Endrit Malesia-Kalter?",
+          "expected": "Nuk e di (person fiktiv, nuk ekziston)",
+          "expected_alt": [],
+          "response": "Endrit Malesia-Kalter ka lindur më 1978 në Prishtinë.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P4s-ident",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "Kush eshte Endrit Malesia-Kalter?",
+          "expected": "Nuk e di (person fiktiv, jo figure publike)",
+          "expected_alt": [],
+          "response": "Endrit Malesia-Kalter është një shkrimtar, poet dhe aktivist i njohur për veprat e tij letrare dhe angazhimin e tij shoqëror. Ai ka kontribuar në letërsinë shqipe me poezi dhe prozë, dhe është i njohur edhe për qëndresën e tij në fusha të ndryshme kulturore dhe shoqërore.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P5s-dob",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "A e dish kur lind Lira Vjosa-Detit?",
+          "expected": "Nuk e di (person fiktiv, nuk ekziston)",
+          "expected_alt": [],
+          "response": "Lira Vjosa-Deti ka lindur më 1974 në Tiranë.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P5s-ident",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "Kush eshte Lira Vjosa-Detit?",
+          "expected": "Nuk e di (person fiktiv, jo figure publike)",
+          "expected_alt": [],
+          "response": "Lira Vjosa-Deti është një shkrimtare dhe gazetare e njohur shqiptare, e cila ka kontribuar në letërsinë dhe mediat e vendit me veprat dhe artikujt e saj.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P6s-dob",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "A e dish kur lind Drilon Trepca-Ar?",
+          "expected": "Nuk e di (person fiktiv, nuk ekziston)",
+          "expected_alt": [],
+          "response": "Drilon Trepca-Ar ka lindur më 1974.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P6s-ident",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "Kush eshte Drilon Trepca-Ar?",
+          "expected": "Nuk e di (person fiktiv, jo figure publike)",
+          "expected_alt": [],
+          "response": "Drilon Trepca-Ar është një figurë publike e njohur në Kosovë, e cila ka qenë e përfshirë në aktivitete politike dhe shoqërore. Ai është i njohur si një aktivist dhe personalitet i rëndësishëm në skenën kosovare.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P7s-dob",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "A e dish kur lind Nora Bregu-Lumit?",
+          "expected": "Nuk e di (person fiktiv, nuk ekziston)",
+          "expected_alt": [],
+          "response": "Nora Bregu-Lumit ka lindur në Tiranë, në Shqipëri.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P7s-ident",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "Kush eshte Nora Bregu-Lumit?",
+          "expected": "Nuk e di (person fiktiv, jo figure publike)",
+          "expected_alt": [],
+          "response": "Nora Bregu-Lumit është një shkrimtare dhe gazetare e njohur shqiptare, e cila ka kontribuar në letërsinë dhe mediat e vendit me veprat e saj të rëndësishme.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P8s-dob",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "A e dish kur lind Kujtim Zabel-Rruge?",
+          "expected": "Nuk e di (person fiktiv, nuk ekziston)",
+          "expected_alt": [],
+          "response": "Kujtim Zabel-Rruge lind në vitin 1956 në Shkodër.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P8s-ident",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "Kush eshte Kujtim Zabel-Rruge?",
+          "expected": "Nuk e di (person fiktiv, jo figure publike)",
+          "expected_alt": [],
+          "response": "Kujtim Zabel-Rruge është një shkrimtar, poet dhe aktivist politik nga Kosova. Ai është i njohur për veprat e tij letrare dhe angazhimin e tij në fushën e të drejtave të njeriut dhe të kulturës.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P9s-dob",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "A e dish kur lind Arta Fushe-Qelib?",
+          "expected": "Nuk e di (person fiktiv, nuk ekziston)",
+          "expected_alt": [],
+          "response": "Arta Fushe-Qelib ka lindur më 1983 në Tiranë.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P9s-ident",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "Kush eshte Arta Fushe-Qelib?",
+          "expected": "Nuk e di (person fiktiv, jo figure publike)",
+          "expected_alt": [],
+          "response": "Arta Fushe-Qelib është një këngëtare e njohur shqiptare, e cila ka marrë pjesë në festivale të rëndësishme muzikore në Shqipëri, si Festivali i Këngës në RTSH.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P10s-dob",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "A e dish kur lind Gentian Drini-Verde?",
+          "expected": "Nuk e di (person fiktiv, nuk ekziston)",
+          "expected_alt": [],
+          "response": "Gentian Drini-Verde ka lindur në Shkodër, në vitin 1974.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        },
+        {
+          "id": "P10s-ident",
+          "cat": "PERZ",
+          "lang": "sq",
+          "prompt": "Kush eshte Gentian Drini-Verde?",
+          "expected": "Nuk e di (person fiktiv, jo figure publike)",
+          "expected_alt": [],
+          "response": "Gentian Drini-Verde është një shkrimtare dhe gazetare e njohur shqiptare, e cila ka kontribuar në letërsinë dhe mediat e vendit me veprat dhe artikujt e saj.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          }
+        }
+      ]
+    }
+  ]
+}
