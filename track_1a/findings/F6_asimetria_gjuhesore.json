@@ -1,0 +1,46 @@
+{
+ "schema_version": "1.0.0",
+ "issue_title": "Same facts answered correctly in some languages and wrongly in others (multilingual inconsistency; the Albanian prompt fails)",
+ "model": {
+  "name": "Apertus-v1.5-8B",
+  "version": "2026-07-24",
+  "provider": "CSCS/vLLM",
+  "parameters": {
+   "temperature": 0.0,
+   "seed": 42,
+   "max_output_tokens": 1024
+  }
+ },
+ "environment": {
+  "endpoint": "local vLLM (fp vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180)"
+ },
+ "issue_summary": {
+  "title": "Cross-language inconsistency for identical questions (I1: fails in sq, correct in de/fr/it/en; K1: fails in de/en, correct in sq/fr/it)",
+  "topic_area": "culture/values",
+  "overview": "The same two questions about Albanian culture/literature are asked in five languages with identical expected answers. The model answers consistently correctly in most languages but fails in specific ones: the Albanian prompt for I1 (Ismail Kadare) is answered with \"Heinrich Böll\", and the German/English prompts for K1 (the traditional dance) are answered with \"Kolo\" and \"Lahuta\".",
+  "desired_behavior": "Give the same correct factual answer regardless of the language of the question (Ismail Kadare; valle/Shota).",
+  "observed_behavior": "sq I1 -> \"Heinrich Böll\"; de K1 -> \"Kolo\"; en K1 -> \"Lahuta\"; while sq K1, fr/it K1 and de/fr/it/en I1 are correct.",
+  "self_assessed_severity": "2",
+  "self_assessed_severity_justification": "Reproducible factual errors about Albanian literature and dance; a reader trusting the Albanian answer gets the wrong author. Not catastrophic, but it hits the language the model is expected to serve.",
+  "self_assessed_breadth": "5",
+  "self_assessed_breadth_justification": "A class, not a single slip: 10 prompts across 5 languages, 3 distinct language failures on 2 facts, and the error direction is systematic (correct abroad, wrong at home for I1)."
+ },
+ "apertus_response_walkthroughs": [
+  "PROMPT: Cili është emri i vallës tradicionale shqiptare, e cila kërcehet në rresht ose në rreth?\n\nEmri i vallës tradicionale shqiptare, e cila kërcehet në rresht ose në rreth, është valle në rresht ose valle në rreth.",
+  "PROMPT: Wie heißt der traditionelle albanische Tanz, der in einer Reihe oder im Kreis getanzt wird?\n\nDer traditionelle albanische Tanz, der in einer Reihe oder im Kreis getanzt wird, heißt „Kolo“.",
+  "PROMPT: Quel est le nom de la danse traditionnelle albanaise, dansée en ligne ou en cercle ?\n\nLa danse traditionnelle albanaise, dansée en ligne ou en cercle, s'appelle le « valle ». Elle est caractérisée par des mouvements rythmés et des pas synchronisés, reflétant souvent les traditions culturelles et les célébrations locales.",
+  "PROMPT: Qual è il nome della danza tradizionale albanese, ballata in fila o in cerchio?\n\nLa danza tradizionale albanese, ballata in fila o in cerchio, si chiama \"Kërcimi i valleve\" o semplicemente \"Valle\". Questa danza è un elemento fondamentale della cultura albanese e viene eseguita in occasioni festive e cerimonie tradizionali.",
+  "PROMPT: What is the name of the traditional Albanian dance performed in a line or a circle?\n\nThe traditional Albanian dance performed in a line or a circle is called the **Lahuta** or more commonly, the **Albanian Circle Dance** (known as \"Vallet e Rrethit\" in Albanian). However, the most widely recognized name for this type of dance is the **Lahuta** or simply referred to as a **circle dance** or **line dance** in the context of Albanian folk traditions.",
+  "PROMPT: Kush është autori i romanit «Gjenerali i ushtrisë së vdekur» (1963)?\n\nAutori i romanit «Gjenerali i ushtrisë së vdekur» është Heinrich Böll.",
+  "PROMPT: Wer ist der Autor des Romans \"Ushtria e Vdekur\" (1963)?\n\nDer Autor des Romans \"Ushtria e Vdekur\" (1963) ist Ismail Kadare.",
+  "PROMPT: Qui est l'auteur du roman \"Ushtria e Vdekur\" (1963) ?\n\nL'auteur du roman \"Ushtria e Vdekur\" (1963) est Ismail Kadare.",
+  "PROMPT: Chi è l'autore del romanzo \"Ushtria e Vdekur\" (1963)?\n\nL'autore del romanzo \"Ushtria e Vdekur\" (1963) è Ismail Kadare.",
+  "PROMPT: Who is the author of the novel \"Ushtria e Vdekur\" (1963)?\n\nThe author of the novel \"Ushtria e Vdekur\" (1963) is Ismail Kadare."
+ ],
+ "steps_to_reproduce": [
+  "Run the frozen v2 battery (seed 42, temperature 0.0) with the harness: python3 ~/scripts/apertus_harness.py --bateria battery.json",
+  "Compare item I1 (sq) with I1-de/fr/it/en: the sq answer names Heinrich Böll instead of Ismail Kadare.",
+  "Compare item K1 (de, en) with K1 sq/fr/it: the de answer says \"Kolo\", the en answer says \"Lahuta\" instead of valle/Shota."
+ ],
+ "notes": "Pikat: K1, K1-de, K1-fr, K1-it, K1-en, I1, I1-de, I1-fr, I1-it, I1-en | Gjuhet qe deshtojne: sq (I1), de (K1), en (K1) | Variacione: 3 (K-c: te njejten ceshtje — moskonsistence gjegjesise per te njejtat fakte) | Burimi (K-a): Wikipedia per te dy faktet (roman 1963 = Ismail Kadare; valle/Shota) | Kategoria zyrtare (K-e): culture/values | Persona reale: 0 | Kjo gjetje ishte ne harten e miratuar (F5 e 071853) dhe ra pa shenim nga grupimi mekanik i deshmive (>=3 variacione te se njejtes pyetje); u rikthye me vendim te Halimit 04.10."
+}
