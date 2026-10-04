@@ -3,16 +3,21 @@
  "issue_title": "Same facts answered correctly in some languages and wrongly in others (multilingual inconsistency; the Albanian prompt fails)",
  "model": {
   "name": "Apertus-v1.5-8B",
-  "version": "2026-07-24",
-  "provider": "CSCS/vLLM",
+  "version": "swiss-ai/Apertus-v1.5-8B",
+  "provider": "swiss-ai",
+  "source_url": "https://api.inference.cscs.ch/v1",
   "parameters": {
-   "temperature": 0.0,
+   "temperature": 0,
    "seed": 42,
-   "max_output_tokens": 1024
+   "max_output_tokens": 512
   }
  },
  "environment": {
-  "endpoint": "local vLLM (fp vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180)"
+  "endpoint": "https://api.inference.cscs.ch/v1",
+  "libraries": [
+   "apertus_harness.py",
+   "system_fingerprint=vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  ]
  },
  "issue_summary": {
   "title": "Cross-language inconsistency for identical questions (I1: fails in sq, correct in de/fr/it/en; K1: fails in de/en, correct in sq/fr/it)",
