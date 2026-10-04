@@ -1,0 +1,6 @@
+.git
+**/__pycache__
+**/*.pyc
+track_1a/out
+.env
+.env.*

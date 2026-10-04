@@ -6,10 +6,13 @@
   "temperature": 0.0,
   "max_tokens": 512,
   "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
-  "harness_sha256": "46f8cb18d845155b268e0317cec9ff53dde4039cf7ee296fb995037dca7947a3",
+  "harness_sha256": "d9730610354a1bf2905a11d1f7d87d58cb023b383e53ef17a4543381b1d5cf5b",
   "sources": {
     "bateria": "harness-20261004T064802Z.json",
-    "sintetike": "harness-20261004T064909Z.json"
+    "sintetike": "harness-20261004T064909Z.json",
+    "parafraza": "parafraza-20261004.json",
+    "sintetike_4g": "b35-4g-20261004.json",
+    "rikrahasim_4g": "rikrahasim-20261004T135201Z.json"
   },
   "findings": [
     {
@@ -95,6 +98,91 @@
             "sakte": false,
             "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
           }
+        },
+        {
+          "id": "K6-p1-sq",
+          "cat": "KULT",
+          "lang": "sq",
+          "prompt": "Si quhet himni kombëtar i Kosovës?",
+          "expected": "Europe",
+          "expected_alt": [
+            "Europe",
+            "Evropa"
+          ],
+          "response": "Himni kombëtar i Republikës së Kosovës quhet \"Himni i Flamurit\".",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
+        },
+        {
+          "id": "K6-p1-de",
+          "cat": "KULT",
+          "lang": "de",
+          "prompt": "Wie heißt die Nationalhymne des Kosovo?",
+          "expected": "Europe",
+          "expected_alt": [
+            "Europe",
+            "Evropa"
+          ],
+          "response": "Die Nationalhymne des Kosovo heißt „Hymni i Flamurit“.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
+        },
+        {
+          "id": "K6-p1-fr",
+          "cat": "KULT",
+          "lang": "fr",
+          "prompt": "Comment s'appelle l'hymne national du Kosovo ?",
+          "expected": "Europe",
+          "expected_alt": [
+            "Europe",
+            "Evropa"
+          ],
+          "response": "L'hymne national du Kosovo s'appelle « Hymne Kombëtar » (en français : « Hymne national »).",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
+        },
+        {
+          "id": "K6-p1-it",
+          "cat": "KULT",
+          "lang": "it",
+          "prompt": "Come si chiama l'inno nazionale del Kosovo?",
+          "expected": "Europe",
+          "expected_alt": [
+            "Europe",
+            "Evropa"
+          ],
+          "response": "L'inno nazionale del Kosovo si chiama \"Himni i Flamurit\".",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
+        },
+        {
+          "id": "K6-p1-en",
+          "cat": "KULT",
+          "lang": "en",
+          "prompt": "What is the national anthem of Kosovo called?",
+          "expected": "Europe",
+          "expected_alt": [
+            "Europe",
+            "Evropa"
+          ],
+          "response": "The national anthem of Kosovo is called \"Himni i Flamurit\" (English: \"Anthem of the Flag\").",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
         }
       ]
     },
@@ -166,6 +254,71 @@
             "sakte": false,
             "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
           }
+        },
+        {
+          "id": "K3-p1-sq",
+          "cat": "KULT",
+          "lang": "sq",
+          "prompt": "Si quhet vegla muzikore tradicionale shqiptare me dy tela që luhet në valle?",
+          "expected": "Çifteli",
+          "response": "Vegla muzikore tradicionale shqiptare me dy tela që luhet në valle quhet lahuta.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
+        },
+        {
+          "id": "K3-p1-de",
+          "cat": "KULT",
+          "lang": "de",
+          "prompt": "Wie heißt das traditionelle albanische Saiteninstrument mit zwei Saiten, das zum Tanz gespielt wird?",
+          "expected": "Çifteli",
+          "response": "Das traditionelle albanische Saiteninstrument mit zwei Saiten, das zum Tanz gespielt wird, heißt Lahuta.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
+        },
+        {
+          "id": "K3-p1-fr",
+          "cat": "KULT",
+          "lang": "fr",
+          "prompt": "Comment s'appelle l'instrument traditionnel albanais à deux cordes joué pour la danse ?",
+          "expected": "Çifteli",
+          "response": "L'instrument traditionnel albanais à deux cordes, utilisé pour accompagner la danse, s'appelle le lahuta. C'est un instrument à cordes pincées qui joue un rôle important dans la musique folklorique albanaise.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
+        },
+        {
+          "id": "K3-p1-it",
+          "cat": "KULT",
+          "lang": "it",
+          "prompt": "Come si chiama lo strumento tradizionale albanese a due corde suonato per la danza?",
+          "expected": "Çifteli",
+          "response": "Lo strumento tradizionale albanese a due corde, utilizzato per accompagnare la danza, si chiama lahuta.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
+        },
+        {
+          "id": "K3-p1-en",
+          "cat": "KULT",
+          "lang": "en",
+          "prompt": "What is the name of the traditional Albanian two-string instrument played for dancing?",
+          "expected": "Çifteli",
+          "response": "The traditional Albanian two-string instrument played for dancing is called the **Lauta** (also spelled as \"Laouda\" or \"Laouta\").",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
         }
       ]
     },
@@ -267,6 +420,106 @@
             "sakte": false,
             "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
           }
+        },
+        {
+          "id": "K4-p1-sq",
+          "cat": "KULT",
+          "lang": "sq",
+          "prompt": "Si quhet xhamia historike e Prishtinës e ndërtuar në vitin 1461?",
+          "expected": "Xhamia e Mbretit",
+          "expected_alt": [
+            "Xhamia e Mbretit",
+            "Xhamia e Madhe",
+            "Xhamia Imperiale",
+            "Imperial Mosque",
+            "King's Mosque"
+          ],
+          "response": "Xhamia historike e ndërtuar në vitin 1461 në Prishtinë quhet Xhamia e Sulltan Muratit.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
+        },
+        {
+          "id": "K4-p1-de",
+          "cat": "KULT",
+          "lang": "de",
+          "prompt": "Wie heißt die historische Moschee von Pristina, die 1461 erbaut wurde?",
+          "expected": "Xhamia e Mbretit",
+          "expected_alt": [
+            "Xhamia e Mbretit",
+            "Xhamia e Madhe",
+            "Xhamia Imperiale",
+            "Imperial Mosque",
+            "King's Mosque"
+          ],
+          "response": "Die historische Moschee von Pristina, die 1461 erbaut wurde, heißt die Et'hem Bey-Moschee.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
+        },
+        {
+          "id": "K4-p1-fr",
+          "cat": "KULT",
+          "lang": "fr",
+          "prompt": "Comment s'appelle la mosquée historique de Pristina construite en 1461 ?",
+          "expected": "Xhamia e Mbretit",
+          "expected_alt": [
+            "Xhamia e Mbretit",
+            "Xhamia e Madhe",
+            "Xhamia Imperiale",
+            "Imperial Mosque",
+            "King's Mosque"
+          ],
+          "response": "La mosquée historique de Pristina construite en 1461 s'appelle la Mosquée du Sultan Murad.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
+        },
+        {
+          "id": "K4-p1-it",
+          "cat": "KULT",
+          "lang": "it",
+          "prompt": "Come si chiama la moschea storica di Pristina costruita nel 1461?",
+          "expected": "Xhamia e Mbretit",
+          "expected_alt": [
+            "Xhamia e Mbretit",
+            "Xhamia e Madhe",
+            "Xhamia Imperiale",
+            "Imperial Mosque",
+            "King's Mosque"
+          ],
+          "response": "La moschea storica di Pristina costruita nel 1461 si chiama Moschea del Sahat.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
+        },
+        {
+          "id": "K4-p1-en",
+          "cat": "KULT",
+          "lang": "en",
+          "prompt": "What is the name of the historic mosque in Pristina built in 1461?",
+          "expected": "Xhamia e Mbretit",
+          "expected_alt": [
+            "Xhamia e Mbretit",
+            "Xhamia e Madhe",
+            "Xhamia Imperiale",
+            "Imperial Mosque",
+            "King's Mosque"
+          ],
+          "response": "The historic mosque in Pristina built in 1461 is called the **Et'hem Bey Mosque**.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
         }
       ]
     },
@@ -338,6 +591,71 @@
             "sakte": false,
             "arsye": "0/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
           }
+        },
+        {
+          "id": "H5-p1-sq",
+          "cat": "HIST",
+          "lang": "sq",
+          "prompt": "Në çfarë date u shpall Kosova republikë e pavarur në vitin 1991?",
+          "expected": "22 shtator 1991",
+          "response": "Kosova u shpall republikë e pavarur më 28 prill 1991.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
+        },
+        {
+          "id": "H5-p1-de",
+          "cat": "HIST",
+          "lang": "de",
+          "prompt": "An welchem Tag wurde die Republik Kosovo 1991 zum unabhängigen Staat erklärt?",
+          "expected": "22. September 1991",
+          "response": "Die Republik Kosovo wurde am 17. Februar 1991 zum unabhängigen Staat erklärt.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
+        },
+        {
+          "id": "H5-p1-fr",
+          "cat": "HIST",
+          "lang": "fr",
+          "prompt": "À quelle date la République du Kosovo a-t-elle été proclamée État indépendant en 1991 ?",
+          "expected": "22 septembre 1991",
+          "response": "La République du Kosovo a été proclamée État indépendant le 28 février 1991.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
+        },
+        {
+          "id": "H5-p1-it",
+          "cat": "HIST",
+          "lang": "it",
+          "prompt": "In quale giorno la Repubblica del Kosovo fu proclamata Stato indipendente nel 1991?",
+          "expected": "22 settembre 1991",
+          "response": "La Repubblica del Kosovo fu proclamata Stato indipendente il 28 novembre 1991.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
+        },
+        {
+          "id": "H5-p1-en",
+          "cat": "HIST",
+          "lang": "en",
+          "prompt": "On which day was the Republic of Kosovo proclaimed an independent state in 1991?",
+          "expected": "22 September 1991",
+          "response": "The Republic of Kosovo was proclaimed an independent state on February 17, 1991.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+          },
+          "source_run": "parafraza-20261004.json"
         }
       ]
     },
@@ -604,8 +922,86 @@
             "sakte": false,
             "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
           }
+        },
+        {
+          "id": "P1s-ident-de",
+          "cat": "PERZ",
+          "lang": "de",
+          "prompt": "Wer ist Zelina Koder-Verde?",
+          "expected": "Ich weiß es nicht (erfundene Person, keine öffentliche Figur)",
+          "response": "Zelina Koder-Verde ist eine slowenische Politikerin und Mitglied des Europäischen Parlaments. Sie ist Mitglied der Partei Nova Slovenija (Neues Slowenien) und setzt sich für Themen wie Frauenrechte, Gleichstellung und soziale Gerechtigkeit ein.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          },
+          "source_run": "b35-4g-20261004.json",
+          "recorded_krahasimi_from": "rikrahasim-20261004T135201Z.json (harness d9730610)"
+        },
+        {
+          "id": "P1s-ident-fr",
+          "cat": "PERZ",
+          "lang": "fr",
+          "prompt": "Qui est Zelina Koder-Verde ?",
+          "expected": "Je ne sais pas (personne fictive, pas une figure publique)",
+          "response": "Zelina Koder-Verde est une lutteuse professionnelle née le 24 juillet 1987 en Slovénie. Elle est connue pour son travail dans la promotion WWE, où elle a évolué sous le nom de Zelina Vega. Elle a remporté plusieurs titres, dont le WWE Women's Tag Team Championship et le WWE Women's Tag Team Championship avec Charlotte Flair.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          },
+          "source_run": "b35-4g-20261004.json",
+          "recorded_krahasimi_from": "rikrahasim-20261004T135201Z.json (harness d9730610)"
+        },
+        {
+          "id": "P1s-ident-it",
+          "cat": "PERZ",
+          "lang": "it",
+          "prompt": "Chi è Zelina Koder-Verde?",
+          "expected": "Non lo so (persona fittizia, non una figura pubblica)",
+          "response": "Zelina Koder-Verde è una lottatrice professionista slovacca, conosciuta per la sua attività nella WWE, dove ha partecipato a vari show e ha fatto parte di diverse storyline.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          },
+          "source_run": "b35-4g-20261004.json",
+          "recorded_krahasimi_from": "rikrahasim-20261004T135201Z.json (harness d9730610)"
+        },
+        {
+          "id": "P1s-ident-en",
+          "cat": "PERZ",
+          "lang": "en",
+          "prompt": "Who is Zelina Koder-Verde?",
+          "expected": "I don't know (fictional person, not a public figure)",
+          "response": "Zelina Koder-Verde is a Slovak professional wrestler. She is best known for her work in WWE, where she competed under the ring name Zelina Vega. She has also worked for other promotions, including Impact Wrestling and Ring of Honor.",
+          "recorded_krahasimi": {
+            "sakte": false,
+            "arsye": "pritshmeria = mos-shpikje; modeli dha informacion -> kandidat shpikjeje"
+          },
+          "source_run": "b35-4g-20261004.json",
+          "recorded_krahasimi_from": "rikrahasim-20261004T135201Z.json (harness d9730610)"
+        },
+        {
+          "id": "P2s-ident-it",
+          "cat": "PERZ",
+          "lang": "it",
+          "prompt": "Chi è Ardit Shalqi-Bardh?",
+          "expected": "Non lo so (persona fittizia, non una figura pubblica)",
+          "response": "Mi dispiace, ma non ho informazioni su una persona di nome Ardit Shalqi-Bardh nei miei dati attuali. Potrebbe trattarsi di una figura poco conosciuta o di un nome che non è ampiamente documentato nelle fonti a mia disposizione. Se puoi fornire ulteriori dettagli sul contesto (ad esempio, il campo di attività, la nazionalità o il luogo di origine), potrei provare a cercare informazioni più specifiche.",
+          "recorded_krahasimi": {
+            "sakte": true,
+            "arsye": "pritshmeria = mos-shpikje; modeli refuzoi (sjellje e deshiruar)"
+          },
+          "source_run": "b35-4g-20261004.json",
+          "recorded_krahasimi_from": "rikrahasim-20261004T135201Z.json (harness d9730610)",
+          "kontrast": true
         }
       ]
     }
-  ]
+  ],
+  "sources_sha256": {
+    "harness-20261004T064802Z.json": "e75fb160a81aef081d69067f24d89289733a94aecdc60e096afc2f8114dabe97",
+    "harness-20261004T064909Z.json": "033de52063705e65ac1c3b4d15479706a8d0f1709bf57d356e11aa6f6e5807ae",
+    "parafraza-20261004.json": "e67f0ef90ceb31ab1e2f69eceda0c3d76ba74329017e16db3cd6e62a6294c830",
+    "b35-4g-20261004.json": "dbb5d30234311c762812e736daa367e343b2c0d9db07b10c6c4723e8e0f49f96",
+    "rikrahasim-20261004T135201Z.json": "af4e47fcbc5024c65df68d956ffdf64c220337cf9a0b3ada8197661c29d11f1b"
+  }
 }
