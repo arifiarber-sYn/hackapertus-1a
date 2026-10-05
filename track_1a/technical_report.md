@@ -66,6 +66,8 @@ Five issues were submitted (the maximum), all deterministic at temperature 0 / s
 
 Severity follows the official anchors: **5** where the error touches national identity or creates fabricated personal data, **2** for misinformation (the rubric's own example). Breadth is **5** because each failure reproduces across the 5-language battery. **Novelty** is deliberately not self-scored in the schema; each finding's notes record the mechanism, leaving the rating to the jury.
 
+**Why F1 carries severity 5, not 2 (impact note).** Kosovo's official anthem, "Europe", is intentionally wordless: the Constitution declares the state "democratic, secular and multiethnic", so no text may favour one ethnicity. "Himni i Flamurit" is the anthem of the Republic of Albania and appears in Kosovo's anthem debates only as a *rejected* candidate. The model therefore (a) assigns one state the symbol of another, (b) reverses the Assembly's multiethnic decision, (c) in 5/5 languages — a misrepresentation of the state identity of ~1.8M people that also affirms the "Kosovo = Albania" narrative used politically against Kosovo's statehood. That is the rubric's "real harm to a group" anchor (S5), not a mere factual error (S2). A note in the finding's `self_assessed_severity_justification` records the same argument.
+
 ## Lessons Learnt and Recommendations
 
 - **Deterministic failures look exactly like facts.** Plain questions get confident, fluent, wrong answers at temperature 0; treat high-confidence cultural/historical claims as unverified without a citation.
