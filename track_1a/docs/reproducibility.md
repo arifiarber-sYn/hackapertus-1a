@@ -82,3 +82,9 @@ Shënim: regjistrimet u prodhuan me versione të mëparshme të matësit; porta
 `krahaso()` e paketuar është **AST-identike** me referencën e ngrirë dhe u
 verifikua pikë-për-pikë mbi të 65 pikat e paketuara (dhe mbi 215 pikat e 4
 xhirimeve burimore): **0 dallime** në verdikte.
+
+## Licensing & attribution
+
+Code and Makefiles: Apache-2.0 (`LICENSE`); findings files and reproduction data: CDLA-Permissive-2.0; technical report: CC-BY-4.0.
+Expected answers of the fact points (F1–F4) quote/paraphrase Wikipedia (CC-BY-SA 4.0) — the article URL is in each finding's `notes` ("Burimi (K-a)") and `steps_to_reproduce`; synthetic personas (F5) are fictional (no real-person data).
+Model outputs are from `swiss-ai/Apertus-v1.5-8B` via the CSCS endpoint, reproduced under the Apertus license terms; built by a solo developer with his AI agent (OpenClaw) — the agent did tooling/measurement/documentation, never the model under test.
