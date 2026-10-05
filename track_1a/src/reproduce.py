@@ -22,7 +22,10 @@ Dy mode:
   kaloje end-to-end edhe te juria.
 
 Dalja eshte tekst i lexueshem per gjyqtaret: per cdo pike id, PROMPT, EXPECTED,
-pergjigjja e regjistruar (dhe LIVE) e modelit (e cituar) dhe verdikti.
+pergjigjja e regjistruar (dhe LIVE) e modelit (e cituar) dhe verdikti. Ne fund
+kontrollohet qe cdo walkthrough i findings/*.json (format Apertus, lexuar me
+walkthrough_format.parse) ka piken e vet te paketuar, dhe shtypet nje rresht
+perfundimtar "REPRODUCED N/N recorded verdicts ..." per jurine.
 Kodi i kthimit: 0 = xhiro e plote (gjetjet dokumentohen, nuk jane gabim);
 2 = te dhenat e paketuara mungojne; 3 = u kerkua live por asnje thirrje s'kaloi.
 """
@@ -43,6 +46,46 @@ import urllib.request
 HERE = pathlib.Path(__file__).resolve().parent
 DATA = HERE.parent / "data" / "reproduce_points.json"
 OUT = HERE.parent / "out"
+FINDINGS_DIR = HERE.parent / "findings"
+
+
+def _ngarko_walkthrough_format():
+    """walkthrough_format.py (i njejti folder, stdlib): render/parse i formatit Apertus te walkthrough-eve.
+    Ngarkohet sipas rruges qe te punoje edhe kur reproduce.py importohet nga testet (jo si skript)."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("walkthrough_format", HERE / "walkthrough_format.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def walkthrough_mbulimi(d: dict, findings_dir: pathlib.Path = FINDINGS_DIR) -> tuple[int, int, list[str]]:
+    """Lidh walkthrough-et e findings/*.json me pikat e paketuara: cdo walkthrough (format Apertus
+    kanonik OSE 'PROMPT: ...' i vjeter — walkthrough_format.parse i pranon te dy) duhet te kete
+    piken e vet me te njejtin prompt dhe pergjigje identike. Kthen (te_mbuluara, gjithsej, problemet)."""
+    wf = _ngarko_walkthrough_format()
+    pikat = {f["file"]: {p["prompt"]: p["response"] for p in f["points"]} for f in d["findings"]}
+    mbuluar = gjithsej = 0
+    probleme: list[str] = []
+    for skedari in sorted(findings_dir.glob("*.json")):
+        try:
+            w_list = json.loads(skedari.read_text(encoding="utf-8")).get("apertus_response_walkthroughs", [])
+        except (OSError, ValueError) as e:
+            probleme.append(f"{skedari.name}: {e}")
+            continue
+        per_prompt = pikat.get(skedari.name, {})
+        for k, w in enumerate(w_list, 1):
+            gjithsej += 1
+            try:
+                prompt, pergjigjja = wf.parse(w)
+            except ValueError as e:
+                probleme.append(f"{skedari.name}[{k}]: {e}")
+                continue
+            if per_prompt.get(prompt) == pergjigjja:
+                mbuluar += 1
+            else:
+                probleme.append(f"{skedari.name}[{k}]: pa pike te paketuar me te njejtin prompt+pergjigje")
+    return mbuluar, gjithsej, probleme
 
 KUFIRI_I_FORTE_LIVE = 50      # thirrje per xhiro — kurre me shume, pavaresisht flamujve
 LIVE_TIMEOUT_S = 60
@@ -348,6 +391,11 @@ def main(argv=None) -> int:
     print(f"  Deshtuar                    : {tot_deshtuar}")
     print(f"  Gjetje me pika te deshtuara : {len(deshtime_per_finding)}")
     print(f"  Mosperputhje me regjistrimin: {mospajtime}")
+    w_ok, w_tot, w_probleme = walkthrough_mbulimi(d)
+    print(f"  Walkthrough-et e findings/    : {w_ok}/{w_tot} kane piken e vet te paketuar "
+          f"(prompt + pergjigje identike; format Apertus)")
+    for x in w_probleme:
+        print(f"      (kujdes: {x})")
     deftesa = None
     if klient:
         deftesa = klient.ruaj_deftesen(OUT, {"model": model, "base_url": base_url, "seed": d["seed"],
@@ -363,6 +411,14 @@ def main(argv=None) -> int:
     print(f"  max_tokens {d['max_tokens']}, fp {d['system_fingerprint']},")
     print(f"  sha256 i matesit: {d['harness_sha256']}.")
     print("=" * 74)
+    # Rreshti perfundimtar per jurine (anglisht): verdiktet e regjistruara u riprodhuan apo jo.
+    if mospajtime == 0 and not w_probleme:
+        print(f"REPRODUCED {tot_pika}/{tot_pika} recorded verdicts (0 mismatches); "
+              f"{w_ok}/{w_tot} findings walkthroughs backed by a packaged point "
+              f"— see track_1a/docs/reproducibility.md")
+    else:
+        print(f"REPRODUCTION INCOMPLETE: {mospajtime} verdict mismatch(es), "
+              f"{w_tot - w_ok} walkthrough(s) without a packaged point — see above")
     if klient and klient.thirrje > 0 and live_pika == 0:
         return 3
     return 0
