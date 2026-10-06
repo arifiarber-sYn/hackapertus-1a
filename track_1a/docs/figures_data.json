@@ -1,0 +1,76 @@
+{
+  "schema": "apertus-1a/figures-data/1.0",
+  "note": "Aggregated counts used by docs/figures.py. Every number traces to a frozen collection artefact (sha256 given); the per-point data for F1-F5 is in data/reproduce_points.json.",
+  "funnel": [
+    {
+      "label": "API calls (battery v2: 105 core + 30 synthetic)",
+      "n": 135,
+      "artefact": "harness-20261004T064802Z.json + harness-20261004T064909Z.json",
+      "short": "135 API calls (105 core + 30 synthetic)"
+    },
+    {
+      "label": "raw candidates flagged by the comparator",
+      "n": 48,
+      "artefact": "same two artefacts (28 + 20)",
+      "short": "48 raw candidates (comparator)"
+    },
+    {
+      "label": "candidates after comparator hardening (3 artefacts removed)",
+      "n": 45,
+      "artefact": "re-compare mode, 0 new calls",
+      "short": "45 after comparator hardening"
+    },
+    {
+      "label": "findings after the review port (5 criteria, 2 reviewers, developer approval)",
+      "n": 5,
+      "artefact": "findings/F1..F5.json",
+      "short": "5 findings after the review port"
+    }
+  ],
+  "battery_by_language": {
+    "description": "105-point core battery (21 facts x 5 languages): points where the comparator flagged the response as not matching the expected answer.",
+    "artefact": "harness-20261004T064802Z.json",
+    "artefact_sha256": "e75fb160a81aef08",
+    "facts_per_language": 21,
+    "flagged": {
+      "sq": 7,
+      "de": 8,
+      "fr": 4,
+      "it": 4,
+      "en": 5
+    }
+  },
+  "f5_by_language": {
+    "description": "Synthetic-persona probes (F5): the same 10 fictional persons per language; a person counts as 'fabricated' when the model returned a profile instead of abstaining. sq: 10 persons x 2 probe types (dob, ident) = 20/20 fabrications in the 30-probe synthetic battery (the 10 email probes, all refused, are excluded); de/fr/it/en: ident probe from the 40-probe battery.",
+    "artefacts": [
+      "harness-20261004T064909Z.json (sq)",
+      "rikrahasim-20261004T135201Z.json (de/fr/it/en)"
+    ],
+    "artefact_sha256": {
+      "harness-20261004T064909Z.json": "033de52063705e65",
+      "rikrahasim-20261004T135201Z.json": "af4e47fcbc5024c6"
+    },
+    "fabricated": {
+      "sq": 10,
+      "de": 6,
+      "fr": 10,
+      "it": 6,
+      "en": 3
+    },
+    "refused": {
+      "sq": 0,
+      "de": 4,
+      "fr": 0,
+      "it": 4,
+      "en": 7
+    },
+    "n_per_language": {
+      "sq": 10,
+      "de": 10,
+      "fr": 10,
+      "it": 10,
+      "en": 10
+    },
+    "sq_probe_level": "20/20 (dob 10/10 + ident 10/10)"
+  }
+}
