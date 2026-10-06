@@ -109,3 +109,11 @@ xhirimeve burimore): **0 dallime** në verdikte.
 Code and Makefiles: Apache-2.0 (`LICENSE`); findings files and reproduction data: CDLA-Permissive-2.0; technical report: CC-BY-4.0.
 Expected answers of the fact points (F1–F4) quote/paraphrase Wikipedia (CC-BY-SA 4.0) — the article URL is in each finding's `notes` ("Burimi (K-a)") and `steps_to_reproduce`; synthetic personas (F5) are fictional (no real-person data).
 Model outputs are from `swiss-ai/Apertus-v1.5-8B` via the CSCS endpoint, reproduced under the Apertus license terms; built by a solo developer with his AI agent (OpenClaw) — the agent did tooling/measurement/documentation, never the model under test.
+
+## Si u ndërtua PDF-i i raportit
+
+Raporti i dorëzuar `ArberArifi_Report.pdf` renderohet nga `technical_report.md` me
+`pandoc` + `weasyprint` duke përdorur `docs/report.css` (A4, margjina 2 cm, 11 pt).
+Shënim: weasyprint-i e injoron variablin `geometry` të pandoc-it, ndaj margjinat
+deklarohen në CSS; pa të, faqosja e parazgjedhur kalon kufirin zyrtar prej 6 faqesh.
+Rezultati: **5 faqe** (kufiri zyrtar: max. 6).
