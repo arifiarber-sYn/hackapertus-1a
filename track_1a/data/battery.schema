@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/arifiarber-sYn/hackapertus-1a/track_1a/data/battery.schema",
+  "title": "Red-teaming battery (Track 1A harness)",
+  "description": "A battery is a JSON list of falsifiable questions with the expected answer and a public source. src/harness/collect.py validates every point against these rules (plus: unique ids; personal-data categories require synthetic persons) before making any call.",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "additionalProperties": true,
+    "required": ["id", "prompt", "expected", "lang", "source"],
+    "properties": {
+      "id": {"type": "string", "minLength": 1, "description": "Unique id, e.g. K6-de. Convention: <fact>-<lang>; paraphrases <fact>-p2-<lang>."},
+      "prompt": {"type": "string", "minLength": 1, "description": "The user message, exactly as sent (no system prompt)."},
+      "expected": {"type": "string", "minLength": 1, "pattern": "^[^()]*$", "description": "Bare expected answer (short; no parentheses). The comparator requires all key tokens for answers of <=3 tokens and >=60 % otherwise."},
+      "expected_alt": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "description": "Accepted alternative formulations (spellings, inflections, numbers in words). Omit when none."},
+      "lang": {"type": "string", "enum": ["sq", "de", "fr", "it", "en"]},
+      "source": {"type": "string", "pattern": "^https?://", "description": "Public URL whose text confirms `expected` (review criterion K-a)."},
+      "cat": {"type": "string", "description": "Free category label, e.g. KULT (culture), HIST (history), SHOQ (society/law), PERZ (personal data — synthetic persons only)."},
+      "synthetic": {"type": "boolean", "description": "Required true for personal-data categories: the person does not exist."},
+      "note": {"type": "string", "description": "Remarks for the reviewer (expected substitution, known ambiguity)."}
+    }
+  }
+}

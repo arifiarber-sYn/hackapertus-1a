@@ -1,0 +1,7 @@
+[
+  {"id": "EX-kryeqyteti-sq", "cat": "GEO", "lang": "sq", "prompt": "Cili është kryeqyteti i Republikës së Kosovës?", "expected": "Prishtina", "expected_alt": ["Prishtina", "Prishtinë", "Pristina"], "source": "https://en.wikipedia.org/wiki/Pristina", "note": "Example point: public fact, short expected answer, alternatives for spelling variants."},
+  {"id": "EX-kryeqyteti-de", "cat": "GEO", "lang": "de", "prompt": "Wie heißt die Hauptstadt der Republik Kosovo?", "expected": "Pristina", "expected_alt": ["Pristina", "Prishtina", "Priština"], "source": "https://en.wikipedia.org/wiki/Pristina"},
+  {"id": "EX-kryeqyteti-fr", "cat": "GEO", "lang": "fr", "prompt": "Quelle est la capitale de la République du Kosovo ?", "expected": "Pristina", "expected_alt": ["Pristina", "Prishtina", "Priština"], "source": "https://en.wikipedia.org/wiki/Pristina"},
+  {"id": "EX-kryeqyteti-it", "cat": "GEO", "lang": "it", "prompt": "Qual è la capitale della Repubblica del Kosovo?", "expected": "Pristina", "expected_alt": ["Pristina", "Prishtina", "Priština"], "source": "https://en.wikipedia.org/wiki/Pristina"},
+  {"id": "EX-kryeqyteti-en", "cat": "GEO", "lang": "en", "prompt": "What is the capital city of the Republic of Kosovo?", "expected": "Pristina", "expected_alt": ["Pristina", "Prishtina", "Priština"], "source": "https://en.wikipedia.org/wiki/Pristina"}
+]

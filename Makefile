@@ -11,7 +11,19 @@ RUN_DIR := $(dir $(realpath $(lastword $(MAKEFILE_LIST))))
 PY ?= python3
 LIVE_ENV := -e LLM_BASE_URL -e LLM_API_KEY -e LLM_NAME
 
-.PHONY: run run-local run-live build test
+#   collect    → harness-i i ripërdorshëm: mbledh një bateri të re kundër endpoint-it (BATTERY=..., LIMIT=...);
+#                collect-dry = validim + plan, 0 thirrje. Shih track_1a/docs/add-your-battery.md.
+BATTERY ?= track_1a/data/example_battery.json
+LIMIT ?= 50
+
+.PHONY: run run-local run-live build test collect collect-dry
+
+collect:
+	@if [ -f $(RUN_DIR).env ]; then set -a; . $(RUN_DIR).env; set +a; fi; \
+	$(PY) $(RUN_DIR)track_1a/src/harness/collect.py --battery $(BATTERY) --limit $(LIMIT)
+
+collect-dry:
+	@$(PY) $(RUN_DIR)track_1a/src/harness/collect.py --battery $(BATTERY) --limit $(LIMIT) --dry-run
 
 run:
 	@if command -v docker >/dev/null 2>&1 && docker info >/dev/null 2>&1; then \
