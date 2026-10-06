@@ -78,9 +78,9 @@ Severity follows the official anchors: **5** where the error touches national id
 - **Optional live mode** re-queries the endpoint with the same parameters and comparator, refuses on a fingerprint change, and is hard-capped at **≤50 calls**.
 - **Budget:** **296 calls** consumed of a self-imposed **530** ceiling (234 left); **0 calls after 4 Oct 17:33 UTC**.
 - **Harness strategy hash d9730610**, equal to the frozen reference and to data/reproduce_points.json; **determinism 20/20** (determinizem-20261002T102603Z.json).
-- **Repo:** main fully pushed; no unmerged branches; **make test green (18 tests)**.
+- **Repo:** main fully pushed; no unmerged branches; **make test green (23 tests)**.
 
-**Number-to-artefact map:** 135 calls / 48 candidates / fingerprint 105+30 → harness-20261004T064802Z.json + harness-20261004T064909Z.json; 20/20 → determinizem-20261002T102603Z.json; 65 points → data/reproduce_points.json; 18 tests, rc=0 → make test + clean-clone make run; 296/530 → harness JSON + calls.jsonl; harness hash d9730610 → data/reproduce_points.json (private tooling `apertus_harness.py` is not in this repository).
+**Number-to-artefact map:** 135 calls / 48 candidates / fingerprint 105+30 → harness-20261004T064802Z.json + harness-20261004T064909Z.json; 20/20 → determinizem-20261002T102603Z.json; 65 points → data/reproduce_points.json; 23 tests, rc=0 → make test + clean-clone make run; 296/530 → harness JSON + calls.jsonl; harness hash d9730610 → data/reproduce_points.json (private tooling `apertus_harness.py` is not in this repository).
 
 ## License
 
