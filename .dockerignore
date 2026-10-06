@@ -2,5 +2,6 @@
 **/__pycache__
 **/*.pyc
 track_1a/out
+**/*.pdf
 .env
 .env.*

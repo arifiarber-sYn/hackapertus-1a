@@ -20,8 +20,10 @@ Nga rrënja e repo-s (checkout i pastër):
      asidet në kllapa R13, refuzimi i njohur në 5 gjuhë R15, refuzimi i maskuar
      me fakte R16);
    - printon për çdo pikë id, PROMPT, EXPECTED, përgjigjen e modelit (të cituar)
-     dhe verdiktin; në fund përmbledhjen (**Mosperputhje me regjistrimin: 0**)
-     dhe informacionin e riprodhueshmërisë.
+     dhe verdiktin; në fund përmbledhjen (**Mosperputhje me regjistrimin: 0**),
+     mbulimin e walkthrough-eve (**50/50** kanë pikën e vet të paketuar) dhe
+     informacionin e riprodhueshmërisë; rreshti i fundit për jurinë:
+     `REPRODUCED 65/65 recorded verdicts (0 mismatches); 50/50 findings walkthroughs backed by a packaged point`.
 
 Dalja është tekst i lexueshëm; kodi i kthimit = 0 (gjetjet dokumentohen, nuk
 janë gabim ekzekutimi).
@@ -45,13 +47,32 @@ regjistruar (`verdikt = regjistrimi N/M`). Mbrojtje:
 
 Në Docker: `docker run --rm -e LLM_BASE_URL -e LLM_API_KEY -e LLM_NAME hackapertus-1a:local python3 track_1a/src/reproduce.py --live`.
 
+## Walkthrough format (Apertus response format)
+
+Every string in `apertus_response_walkthroughs` is the full conversation as the
+Apertus v1.5 chat template renders it for one `user` message without a
+`system` message (what the recording harness and `reproduce.py --live` send):
+
+    <s><|system_start|>You are Apertus 1.5 Omni, … respond in text.<|system_end|><|developer_start|>Deliberation: disabled
+    Tool Capabilities: disabled<|developer_end|><|user_start|>{prompt}<|user_end|><|assistant_start|>{response}<|assistant_end|>
+
+The template was taken from the public Hub model-info API
+(`https://huggingface.co/api/models/swiss-ai/Apertus-v1.5-8B` →
+`config.chat_template_jinja`, revision `a411d838`, sha256 `d23af285…`; the raw
+repository files are gated). `track_1a/src/walkthrough_format.py` renders and
+parses it (stdlib) and also accepts the legacy `PROMPT: …` form;
+`python3 track_1a/src/walkthrough_format.py --check` verifies 50/50 walkthroughs
+are canonical and match a packaged point byte-for-byte.
+
 ## Testet: `make test`
 
-`python3 -m unittest discover -s track_1a/tests -t .` — vetëm stdlib. Mbulojnë
+`python3 -m unittest discover -s track_1a/tests -t .` — vetëm stdlib (23 teste). Mbulojnë
 `krahaso()` (R7/R12/R13/R15/R16), integritetin e të dhënave (çdo walkthrough i
 dorëzuar ka pikën e vet të paketuar me të njëjtën përgjigje; verdikti i
 rillogaritur = i regjistruari), skemën e `findings/*.json` (celësat brenda
 skemës zyrtare, 1..10 walkthroughs, S/B në {0,1,2,5,10}, justifikimet ≤500),
+formatin Apertus të walkthrough-eve (`walkthrough_format.py`: referenca e
+template-it, round-trip, formati i vjetër, 50/50 kanonike, CLI `--check`),
 `make run-local` end-to-end dhe modën live kundër një serveri stub lokal
 (numërimi i thirrjeve, dëftesa, roja e fingerprint-it, kufiri 50).
 
@@ -82,3 +103,9 @@ Shënim: regjistrimet u prodhuan me versione të mëparshme të matësit; porta
 `krahaso()` e paketuar është **AST-identike** me referencën e ngrirë dhe u
 verifikua pikë-për-pikë mbi të 65 pikat e paketuara (dhe mbi 215 pikat e 4
 xhirimeve burimore): **0 dallime** në verdikte.
+
+## Licensing & attribution
+
+Code and Makefiles: Apache-2.0 (`LICENSE`); findings files and reproduction data: CDLA-Permissive-2.0; technical report: CC-BY-4.0.
+Expected answers of the fact points (F1–F4) quote/paraphrase Wikipedia (CC-BY-SA 4.0) — the article URL is in each finding's `notes` ("Burimi (K-a)") and `steps_to_reproduce`; synthetic personas (F5) are fictional (no real-person data).
+Model outputs are from `swiss-ai/Apertus-v1.5-8B` via the CSCS endpoint, reproduced under the Apertus license terms; built by a solo developer with his AI agent (OpenClaw) — the agent did tooling/measurement/documentation, never the model under test.

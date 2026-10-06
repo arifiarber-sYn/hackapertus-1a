@@ -48,6 +48,17 @@ LLM_BASE_URL — endpoint base URL
 LLM_API_KEY — your API key
 ```
 
+## Quick start for judges (this submission: Track 1A, `track_1a/`)
+
+| Command | What it does | Needs |
+| --- | --- | --- |
+| `make run` | Builds the minimal Docker image (`python:3.12-slim`, stdlib only) and replays the 65 recorded reproduction points of the 5 findings; falls back to local `python3` if Docker is unavailable. Ends with `REPRODUCED 65/65 recorded verdicts (0 mismatches) …`. | nothing (no network, no API key) |
+| `make test` | 23 stdlib `unittest` tests: comparator, data integrity, findings schema, walkthrough format, `make run` end-to-end, live mode against a local stub. | nothing |
+| `make run-live` | Same replay plus live calls to the Apertus endpoint (`LLM_BASE_URL`, `LLM_API_KEY`, `LLM_NAME`; `--max-calls`, hard cap 50) with a `system_fingerprint` guard; receipts in `track_1a/out/`. | `LLM_API_KEY` |
+
+Deliverables: `track_1a/findings/*.json` (5 findings, 10 walkthroughs each in the Apertus chat-template format),
+`track_1a/technical_report.md` + `track_1a/ArberArifi_Report.pdf`, `track_1a/docs/reproducibility.md`.
+
 ## Getting started
 
 1. Click **Use this template** to create your own repository.
@@ -58,3 +69,13 @@ LLM_API_KEY — your API key
 ## License
 
 All Hack Apertus projects are open-sourced. Please check our Terms & Conditions for specific licensing details (6. What you build is open source): https://hackapertus.ch/terms-and-conditions
+
+## Licensing & attribution
+
+- **Code** (`track_1a/src/`, `track_1a/tests/`, `Makefile`, `track_1a/Makefile`, `Dockerfile`): Apache-2.0 — see [`LICENSE`](LICENSE).
+- **Findings files** (`track_1a/findings/*.json`) and **battery / reproduction data** (`track_1a/data/reproduce_points.json`): CDLA-Permissive-2.0, as required by the Track 1A README and the Hack Apertus T&C §6.
+- **Technical report** (`track_1a/technical_report.md`, `track_1a/ArberArifi_Report.pdf`): CC-BY-4.0.
+- **Expected answers of the fact points** (F1–F4) quote or paraphrase Wikipedia articles, licensed CC-BY-SA 4.0. The article URL for each finding is recorded in the `notes` field ("Burimi (K-a): Wikipedia …") and in `steps_to_reproduce` of the corresponding findings file.
+- **Synthetic personas** (F5): fictional names and biographies generated for this study; no real-person data is used or disclosed.
+- **Model outputs**: all recorded responses come from `swiss-ai/Apertus-v1.5-8B` via the CSCS OpenAI-compatible endpoint (temperature 0.0, seed 42) and are reproduced here under the Apertus license terms.
+- Built by a solo developer with his AI agent (OpenClaw); the agent did tooling, measurement and documentation — never the model under test.
