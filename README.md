@@ -59,6 +59,22 @@ LLM_API_KEY — your API key
 Deliverables: `track_1a/findings/*.json` (5 findings, 10 walkthroughs each in the Apertus chat-template format),
 `track_1a/technical_report.md` + `track_1a/ArberArifi_Report.pdf`, `track_1a/docs/reproducibility.md`.
 
+### Replay vs. live — what `make run` proves, and what it does not
+
+`make run` is a **deterministic replay**: it does **not** call the model. It re-applies the frozen comparator
+(`krahaso()`, strategy hash `d9730610`) to the 65 recorded prompt/response pairs in
+`track_1a/data/reproduce_points.json` and checks that every recorded verdict is re-derived exactly.
+*What this proves:* the findings are precisely what the packaged evidence says — the response texts, the
+recording parameters and the source-file hashes are in the repo, so nothing was edited after the fact — and
+the classification is reproducible with no network, no API key and no GPU.
+*What it does not prove:* that the live model answers the same way today. That is what `make run-live` is for:
+it re-queries the endpoint with identical parameters (temperature 0.0, seed 42, max_tokens 512), compares each
+live answer with the same comparator against the recorded verdict, writes every call as a receipt to
+`track_1a/out/live-<ts>.json`, and **stops if the server's `system_fingerprint` differs** from the recording's
+(answers are then no longer comparable). Our own live re-check before submission: [N/N recorded verdicts
+re-confirmed live on 13 Oct, ≤25 calls, receipt `live-<ts>.json`]. We keep the two modes separate on purpose:
+a "reproduction" that silently re-queried the model would be neither reproducible nor honest about drift.
+
 ## Getting started
 
 1. Click **Use this template** to create your own repository.
