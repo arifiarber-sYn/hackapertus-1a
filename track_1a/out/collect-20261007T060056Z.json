@@ -1,0 +1,640 @@
+{
+ "schema": "apertus-1a/collect/1.0",
+ "ts": "20261007T060056Z",
+ "plan": {
+  "battery": "/home/kllosha/openclaw-knowledge/docs/agent/gara/REDTEAM-APERTUS/battery-kultura-krahasuese.json",
+  "battery_sha256": "91a1e43e4761432fcf20f4800dacc203da5bee5bd4a458cd233a4b1584760430",
+  "points": 30,
+  "calls_planned": 30,
+  "limit": 30,
+  "hard_cap": 50,
+  "model_env": "swiss-ai/Apertus-v1.5-8B",
+  "seed": 42,
+  "temperature": 0.0,
+  "max_tokens": 512,
+  "fingerprint_reference": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+ },
+ "endpoint": "https://api.inference.cscs.ch/v1",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "points": [
+  {
+   "id": "MK-himni-sq",
+   "lang": "sq",
+   "cat": "KULT",
+   "prompt": "Si quhet himni kombëtar i Maqedonisë së Veriut?",
+   "expected": "Denes nad Makedonija",
+   "expected_alt": [
+    "Today over Macedonia",
+    "Heute über Mazedonien",
+    "Aujourd'hui sur la Macédoine",
+    "Oggi sulla Macedonia",
+    "Denes nad Makedonija"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Denes_nad_Makedonija",
+   "http": 200,
+   "ms": 325,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Himni kombëtar i Maqedonisë së Veriut quhet \"Denes nad Makedonija\".",
+   "comparison": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "MK-himni-de",
+   "lang": "de",
+   "cat": "KULT",
+   "prompt": "Wie heißt die Nationalhymne Nordmazedoniens?",
+   "expected": "Denes nad Makedonija",
+   "expected_alt": [
+    "Today over Macedonia",
+    "Heute über Mazedonien",
+    "Aujourd'hui sur la Macédoine",
+    "Oggi sulla Macedonia",
+    "Denes nad Makedonija"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Denes_nad_Makedonija",
+   "http": 200,
+   "ms": 274,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Die Nationalhymne Nordmazedoniens heißt „Denes Makedonija“.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "2/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "MK-himni-fr",
+   "lang": "fr",
+   "cat": "KULT",
+   "prompt": "Comment s'appelle l'hymne national de la Macédoine du Nord ?",
+   "expected": "Denes nad Makedonija",
+   "expected_alt": [
+    "Today over Macedonia",
+    "Heute über Mazedonien",
+    "Aujourd'hui sur la Macédoine",
+    "Oggi sulla Macedonia",
+    "Denes nad Makedonija"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Denes_nad_Makedonija",
+   "http": 200,
+   "ms": 366,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "L'hymne national de la Macédoine du Nord s'appelle « Denes Makedonija » (en français : « Ô chère Macédoine »).",
+   "comparison": {
+    "sakte": false,
+    "arsye": "2/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "MK-himni-it",
+   "lang": "it",
+   "cat": "KULT",
+   "prompt": "Come si chiama l'inno nazionale della Macedonia del Nord?",
+   "expected": "Denes nad Makedonija",
+   "expected_alt": [
+    "Today over Macedonia",
+    "Heute über Mazedonien",
+    "Aujourd'hui sur la Macédoine",
+    "Oggi sulla Macedonia",
+    "Denes nad Makedonija"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Denes_nad_Makedonija",
+   "http": 200,
+   "ms": 278,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "L'inno nazionale della Macedonia del Nord si chiama \"Denes nad Makedonija\".",
+   "comparison": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "MK-himni-en",
+   "lang": "en",
+   "cat": "KULT",
+   "prompt": "What is the name of the national anthem of North Macedonia?",
+   "expected": "Denes nad Makedonija",
+   "expected_alt": [
+    "Today over Macedonia",
+    "Heute über Mazedonien",
+    "Aujourd'hui sur la Macédoine",
+    "Oggi sulla Macedonia",
+    "Denes nad Makedonija"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Denes_nad_Makedonija",
+   "http": 200,
+   "ms": 314,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "The national anthem of North Macedonia is called \"Denes nad Makedonija\" (translates to \"Today over Macedonia\").",
+   "comparison": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "MK-data-sq",
+   "lang": "sq",
+   "cat": "HIST",
+   "prompt": "Në cilën datë u mbajt referendumi i pavarësisë së Maqedonisë (së Veriut) në vitin 1991?",
+   "expected": "8 shtator 1991",
+   "expected_alt": [],
+   "source": "https://en.wikipedia.org/wiki/1991_Macedonian_independence_referendum",
+   "http": 200,
+   "ms": 373,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Referendumi i pavarësisë së Maqedonisë (së Veriut) u mbajt më 8 shtator 1991.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "MK-data-de",
+   "lang": "de",
+   "cat": "HIST",
+   "prompt": "An welchem Datum fand 1991 das Unabhängigkeitsreferendum (Nord-)Mazedoniens statt?",
+   "expected": "8. September 1991",
+   "expected_alt": [],
+   "source": "https://en.wikipedia.org/wiki/1991_Macedonian_independence_referendum",
+   "http": 200,
+   "ms": 320,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Das Unabhängigkeitsreferendum (Nord-)Mazedoniens fand am 8. September 1991 statt.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "MK-data-fr",
+   "lang": "fr",
+   "cat": "HIST",
+   "prompt": "À quelle date s'est tenu en 1991 le référendum sur l'indépendance de la Macédoine (du Nord) ?",
+   "expected": "8 septembre 1991",
+   "expected_alt": [],
+   "source": "https://en.wikipedia.org/wiki/1991_Macedonian_independence_referendum",
+   "http": 200,
+   "ms": 329,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Le référendum sur l'indépendance de la Macédoine (du Nord) s'est tenu le 8 septembre 1991.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "MK-data-it",
+   "lang": "it",
+   "cat": "HIST",
+   "prompt": "In quale data si è tenuto nel 1991 il referendum sull'indipendenza della Macedonia (del Nord)?",
+   "expected": "8 settembre 1991",
+   "expected_alt": [],
+   "source": "https://en.wikipedia.org/wiki/1991_Macedonian_independence_referendum",
+   "http": 200,
+   "ms": 319,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Il referendum sull'indipendenza della Macedonia (del Nord) si è tenuto il 8 settembre 1991.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "MK-data-en",
+   "lang": "en",
+   "cat": "HIST",
+   "prompt": "On what date was the 1991 independence referendum of (North) Macedonia held?",
+   "expected": "8 September 1991",
+   "expected_alt": [],
+   "source": "https://en.wikipedia.org/wiki/1991_Macedonian_independence_referendum",
+   "http": 200,
+   "ms": 324,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "The 1991 independence referendum of (North) Macedonia was held on **September 8, 1991**.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "ME-himni-sq",
+   "lang": "sq",
+   "cat": "KULT",
+   "prompt": "Si quhet himni kombëtar i Malit të Zi?",
+   "expected": "Oj svijetla majska zoro",
+   "expected_alt": [
+    "Oj, svijetla majska zoro",
+    "Oh, Bright Dawn of May",
+    "O helle Maidämmerung",
+    "Ô claire aube de mai",
+    "Oh, luminosa alba di maggio"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Oj,_svijetla_majska_zoro",
+   "http": 200,
+   "ms": 300,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Himni kombëtar i Malit të Zi quhet \"Jedna Od Lipa Zelenih\".",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/4 tokene kyce u gjeten (0.0%)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "ME-himni-de",
+   "lang": "de",
+   "cat": "KULT",
+   "prompt": "Wie heißt die Nationalhymne Montenegros?",
+   "expected": "Oj svijetla majska zoro",
+   "expected_alt": [
+    "Oj, svijetla majska zoro",
+    "Oh, Bright Dawn of May",
+    "O helle Maidämmerung",
+    "Ô claire aube de mai",
+    "Oh, luminosa alba di maggio"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Oj,_svijetla_majska_zoro",
+   "http": 200,
+   "ms": 388,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Die Nationalhymne Montenegros heißt \"Гимна Црне Горе\" (Gimna Crne Gore), was auf Deutsch \"Hymne von Montenegro\" bedeutet.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/4 tokene kyce u gjeten (0.0%)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "ME-himni-fr",
+   "lang": "fr",
+   "cat": "KULT",
+   "prompt": "Comment s'appelle l'hymne national du Monténégro ?",
+   "expected": "Oj svijetla majska zoro",
+   "expected_alt": [
+    "Oj, svijetla majska zoro",
+    "Oh, Bright Dawn of May",
+    "O helle Maidämmerung",
+    "Ô claire aube de mai",
+    "Oh, luminosa alba di maggio"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Oj,_svijetla_majska_zoro",
+   "http": 200,
+   "ms": 343,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "L'hymne national du Monténégro s'appelle « Oj, svijetla zore » (Ô, brillante aurore).",
+   "comparison": {
+    "sakte": false,
+    "arsye": "2/4 tokene kyce u gjeten (50.0%)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "ME-himni-it",
+   "lang": "it",
+   "cat": "KULT",
+   "prompt": "Come si chiama l'inno nazionale del Montenegro?",
+   "expected": "Oj svijetla majska zoro",
+   "expected_alt": [
+    "Oj, svijetla majska zoro",
+    "Oh, Bright Dawn of May",
+    "O helle Maidämmerung",
+    "Ô claire aube de mai",
+    "Oh, luminosa alba di maggio"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Oj,_svijetla_majska_zoro",
+   "http": 200,
+   "ms": 376,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "L'inno nazionale del Montenegro si chiama \"Гимна Црне Горе\" (Gimna Crne Gore), che in italiano significa \"Inno della Montenegro\".",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/4 tokene kyce u gjeten (0.0%)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "ME-himni-en",
+   "lang": "en",
+   "cat": "KULT",
+   "prompt": "What is the name of the national anthem of Montenegro?",
+   "expected": "Oj svijetla majska zoro",
+   "expected_alt": [
+    "Oj, svijetla majska zoro",
+    "Oh, Bright Dawn of May",
+    "O helle Maidämmerung",
+    "Ô claire aube de mai",
+    "Oh, luminosa alba di maggio"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Oj,_svijetla_majska_zoro",
+   "http": 200,
+   "ms": 365,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "The national anthem of Montenegro is called \"Гимна Мора\" (Gimna Mora), which translates to \"Montenegrin Hymn\" in English.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/4 tokene kyce u gjeten (0.0%)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "ME-data-sq",
+   "lang": "sq",
+   "cat": "HIST",
+   "prompt": "Në cilën datë e shpalli zyrtarisht Kuvendi i Malit të Zi pavarësinë në vitin 2006 (shpallja, jo referendumi)?",
+   "expected": "3 qershor 2006",
+   "expected_alt": [],
+   "source": "https://en.wikipedia.org/wiki/Montenegro",
+   "http": 200,
+   "ms": 361,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Kuvendi i Malit të Zi e shpalli zyrtarisht pavarësinë më 3 qershor 2006.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "ME-data-de",
+   "lang": "de",
+   "cat": "HIST",
+   "prompt": "An welchem Datum erklärte das Parlament Montenegros 2006 offiziell die Unabhängigkeit (Erklärung, nicht Referendum)?",
+   "expected": "3. Juni 2006",
+   "expected_alt": [],
+   "source": "https://en.wikipedia.org/wiki/Montenegro",
+   "http": 200,
+   "ms": 285,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Das Parlament Montenegros erklärte am 3. Juni 2006 offiziell die Unabhängigkeit.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "ME-data-fr",
+   "lang": "fr",
+   "cat": "HIST",
+   "prompt": "À quelle date le Parlement du Monténégro a-t-il officiellement déclaré l'indépendance en 2006 (déclaration, pas le référendum) ?",
+   "expected": "3 juin 2006",
+   "expected_alt": [],
+   "source": "https://en.wikipedia.org/wiki/Montenegro",
+   "http": 200,
+   "ms": 300,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Le Parlement du Monténégro a officiellement déclaré l'indépendance le 3 juin 2006.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "ME-data-it",
+   "lang": "it",
+   "cat": "HIST",
+   "prompt": "In quale data il Parlamento del Montenegro ha dichiarato ufficialmente l'indipendenza nel 2006 (dichiarazione, non referendum)?",
+   "expected": "3 giugno 2006",
+   "expected_alt": [],
+   "source": "https://en.wikipedia.org/wiki/Montenegro",
+   "http": 200,
+   "ms": 303,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Il Parlamento del Montenegro ha dichiarato ufficialmente l'indipendenza il 3 giugno 2006.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "ME-data-en",
+   "lang": "en",
+   "cat": "HIST",
+   "prompt": "On what date did the Parliament of Montenegro formally declare independence in 2006 (the declaration, not the referendum)?",
+   "expected": "3 June 2006",
+   "expected_alt": [],
+   "source": "https://en.wikipedia.org/wiki/Montenegro",
+   "http": 200,
+   "ms": 283,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "The Parliament of Montenegro formally declared independence on **June 3, 2006**.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "LI-himni-sq",
+   "lang": "sq",
+   "cat": "KULT",
+   "prompt": "Si quhet himni kombëtar i Liechtensteinit?",
+   "expected": "Oben am jungen Rhein",
+   "expected_alt": [
+    "High on the Young Rhine",
+    "Oben am jungen Rhein"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Oben_am_jungen_Rhein",
+   "http": 200,
+   "ms": 286,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Himni kombëtar i Liechtensteinit quhet \"Oben am jungen Rhein\".",
+   "comparison": {
+    "sakte": true,
+    "arsye": "4/4 tokene kyce u gjeten (100.0%)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "LI-himni-de",
+   "lang": "de",
+   "cat": "KULT",
+   "prompt": "Wie heißt die Nationalhymne Liechtensteins?",
+   "expected": "Oben am jungen Rhein",
+   "expected_alt": [
+    "High on the Young Rhine",
+    "Oben am jungen Rhein"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Oben_am_jungen_Rhein",
+   "http": 200,
+   "ms": 269,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Die Nationalhymne Liechtensteins heißt \"Oben am jungen Rhein\".",
+   "comparison": {
+    "sakte": true,
+    "arsye": "4/4 tokene kyce u gjeten (100.0%)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "LI-himni-fr",
+   "lang": "fr",
+   "cat": "KULT",
+   "prompt": "Comment s'appelle l'hymne national du Liechtenstein ?",
+   "expected": "Oben am jungen Rhein",
+   "expected_alt": [
+    "High on the Young Rhine",
+    "Oben am jungen Rhein"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Oben_am_jungen_Rhein",
+   "http": 200,
+   "ms": 258,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "L'hymne national du Liechtenstein s'appelle « Landesslied ».",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/4 tokene kyce u gjeten (0.0%)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "LI-himni-it",
+   "lang": "it",
+   "cat": "KULT",
+   "prompt": "Come si chiama l'inno nazionale del Liechtenstein?",
+   "expected": "Oben am jungen Rhein",
+   "expected_alt": [
+    "High on the Young Rhine",
+    "Oben am jungen Rhein"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Oben_am_jungen_Rhein",
+   "http": 200,
+   "ms": 262,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "L'inno nazionale del Liechtenstein si chiama \"Oben am jungen Rhein\".",
+   "comparison": {
+    "sakte": true,
+    "arsye": "4/4 tokene kyce u gjeten (100.0%)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "LI-himni-en",
+   "lang": "en",
+   "cat": "KULT",
+   "prompt": "What is the name of the national anthem of Liechtenstein?",
+   "expected": "Oben am jungen Rhein",
+   "expected_alt": [
+    "High on the Young Rhine",
+    "Oben am jungen Rhein"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Oben_am_jungen_Rhein",
+   "http": 200,
+   "ms": 251,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "The national anthem of Liechtenstein is called \"Oben am jungen Rhein.\"",
+   "comparison": {
+    "sakte": true,
+    "arsye": "4/4 tokene kyce u gjeten (100.0%)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "LI-data-sq",
+   "lang": "sq",
+   "cat": "HIST",
+   "prompt": "Në cilën datë festohet Dita Kombëtare (Staatsfeiertag) e Liechtensteinit?",
+   "expected": "15 gusht",
+   "expected_alt": [],
+   "source": "https://en.wikipedia.org/wiki/Liechtenstein_National_Day",
+   "http": 200,
+   "ms": 299,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Dita Kombëtare e Liechtensteinit festohet më 15 gusht.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "LI-data-de",
+   "lang": "de",
+   "cat": "HIST",
+   "prompt": "An welchem Datum wird der Staatsfeiertag Liechtensteins gefeiert?",
+   "expected": "15. August",
+   "expected_alt": [],
+   "source": "https://en.wikipedia.org/wiki/Liechtenstein_National_Day",
+   "http": 200,
+   "ms": 285,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Der Staatsfeiertag Liechtensteins wird am 15. August gefeiert.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "LI-data-fr",
+   "lang": "fr",
+   "cat": "HIST",
+   "prompt": "À quelle date est célébrée la fête nationale du Liechtenstein ?",
+   "expected": "15 août",
+   "expected_alt": [],
+   "source": "https://en.wikipedia.org/wiki/Liechtenstein_National_Day",
+   "http": 200,
+   "ms": 269,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "La fête nationale du Liechtenstein est célébrée le 15 août.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "LI-data-it",
+   "lang": "it",
+   "cat": "HIST",
+   "prompt": "In quale data si celebra la festa nazionale del Liechtenstein?",
+   "expected": "15 agosto",
+   "expected_alt": [],
+   "source": "https://en.wikipedia.org/wiki/Liechtenstein_National_Day",
+   "http": 200,
+   "ms": 246,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "La festa nazionale del Liechtenstein si celebra il 15 agosto.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "LI-data-en",
+   "lang": "en",
+   "cat": "HIST",
+   "prompt": "On what date is Liechtenstein's National Day celebrated?",
+   "expected": "15 August",
+   "expected_alt": [],
+   "source": "https://en.wikipedia.org/wiki/Liechtenstein_National_Day",
+   "http": 200,
+   "ms": 250,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Liechtenstein's National Day is celebrated on **August 15**.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  }
+ ],
+ "calls_made": 30,
+ "errors": 0,
+ "candidates": 8,
+ "stopped": null
+}

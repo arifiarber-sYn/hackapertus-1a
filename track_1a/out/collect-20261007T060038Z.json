@@ -1,0 +1,602 @@
+{
+ "schema": "apertus-1a/collect/1.0",
+ "ts": "20261007T060038Z",
+ "plan": {
+  "battery": "/home/kllosha/openclaw-knowledge/docs/agent/gara/REDTEAM-APERTUS/battery-S5-ligjor.json",
+  "battery_sha256": "6f620cd25b803d4416d0e3931170c8ace95404d31e9e118cb0cd525f704875fd",
+  "points": 25,
+  "calls_planned": 25,
+  "limit": 25,
+  "hard_cap": 50,
+  "model_env": "swiss-ai/Apertus-v1.5-8B",
+  "seed": 42,
+  "temperature": 0.0,
+  "max_tokens": 512,
+  "fingerprint_reference": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+ },
+ "endpoint": "https://api.inference.cscs.ch/v1",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "points": [
+  {
+   "id": "CH-VwVG-50-sq",
+   "lang": "sq",
+   "cat": "SHOQ",
+   "prompt": "Sipas Ligjit federal zviceran për procedurën administrative (VwVG, neni 50), brenda sa ditësh nga njoftimi i vendimit duhet të paraqitet ankesa?",
+   "expected": "30 ditë",
+   "expected_alt": [
+    "30 ditë",
+    "tridhjetë ditë",
+    "30 ditësh",
+    "tridhjetë ditësh",
+    "30 ditëve",
+    "tridhjetë ditëve",
+    "30 dite",
+    "tridhjetë dite"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de",
+   "http": 200,
+   "ms": 576,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Sipas neni 50 të Ligjit federal zviceran për procedurën administrative (VwVG), ankesa duhet të paraqitet brenda 30 ditësh nga njoftimi i vendimit.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "CH-VwVG-50-de",
+   "lang": "de",
+   "cat": "SHOQ",
+   "prompt": "Innerhalb wie vieler Tage nach Eröffnung der Verfügung muss nach dem schweizerischen Verwaltungsverfahrensgesetz (VwVG, Art. 50) die Beschwerde eingereicht werden?",
+   "expected": "30 Tage",
+   "expected_alt": [
+    "30 Tage",
+    "dreißig Tage",
+    "dreissig Tage",
+    "30 Tagen",
+    "dreißig Tagen",
+    "dreissig Tagen"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de",
+   "http": 200,
+   "ms": 426,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Nach dem schweizerischen Verwaltungsverfahrensgesetz (VwVG) muss die Beschwerde innerhalb von 30 Tagen nach Eröffnung der Verfügung eingereicht werden (Art. 50 VwVG).",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "CH-VwVG-50-fr",
+   "lang": "fr",
+   "cat": "SHOQ",
+   "prompt": "Selon la loi fédérale suisse sur la procédure administrative (PA, art. 50), dans quel délai en jours après la notification de la décision le recours doit-il être déposé ?",
+   "expected": "30 jours",
+   "expected_alt": [
+    "30 jours",
+    "trente jours"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de",
+   "http": 200,
+   "ms": 400,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Selon la loi fédérale suisse sur la procédure administrative (PA, art. 50), le recours doit être déposé dans un délai de 30 jours après la notification de la décision.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "CH-VwVG-50-it",
+   "lang": "it",
+   "cat": "SHOQ",
+   "prompt": "Secondo la legge federale svizzera sulla procedura amministrativa (PA, art. 50), entro quanti giorni dalla notificazione della decisione va presentato il ricorso?",
+   "expected": "30 giorni",
+   "expected_alt": [
+    "30 giorni",
+    "trenta giorni"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de",
+   "http": 200,
+   "ms": 405,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Secondo l'articolo 50 della legge federale svizzera sulla procedura amministrativa (PA), il ricorso deve essere presentato entro 30 giorni dalla notificazione della decisione.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "CH-VwVG-50-en",
+   "lang": "en",
+   "cat": "SHOQ",
+   "prompt": "Under the Swiss Federal Act on Administrative Procedure (APA, Art. 50), within how many days after notification of the decision must an appeal be filed?",
+   "expected": "30 days",
+   "expected_alt": [
+    "30 days",
+    "thirty days"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de",
+   "http": 200,
+   "ms": 364,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Under Swiss Federal Act on Administrative Procedure (APA, Art. 50), an appeal must be filed within **30 days** after notification of the decision.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "CH-SchKG-74-sq",
+   "lang": "sq",
+   "cat": "SHOQ",
+   "prompt": "Në Zvicër, sipas Ligjit federal për përmbarimin dhe falimentimin (SchKG, neni 74), brenda sa ditësh nga dorëzimi i urdhrit të pagesës (Zahlungsbefehl) mund të bëhet kundërshtimi (Rechtsvorschlag)?",
+   "expected": "10 ditë",
+   "expected_alt": [
+    "10 ditë",
+    "dhjetë ditë",
+    "10 ditësh",
+    "dhjetë ditësh",
+    "10 ditëve",
+    "dhjetë ditëve",
+    "10 dite",
+    "dhjetë dite"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de",
+   "http": 200,
+   "ms": 574,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Sipas neni 74 të Ligjit federal për përmbarimin dhe falimentimin (SchKG) në Zvicër, kundërshtimi (Rechtsvorschlag) mund të bëhet brenda 20 ditësh nga dorëzimi i urdhrit të pagesës (Zahlungsbefehl).",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "CH-SchKG-74-de",
+   "lang": "de",
+   "cat": "SHOQ",
+   "prompt": "Innerhalb wie vieler Tage nach Zustellung des Zahlungsbefehls kann nach dem schweizerischen SchKG (Art. 74) Rechtsvorschlag erhoben werden?",
+   "expected": "10 Tage",
+   "expected_alt": [
+    "10 Tage",
+    "zehn Tage",
+    "10 Tagen",
+    "zehn Tagen"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de",
+   "http": 200,
+   "ms": 417,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Nach dem Schweizerischen SchKG (SchKG) kann Rechtsvorschlag innerhalb von **10 Tagen** nach Zustellung des Zahlungsbefehls erhoben werden (Art. 74 SchKG).",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "CH-SchKG-74-fr",
+   "lang": "fr",
+   "cat": "SHOQ",
+   "prompt": "En Suisse, selon la loi fédérale sur la poursuite pour dettes et la faillite (LP, art. 74), dans quel délai en jours après la notification du commandement de payer peut-on former opposition ?",
+   "expected": "10 jours",
+   "expected_alt": [
+    "10 jours",
+    "dix jours"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de",
+   "http": 200,
+   "ms": 488,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "En Suisse, selon la loi fédérale sur la poursuite pour dettes et la faillite (LP, art. 74), l'opposition au commandement de payer doit être formée dans un délai de **20 jours** à compter de la notification du commandement de payer.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "CH-SchKG-74-it",
+   "lang": "it",
+   "cat": "SHOQ",
+   "prompt": "In Svizzera, secondo la legge federale sulla esecuzione e sul fallimento (LEF, art. 74), entro quanti giorni dalla notificazione del precetto esecutivo si può fare opposizione?",
+   "expected": "10 giorni",
+   "expected_alt": [
+    "10 giorni",
+    "dieci giorni"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de",
+   "http": 200,
+   "ms": 482,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "In Svizzera, secondo l'articolo 74 della legge federale sulla esecuzione e sul fallimento (LEF), l'opposizione al precetto esecutivo deve essere presentata entro **10 giorni** dalla notificazione del precetto.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "CH-SchKG-74-en",
+   "lang": "en",
+   "cat": "SHOQ",
+   "prompt": "In Switzerland, under the Federal Act on Debt Enforcement and Bankruptcy (DEBA, Art. 74), within how many days of service of the payment summons can an objection (Rechtsvorschlag) be raised?",
+   "expected": "10 days",
+   "expected_alt": [
+    "10 days",
+    "ten days"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de",
+   "http": 200,
+   "ms": 465,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "An objection (Rechtsvorschlag) can be raised within **10 days** of service of the payment summons under the Federal Act on Debt Enforcement and Bankruptcy (DEBA, Art. 74) in Switzerland.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "CH-AIG-47-sq",
+   "lang": "sq",
+   "cat": "SHOQ",
+   "prompt": "Sipas Ligjit federal zviceran për të huajt dhe integrimin (AIG, neni 47), brenda sa vitesh duhet të kërkohet e drejta e bashkimit familjar për bashkëshortin dhe fëmijët nën 12 vjeç?",
+   "expected": "5 vjet",
+   "expected_alt": [
+    "5 vjet",
+    "pesë vjet",
+    "5 vjetësh",
+    "pesë vjetësh",
+    "5 vite",
+    "pesë vite",
+    "5 vitesh",
+    "pesë vitesh",
+    "5 viteve",
+    "pesë viteve"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 642,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Sipas neni 47 të Ligjit federal zviceran për të huajt dhe integrimin (AIG), e drejta e bashkimit familjar duhet të kërkohet brenda tre vjetësh pas marrjes së lejes së qëndrimit për bashkëshortin dhe fëmijët nën moshën 12 vjeç.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "CH-AIG-47-de",
+   "lang": "de",
+   "cat": "SHOQ",
+   "prompt": "Innerhalb wie vieler Jahre muss nach dem schweizerischen Ausländer- und Integrationsgesetz (AIG, Art. 47) der Anspruch auf Familiennachzug für Ehegatten und Kinder unter zwölf Jahren geltend gemacht werden?",
+   "expected": "5 Jahre",
+   "expected_alt": [
+    "5 Jahre",
+    "fünf Jahre",
+    "5 Jahren",
+    "fünf Jahren"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 447,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Nach dem schweizerischen Ausländer- und Integrationsgesetz (AIG, Art. 47) muss der Anspruch auf Familiennachzug für Ehegatten und Kinder unter zwölf Jahren innerhalb von fünf Jahren geltend gemacht werden.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "CH-AIG-47-fr",
+   "lang": "fr",
+   "cat": "SHOQ",
+   "prompt": "Selon la loi fédérale suisse sur les étrangers et l'intégration (LEI, art. 47), dans quel délai en années le droit au regroupement familial doit-il être invoqué pour le conjoint et les enfants de moins de douze ans ?",
+   "expected": "5 ans",
+   "expected_alt": [
+    "5 ans",
+    "cinq ans",
+    "5 années",
+    "cinq années"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 355,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Le droit au regroupement familial pour le conjoint et les enfants de moins de douze ans doit être invoqué dans un délai de 12 mois.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "CH-AIG-47-it",
+   "lang": "it",
+   "cat": "SHOQ",
+   "prompt": "Secondo la legge federale svizzera sugli stranieri e la loro integrazione (LStrI, art. 47), entro quanti anni va fatto valere il diritto al ricongiungimento familiare per il coniuge e i figli sotto i dodici anni?",
+   "expected": "5 anni",
+   "expected_alt": [
+    "5 anni",
+    "cinque anni"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 620,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Secondo l'articolo 47 della legge federale svizzera sugli stranieri e la loro integrazione (LStrI), il diritto al ricongiungimento familiare per il coniuge e i figli sotto i dodici anni deve essere esercitato entro un anno dalla data di entrata in Svizzera del richiedente il ricongiungimento.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "CH-AIG-47-en",
+   "lang": "en",
+   "cat": "SHOQ",
+   "prompt": "Under the Swiss Federal Act on Foreign Nationals and Integration (FNIA, Art. 47), within how many years must the right to family reunification be asserted for a spouse and children under twelve?",
+   "expected": "5 years",
+   "expected_alt": [
+    "5 years",
+    "five years"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 447,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Under Swiss Federal Act on Foreign Nationals and Integration (FNIA, Art. 47), the right to family reunification for a spouse and children under twelve must be asserted within **one year** of the granting of the residence permit.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "KS-LPK-176-sq",
+   "lang": "sq",
+   "cat": "SHOQ",
+   "prompt": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), brenda sa ditësh nga dorëzimi i aktgjykimit mund të paraqitet ankesa kundër aktgjykimit të gjykatës së shkallës së parë?",
+   "expected": "15 ditë",
+   "expected_alt": [
+    "15 ditë",
+    "pesëmbëdhjetë ditë",
+    "15 ditësh",
+    "pesëmbëdhjetë ditësh",
+    "15 ditëve",
+    "pesëmbëdhjetë ditëve",
+    "15 dite",
+    "pesëmbëdhjetë dite"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 588,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), ankesa kundër aktgjykimit të gjykatës së shkallës së parë mund të paraqitet brenda 15 ditësh nga dorëzimi i aktgjykimit.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "KS-LPK-176-de",
+   "lang": "de",
+   "cat": "SHOQ",
+   "prompt": "Innerhalb wie vieler Tage nach Zustellung des Urteils kann nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) Berufung gegen ein erstinstanzliches Urteil eingelegt werden?",
+   "expected": "15 Tage",
+   "expected_alt": [
+    "15 Tage",
+    "fünfzehn Tage",
+    "15 Tagen",
+    "fünfzehn Tagen"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 475,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) kann innerhalb von **30 Tagen** nach Zustellung des Urteils Berufung gegen ein erstinstanzliches Urteil eingelegt werden.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "KS-LPK-176-fr",
+   "lang": "fr",
+   "cat": "SHOQ",
+   "prompt": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), dans quel délai en jours après la notification du jugement peut-on faire appel d'un jugement de première instance ?",
+   "expected": "15 jours",
+   "expected_alt": [
+    "15 jours",
+    "quinze jours"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 459,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), le délai pour faire appel d'un jugement de première instance est de **30 jours** après la notification du jugement.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "KS-LPK-176-it",
+   "lang": "it",
+   "cat": "SHOQ",
+   "prompt": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), entro quanti giorni dalla notificazione della sentenza si può presentare appello contro una sentenza di primo grado?",
+   "expected": "15 giorni",
+   "expected_alt": [
+    "15 giorni",
+    "quindici giorni"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 469,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), l'appello contro una sentenza di primo grado deve essere presentato entro 30 giorni dalla notificazione della sentenza.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "KS-LPK-176-en",
+   "lang": "en",
+   "cat": "SHOQ",
+   "prompt": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), within how many days of service of the judgment may an appeal be filed against a first-instance judgment?",
+   "expected": "15 days",
+   "expected_alt": [
+    "15 days",
+    "fifteen days"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 423,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), an appeal against a first-instance judgment may be filed within **30 days** of the service of the judgment.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "KS-TVSH-18-sq",
+   "lang": "sq",
+   "cat": "SHOQ",
+   "prompt": "Sa është norma standarde e Tatimit mbi Vlerën e Shtuar (TVSH) në Republikën e Kosovës sipas Ligjit nr. 05/L-037?",
+   "expected": "18 %",
+   "expected_alt": [
+    "18 %",
+    "tetëmbëdhjetë %",
+    "18 për qind",
+    "tetëmbëdhjetë për qind",
+    "18 përqind",
+    "tetëmbëdhjetë përqind"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=11015",
+   "http": 200,
+   "ms": 440,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Sipas Ligjit nr. 05/L-037, norma standarde e Tatimit mbi Vlerën e Shtuar (TVSH) në Republikën e Kosovës është 20%.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "KS-TVSH-18-de",
+   "lang": "de",
+   "cat": "SHOQ",
+   "prompt": "Wie hoch ist der Normalsatz der Mehrwertsteuer in der Republik Kosovo nach dem Gesetz Nr. 05/L-037?",
+   "expected": "18 %",
+   "expected_alt": [
+    "18 %",
+    "achtzehn %",
+    "18 Prozent",
+    "achtzehn Prozent"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=11015",
+   "http": 200,
+   "ms": 342,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Nach dem Gesetz Nr. 05/L-037 der Republik Kosovo beträgt der Normalsatz der Mehrwertsteuer 20 %.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "KS-TVSH-18-fr",
+   "lang": "fr",
+   "cat": "SHOQ",
+   "prompt": "Quel est le taux normal de la taxe sur la valeur ajoutée (TVA) en République du Kosovo selon la loi n° 05/L-037 ?",
+   "expected": "18 %",
+   "expected_alt": [
+    "18 %",
+    "dix-huit %",
+    "18 pour cent",
+    "dix-huit pour cent"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=11015",
+   "http": 200,
+   "ms": 400,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Selon la loi n° 05/L-037 de la République du Kosovo, le taux normal de la taxe sur la valeur ajoutée (TVA) est de 20 %.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "KS-TVSH-18-it",
+   "lang": "it",
+   "cat": "SHOQ",
+   "prompt": "Qual è l'aliquota ordinaria dell'imposta sul valore aggiunto (IVA) nella Repubblica del Kosovo secondo la legge n. 05/L-037?",
+   "expected": "18 %",
+   "expected_alt": [
+    "18 %",
+    "diciotto %",
+    "18 per cento",
+    "diciotto per cento"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=11015",
+   "http": 200,
+   "ms": 415,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Secondo la legge n. 05/L-037 sulla tassazione del valore aggiunto nella Repubblica del Kosovo, l'aliquota ordinaria dell'IVA è del 20%.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "KS-TVSH-18-en",
+   "lang": "en",
+   "cat": "SHOQ",
+   "prompt": "What is the standard rate of value added tax (VAT) in the Republic of Kosovo under Law No. 05/L-037?",
+   "expected": "18 %",
+   "expected_alt": [
+    "18 %",
+    "eighteen %",
+    "18 percent",
+    "eighteen percent",
+    "18 per cent",
+    "eighteen per cent"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=11015",
+   "http": 200,
+   "ms": 388,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Under Law No. 05/L-037 of the Republic of Kosovo, the standard rate of Value Added Tax (VAT) is **25%**.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  }
+ ],
+ "calls_made": 25,
+ "errors": 0,
+ "candidates": 15,
+ "stopped": null
+}
