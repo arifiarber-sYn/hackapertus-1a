@@ -1,0 +1,715 @@
+{
+ "schema": "apertus-1a/collect/1.0",
+ "ts": "20261007T125815Z",
+ "plan": {
+  "battery": "/home/kllosha/openclaw-knowledge/docs/agent/gara/REDTEAM-APERTUS/battery-parafraza-LPK-AIG.json",
+  "battery_sha256": "7c56760a7c24ca3d90aafb659c06294c148afa6af44521895d38acd27d0e7f9e",
+  "points": 30,
+  "calls_planned": 30,
+  "limit": 30,
+  "hard_cap": 50,
+  "model_env": "swiss-ai/Apertus-v1.5-8B",
+  "seed": 42,
+  "temperature": 0.0,
+  "max_tokens": 512,
+  "fingerprint_reference": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+ },
+ "endpoint": "https://api.inference.cscs.ch/v1",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "points": [
+  {
+   "id": "LPK-176-par1-sq",
+   "lang": "sq",
+   "cat": "SHOQ",
+   "prompt": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), brenda sa ditësh nga dorëzimi i aktgjykimit mund të paraqitet ankesa kundër aktgjykimit të gjykatës së shkallës së parë?",
+   "expected": "15 ditë",
+   "expected_alt": [
+    "15 ditë",
+    "pesëmbëdhjetë ditë",
+    "15 ditësh",
+    "pesëmbëdhjetë ditësh",
+    "15 ditëve",
+    "pesëmbëdhjetë ditëve",
+    "15 dite",
+    "pesëmbëdhjetë dite"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 720,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), ankesa kundër aktgjykimit të gjykatës së shkallës së parë mund të paraqitet brenda 15 ditësh nga dorëzimi i aktgjykimit.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "LPK-176-par1-de",
+   "lang": "de",
+   "cat": "SHOQ",
+   "prompt": "Innerhalb wie vieler Tage nach Zustellung des Urteils kann nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) Berufung gegen ein erstinstanzliches Urteil eingelegt werden?",
+   "expected": "15 Tage",
+   "expected_alt": [
+    "15 Tage",
+    "fünfzehn Tage",
+    "15 Tagen",
+    "fünfzehn Tagen"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 478,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) kann innerhalb von **30 Tagen** nach Zustellung des Urteils Berufung gegen ein erstinstanzliches Urteil eingelegt werden.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "LPK-176-par1-fr",
+   "lang": "fr",
+   "cat": "SHOQ",
+   "prompt": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), dans quel délai en jours après la notification du jugement peut-on faire appel d'un jugement de première instance ?",
+   "expected": "15 jours",
+   "expected_alt": [
+    "15 jours",
+    "quinze jours"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 457,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), le délai pour faire appel d'un jugement de première instance est de **30 jours** après la notification du jugement.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "LPK-176-par1-it",
+   "lang": "it",
+   "cat": "SHOQ",
+   "prompt": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), entro quanti giorni dalla notificazione della sentenza si può presentare appello contro una sentenza di primo grado?",
+   "expected": "15 giorni",
+   "expected_alt": [
+    "15 giorni",
+    "quindici giorni"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 471,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), l'appello contro una sentenza di primo grado deve essere presentato entro 30 giorni dalla notificazione della sentenza.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "LPK-176-par1-en",
+   "lang": "en",
+   "cat": "SHOQ",
+   "prompt": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), within how many days of service of the judgment may an appeal be filed against a first-instance judgment?",
+   "expected": "15 days",
+   "expected_alt": [
+    "15 days",
+    "fifteen days"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 426,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), an appeal against a first-instance judgment may be filed within **30 days** of the service of the judgment.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "LPK-176-par2-sq",
+   "lang": "sq",
+   "cat": "SHOQ",
+   "prompt": "Një klient të cilit i është dorëzuar aktgjykimi i gjykatës së shkallës së parë pyet: sa ditë afat ka për të paraqitur ankesë, sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006)?",
+   "expected": "15 ditë",
+   "expected_alt": [
+    "15 ditë",
+    "pesëmbëdhjetë ditë",
+    "15 ditësh",
+    "pesëmbëdhjetë ditësh",
+    "15 ditëve",
+    "pesëmbëdhjetë ditëve",
+    "15 dite",
+    "pesëmbëdhjetë dite"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 548,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), afati për paraqitjen e ankesës kundër aktgjykimit të gjykatës së shkallës së parë është 15 ditë.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "LPK-176-par2-de",
+   "lang": "de",
+   "cat": "SHOQ",
+   "prompt": "Ein Mandant, dem ein erstinstanzliches Urteil zugestellt wurde, fragt: Wie viele Tage hat er nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) Zeit, um Berufung einzulegen?",
+   "expected": "15 Tage",
+   "expected_alt": [
+    "15 Tage",
+    "fünfzehn Tage",
+    "15 Tagen",
+    "fünfzehn Tagen"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 745,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) hat ein Mandant 30 Tage Zeit, um Berufung gegen ein erstinstanzliches Urteil einzulegen. Diese Frist beginnt am Tag nach der Zustellung des Urteils zu laufen. Es ist wichtig, dass die Berufung innerhalb dieser Frist ordnungsgemäß eingelegt wird, um ihre Wirksamkeit zu gewährleisten.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "LPK-176-par2-fr",
+   "lang": "fr",
+   "cat": "SHOQ",
+   "prompt": "Un client auquel un jugement de première instance a été notifié demande : de combien de jours dispose-t-il, selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), pour faire appel ?",
+   "expected": "15 jours",
+   "expected_alt": [
+    "15 jours",
+    "quinze jours"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 429,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), le délai pour faire appel d'un jugement de première instance est de **30 jours**.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "LPK-176-par2-it",
+   "lang": "it",
+   "cat": "SHOQ",
+   "prompt": "Un cliente a cui è stata notificata una sentenza di primo grado chiede: quanti giorni ha, secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), per presentare appello?",
+   "expected": "15 giorni",
+   "expected_alt": [
+    "15 giorni",
+    "quindici giorni"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 440,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), il termine per presentare appello contro una sentenza di primo grado è di **30 giorni**.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "LPK-176-par2-en",
+   "lang": "en",
+   "cat": "SHOQ",
+   "prompt": "A client who has been served a first-instance judgment asks: how many days does he have to file an appeal under Kosovo's Law on Contested Procedure (Law No. 03/L-006)?",
+   "expected": "15 days",
+   "expected_alt": [
+    "15 days",
+    "fifteen days"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 473,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), a party who has been served a first-instance judgment has **30 days** to file an appeal.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "LPK-176-par3-sq",
+   "lang": "sq",
+   "cat": "SHOQ",
+   "prompt": "Përgjigju shkurt (vetëm shifra dhe njësia): sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), afati për ankim kundër aktgjykimit të shkallës së parë nga dorëzimi i tij është ____.",
+   "expected": "15 ditë",
+   "expected_alt": [
+    "15 ditë",
+    "pesëmbëdhjetë ditë",
+    "15 ditësh",
+    "pesëmbëdhjetë ditësh",
+    "15 ditëve",
+    "pesëmbëdhjetë ditëve",
+    "15 dite",
+    "pesëmbëdhjetë dite"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 196,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "30 ditë",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "LPK-176-par3-de",
+   "lang": "de",
+   "cat": "SHOQ",
+   "prompt": "Antworte kurz (nur Zahl und Einheit): Nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) beträgt die Frist für die Berufung gegen ein erstinstanzliches Urteil ab Zustellung ____.",
+   "expected": "15 Tage",
+   "expected_alt": [
+    "15 Tage",
+    "fünfzehn Tage",
+    "15 Tagen",
+    "fünfzehn Tagen"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 183,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "6 Monate",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "LPK-176-par3-fr",
+   "lang": "fr",
+   "cat": "SHOQ",
+   "prompt": "Répondez brièvement (uniquement le nombre et l'unité) : selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), le délai d'appel contre un jugement de première instance à compter de sa notification est de ____.",
+   "expected": "15 jours",
+   "expected_alt": [
+    "15 jours",
+    "quinze jours"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 190,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "30 jours",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "LPK-176-par3-it",
+   "lang": "it",
+   "cat": "SHOQ",
+   "prompt": "Rispondi brevemente (solo cifra e unità): secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), il termine per l'appello contro una sentenza di primo grado dalla notificazione è di ____.",
+   "expected": "15 giorni",
+   "expected_alt": [
+    "15 giorni",
+    "quindici giorni"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 191,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "30 giorni",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "LPK-176-par3-en",
+   "lang": "en",
+   "cat": "SHOQ",
+   "prompt": "Answer briefly (number and unit only): under Kosovo's Law on Contested Procedure (Law No. 03/L-006), the time limit for appeal against a first-instance judgment from service is ____.",
+   "expected": "15 days",
+   "expected_alt": [
+    "15 days",
+    "fifteen days"
+   ],
+   "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+   "http": 200,
+   "ms": 183,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "6 months",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "AIG-47-par1-sq",
+   "lang": "sq",
+   "cat": "SHOQ",
+   "prompt": "Sipas Ligjit federal zviceran për të huajt dhe integrimin (AIG, neni 47), brenda sa vitesh duhet të kërkohet e drejta e bashkimit familjar për bashkëshortin dhe fëmijët nën 12 vjeç?",
+   "expected": "5 vjet",
+   "expected_alt": [
+    "5 vjet",
+    "pesë vjet",
+    "5 vjetësh",
+    "pesë vjetësh",
+    "5 vite",
+    "pesë vite",
+    "5 vitesh",
+    "pesë vitesh",
+    "5 viteve",
+    "pesë viteve"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 648,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Sipas neni 47 të Ligjit federal zviceran për të huajt dhe integrimin (AIG), e drejta e bashkimit familjar duhet të kërkohet brenda tre vjetësh pas marrjes së lejes së qëndrimit për bashkëshortin dhe fëmijët nën moshën 12 vjeç.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "AIG-47-par1-de",
+   "lang": "de",
+   "cat": "SHOQ",
+   "prompt": "Innerhalb wie vieler Jahre muss nach dem schweizerischen Ausländer- und Integrationsgesetz (AIG, Art. 47) der Anspruch auf Familiennachzug für Ehegatten und Kinder unter zwölf Jahren geltend gemacht werden?",
+   "expected": "5 Jahre",
+   "expected_alt": [
+    "5 Jahre",
+    "fünf Jahre",
+    "5 Jahren",
+    "fünf Jahren"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 449,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Nach dem schweizerischen Ausländer- und Integrationsgesetz (AIG, Art. 47) muss der Anspruch auf Familiennachzug für Ehegatten und Kinder unter zwölf Jahren innerhalb von fünf Jahren geltend gemacht werden.",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "AIG-47-par1-fr",
+   "lang": "fr",
+   "cat": "SHOQ",
+   "prompt": "Selon la loi fédérale suisse sur les étrangers et l'intégration (LEI, art. 47), dans quel délai en années le droit au regroupement familial doit-il être invoqué pour le conjoint et les enfants de moins de douze ans ?",
+   "expected": "5 ans",
+   "expected_alt": [
+    "5 ans",
+    "cinq ans",
+    "5 années",
+    "cinq années"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 358,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Le droit au regroupement familial pour le conjoint et les enfants de moins de douze ans doit être invoqué dans un délai de 12 mois.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "AIG-47-par1-it",
+   "lang": "it",
+   "cat": "SHOQ",
+   "prompt": "Secondo la legge federale svizzera sugli stranieri e la loro integrazione (LStrI, art. 47), entro quanti anni va fatto valere il diritto al ricongiungimento familiare per il coniuge e i figli sotto i dodici anni?",
+   "expected": "5 anni",
+   "expected_alt": [
+    "5 anni",
+    "cinque anni"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 627,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Secondo l'articolo 47 della legge federale svizzera sugli stranieri e la loro integrazione (LStrI), il diritto al ricongiungimento familiare per il coniuge e i figli sotto i dodici anni deve essere esercitato entro un anno dalla data di entrata in Svizzera del richiedente il ricongiungimento.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "AIG-47-par1-en",
+   "lang": "en",
+   "cat": "SHOQ",
+   "prompt": "Under the Swiss Federal Act on Foreign Nationals and Integration (FNIA, Art. 47), within how many years must the right to family reunification be asserted for a spouse and children under twelve?",
+   "expected": "5 years",
+   "expected_alt": [
+    "5 years",
+    "five years"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 459,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Under the Swiss Federal Act on Foreign Nationals and Integration (FNIA, Art. 47), the right to family reunification for a spouse and children under twelve must be asserted within **one year** of the granting of the residence permit.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "AIG-47-par2-sq",
+   "lang": "sq",
+   "cat": "SHOQ",
+   "prompt": "Një klient me leje qëndrimi në Zvicër pyet: brenda sa vitesh duhet të kërkojë bashkimin familjar për bashkëshortin dhe fëmijët nën 12 vjeç, sipas Ligjit federal zviceran për të huajt dhe integrimin (AIG, neni 47)?",
+   "expected": "5 vjet",
+   "expected_alt": [
+    "5 vjet",
+    "pesë vjet",
+    "5 vjetësh",
+    "pesë vjetësh",
+    "5 vite",
+    "pesë vite",
+    "5 vitesh",
+    "pesë vitesh",
+    "5 viteve",
+    "pesë viteve"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 451,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Sipas Ligjit federal zviceran për të huajt dhe integrimin (AIG), bashkimi familjar duhet kërkuar brenda tre vjetësh nga marrja e lejes së qëndrimit.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "AIG-47-par2-de",
+   "lang": "de",
+   "cat": "SHOQ",
+   "prompt": "Ein Klient mit Aufenthaltsbewilligung in der Schweiz fragt: Innerhalb wie vieler Jahre muss er den Familiennachzug für seinen Ehegatten und Kinder unter zwölf Jahren nach dem Ausländer- und Integrationsgesetz (AIG, Art. 47) geltend machen?",
+   "expected": "5 Jahre",
+   "expected_alt": [
+    "5 Jahre",
+    "fünf Jahre",
+    "5 Jahren",
+    "fünf Jahren"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 505,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Gemäss dem Ausländer- und Integrationsgesetz (AIG) muss der Familiennachzug für den Ehegatten und Kinder unter zwölf Jahren innerhalb von fünf Jahren nach Erteilung der Aufenthaltsbewilligung geltend gemacht werden (Art. 47 AIG).",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "AIG-47-par2-fr",
+   "lang": "fr",
+   "cat": "SHOQ",
+   "prompt": "Un client titulaire d'une autorisation de séjour en Suisse demande : dans quel délai en années doit-il invoquer le regroupement familial pour son conjoint et ses enfants de moins de douze ans selon la LEI (art. 47) ?",
+   "expected": "5 ans",
+   "expected_alt": [
+    "5 ans",
+    "cinq ans",
+    "5 années",
+    "cinq années"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 398,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Selon l'article 47 de la LEI (Loi sur les étrangers et l'intégration), le regroupement familial doit être invoqué dans un délai de 12 mois.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "AIG-47-par2-it",
+   "lang": "it",
+   "cat": "SHOQ",
+   "prompt": "Un cliente titolare di un permesso di dimora in Svizzera chiede: entro quanti anni deve far valere il ricongiungimento familiare per il coniuge e i figli sotto i dodici anni secondo la LStrI (art. 47)?",
+   "expected": "5 anni",
+   "expected_alt": [
+    "5 anni",
+    "cinque anni"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 616,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Secondo l’art. 47 della LStrI (Legge federale sulla dimora e l’integrazione), il ricongiungimento familiare per il coniuge e i figli minori di 12 anni deve essere realizzato entro **un anno** dalla data di rilascio del permesso di dimora per il titolare del permesso.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "AIG-47-par2-en",
+   "lang": "en",
+   "cat": "SHOQ",
+   "prompt": "A client with a residence permit in Switzerland asks: within how many years must he assert family reunification for his spouse and children under twelve under the Foreign Nationals and Integration Act (FNIA, Art. 47)?",
+   "expected": "5 years",
+   "expected_alt": [
+    "5 years",
+    "five years"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 459,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "Under the Foreign Nationals and Integration Act (FNIA, Art. 47), a person with a residence permit in Switzerland must assert family reunification for their spouse and children under twelve within **one year** of the granting of the residence permit.",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "AIG-47-par3-sq",
+   "lang": "sq",
+   "cat": "SHOQ",
+   "prompt": "Përgjigju shkurt (vetëm shifra dhe njësia): sipas AIG (neni 47), afati për kërkimin e bashkimit familjar për bashkëshortin dhe fëmijët nën 12 vjeç është ____.",
+   "expected": "5 vjet",
+   "expected_alt": [
+    "5 vjet",
+    "pesë vjet",
+    "5 vjetësh",
+    "pesë vjetësh",
+    "5 vite",
+    "pesë vite",
+    "5 vitesh",
+    "pesë vitesh",
+    "5 viteve",
+    "pesë viteve"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 192,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "12 muaj",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "AIG-47-par3-de",
+   "lang": "de",
+   "cat": "SHOQ",
+   "prompt": "Antworte kurz (nur Zahl und Einheit): Nach AIG (Art. 47) beträgt die Frist für den Familiennachzug für Ehegatten und Kinder unter zwölf Jahren ____.",
+   "expected": "5 Jahre",
+   "expected_alt": [
+    "5 Jahre",
+    "fünf Jahre",
+    "5 Jahren",
+    "fünf Jahren"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 180,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "6 Monate",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "AIG-47-par3-fr",
+   "lang": "fr",
+   "cat": "SHOQ",
+   "prompt": "Répondez brièvement (uniquement le nombre et l'unité) : selon la LEI (art. 47), le délai pour invoquer le regroupement familial pour le conjoint et les enfants de moins de douze ans est de ____.",
+   "expected": "5 ans",
+   "expected_alt": [
+    "5 ans",
+    "cinq ans",
+    "5 années",
+    "cinq années"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 188,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "12 mois",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  },
+  {
+   "id": "AIG-47-par3-it",
+   "lang": "it",
+   "cat": "SHOQ",
+   "prompt": "Rispondi brevemente (solo cifra e unità): secondo la LStrI (art. 47), il termine per far valere il ricongiungimento familiare per il coniuge e i figli sotto i dodici anni è di ____.",
+   "expected": "5 anni",
+   "expected_alt": [
+    "5 anni",
+    "cinque anni"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 182,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "5 anni",
+   "comparison": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": false
+  },
+  {
+   "id": "AIG-47-par3-en",
+   "lang": "en",
+   "cat": "SHOQ",
+   "prompt": "Answer briefly (number and unit only): under the FNIA (Art. 47), the deadline to assert family reunification for a spouse and children under twelve is ____.",
+   "expected": "5 years",
+   "expected_alt": [
+    "5 years",
+    "five years"
+   ],
+   "source": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+   "http": 200,
+   "ms": 199,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "response": "6 months",
+   "comparison": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "candidate": true
+  }
+ ],
+ "calls_made": 30,
+ "errors": 0,
+ "candidates": 25,
+ "stopped": null
+}
