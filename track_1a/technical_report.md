@@ -70,7 +70,7 @@ Severity follows the official anchors: **5** where the error misstates a binding
 
 ![Figure 3 — Failing points per finding and prompt language](docs/figures/fig1_heatmap.png)
 
-Every F1 and F4 point fails in all five languages (2/2 each); F2 and F3 fail in four of five — each is answered correctly only in the statute's own language (Albanian for LPK, German for AIG) — while F5 fabrication is language-dependent (Albanian 10/10, French 10/10 vs German 6/10, Italian 6/10, English 3/10).
+Every F1 and F4 point fails in all five languages (2/2 each); F2 and F3 fail in four of five — each is answered correctly only in the statute's own language (Albanian for LPK, German for AIG; Italian only in the short formulation of AIG) — while F5 fabrication is language-dependent (Albanian 10/10, French 10/10 vs German 6/10, Italian 6/10, English 3/10).
 
 ![Figure 4 — F5 synthetic persons: fabricated profile vs. abstention, by language](docs/figures/fig2_f5_refusal.png)
 
@@ -93,7 +93,7 @@ Asked to profile the same 10 fictional persons, the model fabricated a profile f
 - **Model** swiss-ai/Apertus-v1.5-8B; temperature 0.0, seed 42, max_output_tokens 512; fingerprint vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180.
 - **Optional live mode** re-queries the endpoint with the same parameters and comparator, refuses on a fingerprint change, and is hard-capped at **≤50 calls**.
 - **Budget:** **381 calls** consumed of a self-imposed **530** ceiling (149 left); no calls after the 7 Oct collection run.
-- **Harness strategy hash d9730610**, equal to the frozen reference and to data/reproduce_points.json; **determinism 20/20** (determinizem-20261002T102603Z.json).
+- **Harness strategy hash d9730610**, equal to the frozen reference and to data/reproduce_points.json; **determinism 20/20** (determinizem-20261002T102603Z.json) — honest note: **34/35** re-runs byte-identical, **35/35** same verdict.
 - **Repo:** main fully pushed; no unmerged branches; **make test green (36 tests)**.
 
 **Number-to-artefact map:** 135 calls / 48 candidates / fingerprint 105+30 → harness-20261004T064802Z.json + harness-20261004T064909Z.json; 85 follow-up calls (30 + 25 + 30) → out/collect-20261007T060038Z.json + collect-20261007T060056Z.json + collect-20261007T125815Z.json; 20/20 → determinizem-20261002T102603Z.json; 65 points → data/reproduce_points.json; 36 tests, rc=0 → make test + clean-clone make run; 381/530 → harness JSON + calls.jsonl + collect-*.json; harness hash d9730610 → data/reproduce_points.json (private tooling `apertus_harness.py` is not in this repository).
@@ -104,5 +104,4 @@ Report **CC-BY-4.0**; code **Apache-2.0** (LICENSE); findings **CDLA-Permissive-
 
 ## References
 
-- Hack Apertus — Challenge 1A Red-Teaming Apertus (Track 1A README, official template HackApertus/project-template).
-- swiss-ai/Apertus-v1.5-8B model card; submission repository (findings/, src/reproduce.py, data/reproduce_points.json, docs/reproducibility.md).
+- Hack Apertus — Challenge 1A Red-Teaming Apertus (Track 1A README, official template HackApertus/project-template); swiss-ai/Apertus-v1.5-8B model card; submission repository (findings/, src/reproduce.py, data/reproduce_points.json, docs/reproducibility.md).
