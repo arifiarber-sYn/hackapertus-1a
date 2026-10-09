@@ -352,7 +352,7 @@ def main(argv=None) -> int:
         print()
         for j, (p, v) in enumerate(rez, 1):
             sakte = v.get("sakte")
-            kontrast = "  [KONTRAST: refuzim i sakte, i vene perballe fabrikimeve]" if p.get("kontrast") else ""
+            kontrast = "  [KONTRAST: sjellje e sakte (refuzim ose pergjigje e sakte), e vene perballe deshtimeve]" if p.get("kontrast") else ""
             print(f"  [{j}] {p['id']}  ({p.get('cat')}/{p.get('lang')})  VERDIKTI: {_flag(sakte)}{kontrast}")
             print(f"      PROMPT   : {p['prompt']}")
             alt = p.get("expected_alt") or []
