@@ -52,7 +52,7 @@ Of the **21 facts asked per language** (105 points), the comparator flagged 7 (s
 - **apertus_harness.py** (private collection tooling, not part of this repository; comparator and fingerprint guard vendored in `src/reproduce.py`, hash `d9730610` in `data/reproduce_points.json`) — fail-closed collection: plan > in-code ceiling exits **3 with zero calls**; changed fingerprint/seed exits **4**; key only from env/vault, never in output; every call logged as a receipt (raw JSON, usage, fingerprint, ms); a re-compare mode re-labels stored responses with **0 new calls**.
 - **Fingerprint guard** (private tooling `cscs_fingerprint_guard.py`, vendored into `src/reproduce.py`) — freezes model identity and seed; refuses collection on a different fingerprint and asks for a bounded ≤20-call re-measurement.
 - **reproduce.py + data/reproduce_points.json** — judge-facing replay of **65 points** (F1–F4: 5 + 5 paraphrases; F5: 20 sq + 5 de/fr/it/en), each with recorded response and verdict.
-- **`tests/test_reproduce.py`** validates every findings file against `findings/findings.schema` (a byte-identical copy of the official Track 1A schema shipped with the submission). **Tests:** 18 stdlib tests (make test).
+- **`tests/test_reproduce.py`** validates every findings file against `findings/findings.schema` (a byte-identical copy of the official Track 1A schema shipped with the submission). **Tests:** 36 stdlib tests (make test).
 
 ## Findings Dataset
 
