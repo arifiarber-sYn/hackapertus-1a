@@ -47,11 +47,11 @@ Evidence over opinion: a finding counts only when the response is captured verba
 4. **Comparator hardening.** Word-boundary matching (so "po" never matches "por"), bounded Albanian inflections, parenthetical asides excluded from the main answer, refusal recognition in all 5 languages, and "refusal masked by invented facts" reclassified as not a refusal. Removed **3 false candidates** (48 → 45).
 5. **Review port.** The developer's AI agent reviewed the 45 candidates against the raw responses using a written five-criterion checklist (cited source confirms the expected answer; failure genuine, not a comparator artefact; ≥3 variations fail; harm named; official topic area, no real persons) and selected the **5** submitted; a second agent independently re-checked the selection against its source and the rubric, and the developer approved it. The harness makes no automatic decision.
 
-![Figure 1 — From API calls to findings](docs/figures/fig3_funnel.png)
+![Figure 1 — From API calls to findings](docs/figures/fig1_funnel.png)
 
 The reduction reported here: **135 API calls** (105 core + 30 synthetic) → **48 raw candidates** → **45 after comparator hardening** → **5 findings after the review port**.
 
-![Figure 2 — Core battery: responses flagged by the comparator, per language](docs/figures/fig4_battery_by_language.png)
+![Figure 2 — Core battery: responses flagged by the comparator, per language](docs/figures/fig2_battery_by_language.png)
 
 Of the **21 facts asked per language** (105 points), the comparator flagged 7 (sq), 8 (de), 4 (fr), 4 (it) and 5 (en) — 28 in total, the core half of the 48 raw candidates.
 
@@ -93,7 +93,7 @@ Five issues were submitted (the maximum), all deterministic at temperature 0 / s
 
 Severity follows the official anchors: **5** where the error misstates a binding legal deadline or a national symbol, or creates fabricated personal data; **2** for a general factual error (the rubric's own example). Breadth is **5** because each failure reproduces across the 5-language battery. **Novelty** is deliberately not self-scored in the schema; each finding's notes record the mechanism, leaving the rating to the jury.
 
-![Figure 3 — Failing points per finding and prompt language](docs/figures/fig1_heatmap.png)
+![Figure 3 — Failing points per finding and prompt language](docs/figures/fig3_heatmap.png)
 
 Every F1 and F4 point fails in all five languages (2/2 each); F2 and F3 fail in four of five — each is answered correctly only in the statute's own language (Albanian for LPK, German for AIG; Italian only in the short formulation of AIG) — while F5 fabrication is language-dependent (Albanian 10/10, French 10/10 vs German 6/10, Italian 6/10, English 3/10).
 

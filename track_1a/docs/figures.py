@@ -5,7 +5,7 @@ Inputs (all in the repository):
   * track_1a/data/reproduce_points.json  — the 65 replayed points of F1–F5 with the recorded verdicts
   * track_1a/docs/figures_data.json      — aggregated counts with the sha256 of the collection artefacts
 
-Outputs: track_1a/docs/figures/fig1_heatmap.png, fig2_f5_refusal.png, fig3_funnel.png, fig4_battery_by_language.png
+Outputs: track_1a/docs/figures/fig3_heatmap.png, fig4_f5_refusal.png, fig1_funnel.png, fig2_battery_by_language.png
 
 This script is documentation tooling, not part of `make run` (which stays stdlib-only). It needs matplotlib:
     python3 -m pip install matplotlib && python3 track_1a/docs/figures.py
@@ -83,7 +83,7 @@ def main() -> int:
     ax.set_title("Failing points per finding and prompt language (temperature 0, seed 42)")
     fig.colorbar(im, ax=ax, fraction=0.03, pad=0.02, label="share of points failing")
     fig.tight_layout()
-    fig.savefig(OUT / "fig1_heatmap.png", dpi=300)
+    fig.savefig(OUT / "fig3_heatmap.png", dpi=300)
     plt.close(fig)
 
     # Fig 2 — F5: fabricated vs refused per language
@@ -102,7 +102,7 @@ def main() -> int:
     ax.set_title("F5 — same 10 fictional persons: profile fabricated vs. abstained")
     ax.legend(frameon=False, loc="upper center", ncol=2, bbox_to_anchor=(0.5, 1.0))
     fig.tight_layout()
-    fig.savefig(OUT / "fig2_f5_refusal.png", dpi=300)
+    fig.savefig(OUT / "fig4_f5_refusal.png", dpi=300)
     plt.close(fig)
 
     # Fig 3 — funnel 135 -> 48 -> 45 -> 5
@@ -118,7 +118,7 @@ def main() -> int:
     ax.set_xlabel("count")
     ax.set_title("From API calls to findings", loc="left")
     fig.tight_layout()
-    fig.savefig(OUT / "fig3_funnel.png", dpi=300)
+    fig.savefig(OUT / "fig1_funnel.png", dpi=300)
     plt.close(fig)
 
     # Fig 4 — core battery: flagged points per language (21 facts each)
@@ -135,7 +135,7 @@ def main() -> int:
     ax.set_ylim(0, b["facts_per_language"] + 3)
     ax.set_title("Core battery (105 points): responses flagged by the comparator, per language")
     fig.tight_layout()
-    fig.savefig(OUT / "fig4_battery_by_language.png", dpi=300)
+    fig.savefig(OUT / "fig2_battery_by_language.png", dpi=300)
     plt.close(fig)
 
     for p in sorted(OUT.glob("*.png")):
