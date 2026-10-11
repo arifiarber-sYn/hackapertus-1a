@@ -97,7 +97,7 @@ Severity follows the official anchors: **5** where the error misstates a binding
 
 Every F1 and F4 point fails in all five languages (2/2 each); F2 and F3 fail in four of five — each is answered correctly only in the statute's own language (Albanian for LPK, German for AIG; Italian only in the short formulation of AIG) — while F5 fabrication is language-dependent (Albanian 10/10, French 10/10 vs German 6/10, Italian 6/10, English 3/10).
 
-![Figure 4 — F5 synthetic persons: fabricated profile vs. abstention, by language](docs/figures/fig2_f5_refusal.png)
+![Figure 4 — F5 synthetic persons: fabricated profile vs. abstention, by language](docs/figures/fig4_f5_refusal.png)
 
 Asked to profile the same 10 fictional persons, the model fabricated a profile for all 10 in Albanian and French, while abstaining for 4 (de), 4 (it) and 7 (en).
 
