@@ -1,0 +1,1640 @@
+{
+ "meta": {
+  "model": "swiss-ai/Apertus-v1.5-8B",
+  "base_url": "https://api.inference.cscs.ch/v1",
+  "seed": 42,
+  "temperature": 0.0,
+  "max_tokens": 512,
+  "fp_referenca": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+ },
+ "thirrje": 25,
+ "gabime": 0,
+ "ndalur": "kufiri i thirrjeve 25 u arrit",
+ "deftesat": [
+  {
+   "ts": "2026-10-12T12:26:11+00:00",
+   "prompt": "Cili është himni zyrtar i Republikës së Kosovës?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-fccc3adb-fa55-42ad-9423-a66e0d0461aa",
+    "object": "chat.completion",
+    "created": 1791807971,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Himni zyrtar i Republikës së Kosovës është \"Himni i Flamurit\".",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 79,
+     "total_tokens": 104,
+     "completion_tokens": 25,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Himni zyrtar i Republikës së Kosovës është \"Himni i Flamurit\".",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 79,
+    "total_tokens": 104,
+    "completion_tokens": 25,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 500
+  },
+  {
+   "ts": "2026-10-12T12:26:11+00:00",
+   "prompt": "Welches ist die offizielle Hymne der Republik Kosovo?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-f00e91d2-2101-4922-b52b-f9615dbfba72",
+    "object": "chat.completion",
+    "created": 1791807971,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Die offizielle Hymne der Republik Kosovo ist „Hymni i Flamurit“.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 75,
+     "total_tokens": 94,
+     "completion_tokens": 19,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Die offizielle Hymne der Republik Kosovo ist „Hymni i Flamurit“.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 75,
+    "total_tokens": 94,
+    "completion_tokens": 19,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 278
+  },
+  {
+   "ts": "2026-10-12T12:26:11+00:00",
+   "prompt": "Quel est l'hymne officiel de la République du Kosovo ?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-0f55b7e3-4d37-423e-85cf-8baaf900a6ff",
+    "object": "chat.completion",
+    "created": 1791807971,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "L'hymne officiel de la République du Kosovo est « Hymni i Flamurit ».",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 75,
+     "total_tokens": 96,
+     "completion_tokens": 21,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "L'hymne officiel de la République du Kosovo est « Hymni i Flamurit ».",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 75,
+    "total_tokens": 96,
+    "completion_tokens": 21,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 287
+  },
+  {
+   "ts": "2026-10-12T12:26:12+00:00",
+   "prompt": "Qual è l'inno ufficiale della Repubblica del Kosovo?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-e20cdcf4-6786-41f8-8c95-b0759d0e0e2e",
+    "object": "chat.completion",
+    "created": 1791807972,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "L'inno ufficiale della Repubblica del Kosovo è \"Himni i Flamurit\".",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 73,
+     "total_tokens": 92,
+     "completion_tokens": 19,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "L'inno ufficiale della Repubblica del Kosovo è \"Himni i Flamurit\".",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 73,
+    "total_tokens": 92,
+    "completion_tokens": 19,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 274
+  },
+  {
+   "ts": "2026-10-12T12:26:12+00:00",
+   "prompt": "What is the official anthem of the Republic of Kosovo?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-cea34234-03a5-4e20-a550-ad2378ebb84b",
+    "object": "chat.completion",
+    "created": 1791807972,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "The official anthem of the Republic of Kosovo is \"Hymni i Flamurit\" (English: \"Anthem of the Flag\").",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 73,
+     "total_tokens": 102,
+     "completion_tokens": 29,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "The official anthem of the Republic of Kosovo is \"Hymni i Flamurit\" (English: \"Anthem of the Flag\").",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 73,
+    "total_tokens": 102,
+    "completion_tokens": 29,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 335
+  },
+  {
+   "ts": "2026-10-12T12:26:12+00:00",
+   "prompt": "Si quhet himni kombëtar i Kosovës?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-c8ce1ed4-2c21-468b-925a-407e23b54a7b",
+    "object": "chat.completion",
+    "created": 1791807972,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Himni kombëtar i Republikës së Kosovës quhet \"Himni i Flamurit\".",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 75,
+     "total_tokens": 100,
+     "completion_tokens": 25,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Himni kombëtar i Republikës së Kosovës quhet \"Himni i Flamurit\".",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 75,
+    "total_tokens": 100,
+    "completion_tokens": 25,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 313
+  },
+  {
+   "ts": "2026-10-12T12:26:13+00:00",
+   "prompt": "Wie heißt die Nationalhymne des Kosovo?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-b5feb51d-4225-4b47-b75d-33f913a376a0",
+    "object": "chat.completion",
+    "created": 1791807973,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Die Nationalhymne des Kosovo heißt „Hymni i Flamurit“.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 72,
+     "total_tokens": 90,
+     "completion_tokens": 18,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Die Nationalhymne des Kosovo heißt „Hymni i Flamurit“.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 72,
+    "total_tokens": 90,
+    "completion_tokens": 18,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 272
+  },
+  {
+   "ts": "2026-10-12T12:26:13+00:00",
+   "prompt": "Comment s'appelle l'hymne national du Kosovo ?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-b31ce9e6-1079-4f60-9146-6f238301fe5a",
+    "object": "chat.completion",
+    "created": 1791807973,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "L'hymne national du Kosovo s'appelle « Hymne Kombëtar » (en français : « Hymne national »).",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 74,
+     "total_tokens": 103,
+     "completion_tokens": 29,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "L'hymne national du Kosovo s'appelle « Hymne Kombëtar » (en français : « Hymne national »).",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 74,
+    "total_tokens": 103,
+    "completion_tokens": 29,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 333
+  },
+  {
+   "ts": "2026-10-12T12:26:13+00:00",
+   "prompt": "Come si chiama l'inno nazionale del Kosovo?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-4c7f4a04-36dd-41a4-b3a0-b3bb96ce7305",
+    "object": "chat.completion",
+    "created": 1791807973,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "L'inno nazionale del Kosovo si chiama \"Himni i Flamurit\".",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 73,
+     "total_tokens": 92,
+     "completion_tokens": 19,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "L'inno nazionale del Kosovo si chiama \"Himni i Flamurit\".",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 73,
+    "total_tokens": 92,
+    "completion_tokens": 19,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 275
+  },
+  {
+   "ts": "2026-10-12T12:26:13+00:00",
+   "prompt": "What is the national anthem of Kosovo called?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-7e99d41e-9be9-4937-86d0-20b216306f67",
+    "object": "chat.completion",
+    "created": 1791807974,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "The national anthem of Kosovo is called \"Himni i Flamurit\" (English: \"Anthem of the Flag\").",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 71,
+     "total_tokens": 98,
+     "completion_tokens": 27,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "The national anthem of Kosovo is called \"Himni i Flamurit\" (English: \"Anthem of the Flag\").",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 71,
+    "total_tokens": 98,
+    "completion_tokens": 27,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 323
+  },
+  {
+   "ts": "2026-10-12T12:26:14+00:00",
+   "prompt": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), brenda sa ditësh nga dorëzimi i aktgjykimit mund të paraqitet ankesa kundër aktgjykimit të gjykatës së shkallës së parë?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-c82f4330-fb43-4e39-acc8-e06b7428dc13",
+    "object": "chat.completion",
+    "created": 1791807974,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), ankesa kundër aktgjykimit të gjykatës së shkallës së parë mund të paraqitet brenda 15 ditësh nga dorëzimi i aktgjykimit.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 132,
+     "total_tokens": 205,
+     "completion_tokens": 73,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), ankesa kundër aktgjykimit të gjykatës së shkallës së parë mund të paraqitet brenda 15 ditësh nga dorëzimi i aktgjykimit.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 132,
+    "total_tokens": 205,
+    "completion_tokens": 73,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 590
+  },
+  {
+   "ts": "2026-10-12T12:26:14+00:00",
+   "prompt": "Innerhalb wie vieler Tage nach Zustellung des Urteils kann nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) Berufung gegen ein erstinstanzliches Urteil eingelegt werden?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-531f5f2c-2220-4572-9588-45d08d0e5be4",
+    "object": "chat.completion",
+    "created": 1791807974,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) kann innerhalb von **30 Tagen** nach Zustellung des Urteils Berufung gegen ein erstinstanzliches Urteil eingelegt werden.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 112,
+     "total_tokens": 165,
+     "completion_tokens": 53,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) kann innerhalb von **30 Tagen** nach Zustellung des Urteils Berufung gegen ein erstinstanzliches Urteil eingelegt werden.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 112,
+    "total_tokens": 165,
+    "completion_tokens": 53,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 472
+  },
+  {
+   "ts": "2026-10-12T12:26:15+00:00",
+   "prompt": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), dans quel délai en jours après la notification du jugement peut-on faire appel d'un jugement de première instance ?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-7131b65c-ee8a-49f2-aaa0-16cbed44b2e4",
+    "object": "chat.completion",
+    "created": 1791807975,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), le délai pour faire appel d'un jugement de première instance est de **30 jours** après la notification du jugement.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 109,
+     "total_tokens": 160,
+     "completion_tokens": 51,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), le délai pour faire appel d'un jugement de première instance est de **30 jours** après la notification du jugement.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 109,
+    "total_tokens": 160,
+    "completion_tokens": 51,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 460
+  },
+  {
+   "ts": "2026-10-12T12:26:15+00:00",
+   "prompt": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), entro quanti giorni dalla notificazione della sentenza si può presentare appello contro una sentenza di primo grado?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-f94b26f1-de9a-4b00-b2ae-78d77c51e039",
+    "object": "chat.completion",
+    "created": 1791807975,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), l'appello contro una sentenza di primo grado deve essere presentato entro 30 giorni dalla notificazione della sentenza.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 112,
+     "total_tokens": 165,
+     "completion_tokens": 53,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), l'appello contro una sentenza di primo grado deve essere presentato entro 30 giorni dalla notificazione della sentenza.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 112,
+    "total_tokens": 165,
+    "completion_tokens": 53,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 472
+  },
+  {
+   "ts": "2026-10-12T12:26:16+00:00",
+   "prompt": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), within how many days of service of the judgment may an appeal be filed against a first-instance judgment?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-7d5e89bb-a22e-4e28-a163-e759c4f8666a",
+    "object": "chat.completion",
+    "created": 1791807976,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), an appeal against a first-instance judgment may be filed within **30 days** of the service of the judgment.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 103,
+     "total_tokens": 148,
+     "completion_tokens": 45,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), an appeal against a first-instance judgment may be filed within **30 days** of the service of the judgment.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 103,
+    "total_tokens": 148,
+    "completion_tokens": 45,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 426
+  },
+  {
+   "ts": "2026-10-12T12:26:16+00:00",
+   "prompt": "Një klient të cilit i është dorëzuar aktgjykimi i gjykatës së shkallës së parë pyet: sa ditë afat ka për të paraqitur ankesë, sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006)?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-8bf5dbd7-c439-4c53-a584-88b6abd730c6",
+    "object": "chat.completion",
+    "created": 1791807976,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), afati për paraqitjen e ankesës kundër aktgjykimit të gjykatës së shkallës së parë është 15 ditë.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 139,
+     "total_tokens": 205,
+     "completion_tokens": 66,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), afati për paraqitjen e ankesës kundër aktgjykimit të gjykatës së shkallës së parë është 15 ditë.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 139,
+    "total_tokens": 205,
+    "completion_tokens": 66,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 546
+  },
+  {
+   "ts": "2026-10-12T12:26:17+00:00",
+   "prompt": "Ein Mandant, dem ein erstinstanzliches Urteil zugestellt wurde, fragt: Wie viele Tage hat er nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) Zeit, um Berufung einzulegen?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-8716524b-e00f-4543-9d77-de582c9d299a",
+    "object": "chat.completion",
+    "created": 1791807977,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) hat ein Mandant 30 Tage Zeit, um Berufung gegen ein erstinstanzliches Urteil einzulegen. Diese Frist beginnt am Tag nach der Zustellung des Urteils zu laufen. Es ist wichtig, dass die Berufung innerhalb dieser Frist ordnungsgemäß eingelegt wird, um ihre Wirksamkeit zu gewährleisten.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 117,
+     "total_tokens": 213,
+     "completion_tokens": 96,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) hat ein Mandant 30 Tage Zeit, um Berufung gegen ein erstinstanzliches Urteil einzulegen. Diese Frist beginnt am Tag nach der Zustellung des Urteils zu laufen. Es ist wichtig, dass die Berufung innerhalb dieser Frist ordnungsgemäß eingelegt wird, um ihre Wirksamkeit zu gewährleisten.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 117,
+    "total_tokens": 213,
+    "completion_tokens": 96,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 720
+  },
+  {
+   "ts": "2026-10-12T12:26:17+00:00",
+   "prompt": "Un client auquel un jugement de première instance a été notifié demande : de combien de jours dispose-t-il, selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), pour faire appel ?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-3e39f590-449e-4c0e-b461-e2e007a4f8a9",
+    "object": "chat.completion",
+    "created": 1791807978,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), un client auquel un jugement de première instance a été notifié dispose de **30 jours** pour faire appel.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 113,
+     "total_tokens": 162,
+     "completion_tokens": 49,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), un client auquel un jugement de première instance a été notifié dispose de **30 jours** pour faire appel.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 113,
+    "total_tokens": 162,
+    "completion_tokens": 49,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 449
+  },
+  {
+   "ts": "2026-10-12T12:26:18+00:00",
+   "prompt": "Un cliente a cui è stata notificata una sentenza di primo grado chiede: quanti giorni ha, secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), per presentare appello?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-7c656e60-3a44-41aa-b9c7-9084c8d474e2",
+    "object": "chat.completion",
+    "created": 1791807978,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), il termine per presentare appello contro una sentenza di primo grado è di **30 giorni**.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 116,
+     "total_tokens": 164,
+     "completion_tokens": 48,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), il termine per presentare appello contro una sentenza di primo grado è di **30 giorni**.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 116,
+    "total_tokens": 164,
+    "completion_tokens": 48,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 442
+  },
+  {
+   "ts": "2026-10-12T12:26:18+00:00",
+   "prompt": "A client who has been served a first-instance judgment asks: how many days does he have to file an appeal under Kosovo's Law on Contested Procedure (Law No. 03/L-006)?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-ac45633d-ea7b-49c9-b816-9c40729bee9a",
+    "object": "chat.completion",
+    "created": 1791807978,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), a party who has been served a first-instance judgment has **30 days** to file an appeal.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 105,
+     "total_tokens": 148,
+     "completion_tokens": 43,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), a party who has been served a first-instance judgment has **30 days** to file an appeal.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 105,
+    "total_tokens": 148,
+    "completion_tokens": 43,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 417
+  },
+  {
+   "ts": "2026-10-12T12:26:19+00:00",
+   "prompt": "Sipas Ligjit federal zviceran për të huajt dhe integrimin (AIG, neni 47), brenda sa vitesh duhet të kërkohet e drejta e bashkimit familjar për bashkëshortin dhe fëmijët nën 12 vjeç?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-94b09f8c-43d1-4b6c-958b-d058d9918005",
+    "object": "chat.completion",
+    "created": 1791807979,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Sipas neni 47 të Ligjit federal zviceran për të huajt dhe integrimin (AIG), e drejta e bashkimit familjar duhet të kërkohet brenda tre vjetësh pas marrjes së lejes së qëndrimit për bashkëshortin dhe fëmijët nën moshën 12 vjeç.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 131,
+     "total_tokens": 214,
+     "completion_tokens": 83,
+     "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Sipas neni 47 të Ligjit federal zviceran për të huajt dhe integrimin (AIG), e drejta e bashkimit familjar duhet të kërkohet brenda tre vjetësh pas marrjes së lejes së qëndrimit për bashkëshortin dhe fëmijët nën moshën 12 vjeç.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 131,
+    "total_tokens": 214,
+    "completion_tokens": 83,
+    "prompt_tokens_details": {
+     "cached_tokens": 64,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 647
+  },
+  {
+   "ts": "2026-10-12T12:26:19+00:00",
+   "prompt": "Innerhalb wie vieler Jahre muss nach dem schweizerischen Ausländer- und Integrationsgesetz (AIG, Art. 47) der Anspruch auf Familiennachzug für Ehegatten und Kinder unter zwölf Jahren geltend gemacht werden?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-0c48bfbf-5c6b-4e86-a7c1-dc148a918e38",
+    "object": "chat.completion",
+    "created": 1791807980,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Nach dem schweizerischen Ausländer- und Integrationsgesetz (AIG, Art. 47) muss der Anspruch auf Familiennachzug für Ehegatten und Kinder unter zwölf Jahren innerhalb von fünf Jahren geltend gemacht werden.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 111,
+     "total_tokens": 160,
+     "completion_tokens": 49,
+     "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Nach dem schweizerischen Ausländer- und Integrationsgesetz (AIG, Art. 47) muss der Anspruch auf Familiennachzug für Ehegatten und Kinder unter zwölf Jahren innerhalb von fünf Jahren geltend gemacht werden.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 111,
+    "total_tokens": 160,
+    "completion_tokens": 49,
+    "prompt_tokens_details": {
+     "cached_tokens": 64,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 449
+  },
+  {
+   "ts": "2026-10-12T12:26:20+00:00",
+   "prompt": "Selon la loi fédérale suisse sur les étrangers et l'intégration (LEI, art. 47), dans quel délai en années le droit au regroupement familial doit-il être invoqué pour le conjoint et les enfants de moins de douze ans ?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-7317d350-d1ca-4c84-bf7e-7c1876cbf203",
+    "object": "chat.completion",
+    "created": 1791807980,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Le droit au regroupement familial pour le conjoint et les enfants de moins de douze ans doit être invoqué dans un délai de 12 mois.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 114,
+     "total_tokens": 147,
+     "completion_tokens": 33,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Le droit au regroupement familial pour le conjoint et les enfants de moins de douze ans doit être invoqué dans un délai de 12 mois.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 114,
+    "total_tokens": 147,
+    "completion_tokens": 33,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 357
+  },
+  {
+   "ts": "2026-10-12T12:26:20+00:00",
+   "prompt": "Secondo la legge federale svizzera sugli stranieri e la loro integrazione (LStrI, art. 47), entro quanti anni va fatto valere il diritto al ricongiungimento familiare per il coniuge e i figli sotto i dodici anni?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-bef11794-30f9-42ec-bf92-895aa4c868d3",
+    "object": "chat.completion",
+    "created": 1791807980,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Secondo l'articolo 47 della legge federale svizzera sugli stranieri e la loro integrazione (LStrI), il diritto al ricongiungimento familiare per il coniuge e i figli sotto i dodici anni deve essere esercitato entro un anno dalla data di entrata in Svizzera del richiedente il ricongiungimento.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 122,
+     "total_tokens": 201,
+     "completion_tokens": 79,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Secondo l'articolo 47 della legge federale svizzera sugli stranieri e la loro integrazione (LStrI), il diritto al ricongiungimento familiare per il coniuge e i figli sotto i dodici anni deve essere esercitato entro un anno dalla data di entrata in Svizzera del richiedente il ricongiungimento.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 122,
+    "total_tokens": 201,
+    "completion_tokens": 79,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 623
+  },
+  {
+   "ts": "2026-10-12T12:26:21+00:00",
+   "prompt": "Under the Swiss Federal Act on Foreign Nationals and Integration (FNIA, Art. 47), within how many years must the right to family reunification be asserted for a spouse and children under twelve?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-fdf145f2-8761-4103-98d9-2da760cc3bf2",
+    "object": "chat.completion",
+    "created": 1791807981,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Under Swiss Federal Act on Foreign Nationals and Integration (FNIA, Art. 47), the right to family reunification for a spouse and children under twelve must be asserted within **one year** of the granting of the residence permit.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 103,
+     "total_tokens": 152,
+     "completion_tokens": 49,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Under Swiss Federal Act on Foreign Nationals and Integration (FNIA, Art. 47), the right to family reunification for a spouse and children under twelve must be asserted within **one year** of the granting of the residence permit.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 103,
+    "total_tokens": 152,
+    "completion_tokens": 49,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 744
+  }
+ ]
+}
