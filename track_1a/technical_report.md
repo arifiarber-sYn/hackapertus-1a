@@ -22,7 +22,7 @@
 1. **The five facts and their harm** -> the table in *Findings Dataset* plus `findings/F1_K6_himni.json` ... `findings/F5_persona_sintetike.json` (10 walkthroughs each).
 2. **The replay of every claim** -> `data/reproduce_points.json` (65 points) via `make run`; `src/reproduce.py` re-queries optionally and refuses on fingerprint change.
 3. **The language asymmetry** -> the A/B table above: F2 correct only in sq (100 % vs 0 %), F3 only in de (100 % vs 0 %).
-4. **The honest reduction** -> Figure 1: 135 calls -> 48 raw -> 45 after comparator hardening -> 5 findings; 381 of 530 calls used, none after the 7 Oct collection run.
+4. **The honest reduction** -> Figure 1: 135 calls -> 48 raw -> 45 after comparator hardening -> 5 findings; 406 of 530 calls used (381 collection + 25 live re-run on 12 Oct), within budget.
 5. **The seal** -> harness strategy hash `d9730610...`, determinism 20/20, `make test` green (36 tests), repo at `7c6dbcc` fully pushed.
 
 ## Problem
@@ -116,12 +116,12 @@ Asked to profile the same 10 fictional persons, the model fabricated a profile f
 **What a judge runs:** from a clean clone at the recorded commit, make run (Docker; automatic local fallback) replays the packaged points and prints each id, prompt, expected answer, cited response and verdict, ending with **0 mismatches**; measured **rc=0** (local replay 1.95–4.4 s across five runs on 4–5 Oct; 9.1 s in the Docker run on 6 Oct).
 
 - **Model** swiss-ai/Apertus-v1.5-8B; temperature 0.0, seed 42, max_output_tokens 512; fingerprint vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180.
-- **Optional live mode** re-queries the endpoint with the same parameters and comparator, refuses on a fingerprint change, and is hard-capped at **≤50 calls**.
-- **Budget:** **381 calls** consumed of a self-imposed **530** ceiling (149 left); no calls after the 7 Oct collection run.
+- **Optional live mode** re-queries the endpoint with the same parameters and comparator, refuses on a fingerprint change, and is hard-capped at **≤50 calls**. **Executed on 12 Oct 2026** (`make run-live`, 25 calls, 0 errors, no fingerprint change) — receipt `out/live-20261012T122622Z.json`.
+- **Budget:** **406 calls** consumed of a self-imposed **530** ceiling (124 left): 381 collection (7 Oct) + 25 live re-run (12 Oct); nothing beyond that.
 - **Harness strategy hash d9730610**, equal to the frozen reference and to data/reproduce_points.json; **determinism 20/20** (determinizem-20261002T102603Z.json) — honest note: **34/35** re-runs byte-identical, **35/35** same verdict.
 - **Repo:** main fully pushed; no unmerged branches; **make test green (36 tests)**.
 
-**Number-to-artefact map:** 135 calls / 48 candidates / fingerprint 105+30 → harness-20261004T064802Z.json + harness-20261004T064909Z.json; 85 follow-up calls (30 + 25 + 30) → out/collect-20261007T060038Z.json + collect-20261007T060056Z.json + collect-20261007T125815Z.json; 20/20 → determinizem-20261002T102603Z.json; 65 points → data/reproduce_points.json; 36 tests, rc=0 → make test + clean-clone make run; 381/530 → harness JSON + calls.jsonl + collect-*.json; harness hash d9730610 → data/reproduce_points.json (private tooling `apertus_harness.py` is not in this repository).
+**Number-to-artefact map:** 135 calls / 48 candidates / fingerprint 105+30 → harness-20261004T064802Z.json + harness-20261004T064909Z.json; 85 follow-up calls (30 + 25 + 30) → out/collect-20261007T060038Z.json + collect-20261007T060056Z.json + collect-20261007T125815Z.json; 20/20 → determinizem-20261002T102603Z.json; 65 points → data/reproduce_points.json; 36 tests, rc=0 → make test + clean-clone make run; 25 live calls (12 Oct) → out/live-20261012T122622Z.json; 406/530 → harness JSON + calls.jsonl + collect-*.json; harness hash d9730610 → data/reproduce_points.json (private tooling `apertus_harness.py` is not in this repository).
 
 ## License
 
