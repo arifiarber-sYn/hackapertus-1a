@@ -94,4 +94,4 @@ All Hack Apertus projects are open-sourced. Please check our Terms & Conditions 
 - **Expected answers of the fact points** (F1–F4) quote or paraphrase Wikipedia articles, licensed CC-BY-SA 4.0. The article URL for each finding is recorded in the `notes` field ("Burimi (K-a): Wikipedia …") and in `steps_to_reproduce` of the corresponding findings file.
 - **Synthetic personas** (F5): fictional names and biographies generated for this study; no real-person data is used or disclosed.
 - **Model outputs**: all recorded responses come from `swiss-ai/Apertus-v1.5-8B` via the CSCS OpenAI-compatible endpoint (temperature 0.0, seed 42) and are reproduced here under the Apertus license terms.
-- Built by a solo developer with his AI agent (OpenClaw); the agent did tooling, measurement and documentation — never the model under test.
+- Built by a solo developer and his AI agent, working as one team — openly and verifiably: every claim traces to a timestamped build journal in the repo.
