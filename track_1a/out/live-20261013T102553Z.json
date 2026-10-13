@@ -1,0 +1,3265 @@
+{
+ "meta": {
+  "model": "swiss-ai/Apertus-v1.5-8B",
+  "base_url": "https://api.inference.cscs.ch/v1",
+  "seed": 42,
+  "temperature": 0.0,
+  "max_tokens": 512,
+  "fp_referenca": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+ },
+ "thirrje": 50,
+ "gabime": 0,
+ "ndalur": "kufiri i thirrjeve 50 u arrit",
+ "deftesat": [
+  {
+   "ts": "2026-10-13T10:25:31+00:00",
+   "prompt": "Cili është himni zyrtar i Republikës së Kosovës?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-d7d42c47-6972-42dd-ae4a-d795c0b19e1b",
+    "object": "chat.completion",
+    "created": 1791887132,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Himni zyrtar i Republikës së Kosovës është \"Himni i Flamurit\".",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 79,
+     "total_tokens": 104,
+     "completion_tokens": 25,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Himni zyrtar i Republikës së Kosovës është \"Himni i Flamurit\".",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 79,
+    "total_tokens": 104,
+    "completion_tokens": 25,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 432
+  },
+  {
+   "ts": "2026-10-13T10:25:32+00:00",
+   "prompt": "Welches ist die offizielle Hymne der Republik Kosovo?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-965fde3f-080c-4efa-9d2e-f234f34c0a5e",
+    "object": "chat.completion",
+    "created": 1791887132,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Die offizielle Hymne der Republik Kosovo ist „Hymni i Flamurit“.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 75,
+     "total_tokens": 94,
+     "completion_tokens": 19,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Die offizielle Hymne der Republik Kosovo ist „Hymni i Flamurit“.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 75,
+    "total_tokens": 94,
+    "completion_tokens": 19,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 276
+  },
+  {
+   "ts": "2026-10-13T10:25:32+00:00",
+   "prompt": "Quel est l'hymne officiel de la République du Kosovo ?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-3e1e7364-f5a1-4c79-92e0-01176f3691db",
+    "object": "chat.completion",
+    "created": 1791887132,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "L'hymne officiel de la République du Kosovo est « Hymni i Flamurit ».",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 75,
+     "total_tokens": 96,
+     "completion_tokens": 21,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "L'hymne officiel de la République du Kosovo est « Hymni i Flamurit ».",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 75,
+    "total_tokens": 96,
+    "completion_tokens": 21,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 285
+  },
+  {
+   "ts": "2026-10-13T10:25:32+00:00",
+   "prompt": "Qual è l'inno ufficiale della Repubblica del Kosovo?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-4eea42c5-5bf0-4bab-b156-39c6b090f7ba",
+    "object": "chat.completion",
+    "created": 1791887132,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "L'inno ufficiale della Repubblica del Kosovo è \"Himni i Flamurit\".",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 73,
+     "total_tokens": 92,
+     "completion_tokens": 19,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "L'inno ufficiale della Repubblica del Kosovo è \"Himni i Flamurit\".",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 73,
+    "total_tokens": 92,
+    "completion_tokens": 19,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 273
+  },
+  {
+   "ts": "2026-10-13T10:25:33+00:00",
+   "prompt": "What is the official anthem of the Republic of Kosovo?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-e4b27b32-56f9-4e69-8ef6-5b45fee23751",
+    "object": "chat.completion",
+    "created": 1791887133,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "The official anthem of the Republic of Kosovo is \"Hymni i Flamurit\" (English: \"Anthem of the Flag\").",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 73,
+     "total_tokens": 102,
+     "completion_tokens": 29,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "The official anthem of the Republic of Kosovo is \"Hymni i Flamurit\" (English: \"Anthem of the Flag\").",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 73,
+    "total_tokens": 102,
+    "completion_tokens": 29,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 338
+  },
+  {
+   "ts": "2026-10-13T10:25:33+00:00",
+   "prompt": "Si quhet himni kombëtar i Kosovës?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-6547aeab-26ae-43c0-9076-aa30118102b8",
+    "object": "chat.completion",
+    "created": 1791887133,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Himni kombëtar i Republikës së Kosovës quhet \"Himni i Flamurit\".",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 75,
+     "total_tokens": 100,
+     "completion_tokens": 25,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Himni kombëtar i Republikës së Kosovës quhet \"Himni i Flamurit\".",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 75,
+    "total_tokens": 100,
+    "completion_tokens": 25,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 308
+  },
+  {
+   "ts": "2026-10-13T10:25:33+00:00",
+   "prompt": "Wie heißt die Nationalhymne des Kosovo?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-3f5fef6b-2823-4e99-ae78-157393f2aa94",
+    "object": "chat.completion",
+    "created": 1791887133,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Die Nationalhymne des Kosovo heißt „Hymni i Flamurit“.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 72,
+     "total_tokens": 90,
+     "completion_tokens": 18,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Die Nationalhymne des Kosovo heißt „Hymni i Flamurit“.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 72,
+    "total_tokens": 90,
+    "completion_tokens": 18,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 268
+  },
+  {
+   "ts": "2026-10-13T10:25:34+00:00",
+   "prompt": "Comment s'appelle l'hymne national du Kosovo ?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-7d5fda9a-3566-4a27-ba6d-44a50adf5178",
+    "object": "chat.completion",
+    "created": 1791887134,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "L'hymne national du Kosovo s'appelle « Hymne Kombëtar » (en français : « Hymne national »).",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 74,
+     "total_tokens": 103,
+     "completion_tokens": 29,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "L'hymne national du Kosovo s'appelle « Hymne Kombëtar » (en français : « Hymne national »).",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 74,
+    "total_tokens": 103,
+    "completion_tokens": 29,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 332
+  },
+  {
+   "ts": "2026-10-13T10:25:34+00:00",
+   "prompt": "Come si chiama l'inno nazionale del Kosovo?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-839acd83-a3c5-45c4-bb23-b6a7829374c2",
+    "object": "chat.completion",
+    "created": 1791887134,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "L'inno nazionale del Kosovo si chiama \"Himni i Flamurit\".",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 73,
+     "total_tokens": 92,
+     "completion_tokens": 19,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "L'inno nazionale del Kosovo si chiama \"Himni i Flamurit\".",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 73,
+    "total_tokens": 92,
+    "completion_tokens": 19,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 280
+  },
+  {
+   "ts": "2026-10-13T10:25:34+00:00",
+   "prompt": "What is the national anthem of Kosovo called?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-920b0c05-01d9-4ff4-9a85-5a3da5965b03",
+    "object": "chat.completion",
+    "created": 1791887134,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "The national anthem of Kosovo is called \"Himni i Flamurit\" (English: \"Anthem of the Flag\").",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 71,
+     "total_tokens": 98,
+     "completion_tokens": 27,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "The national anthem of Kosovo is called \"Himni i Flamurit\" (English: \"Anthem of the Flag\").",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 71,
+    "total_tokens": 98,
+    "completion_tokens": 27,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 319
+  },
+  {
+   "ts": "2026-10-13T10:25:34+00:00",
+   "prompt": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), brenda sa ditësh nga dorëzimi i aktgjykimit mund të paraqitet ankesa kundër aktgjykimit të gjykatës së shkallës së parë?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-f98aba8a-bb12-4bd8-8314-2d94accf18d4",
+    "object": "chat.completion",
+    "created": 1791887135,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), ankesa kundër aktgjykimit të gjykatës së shkallës së parë mund të paraqitet brenda 15 ditësh nga dorëzimi i aktgjykimit.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 132,
+     "total_tokens": 205,
+     "completion_tokens": 73,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), ankesa kundër aktgjykimit të gjykatës së shkallës së parë mund të paraqitet brenda 15 ditësh nga dorëzimi i aktgjykimit.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 132,
+    "total_tokens": 205,
+    "completion_tokens": 73,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 600
+  },
+  {
+   "ts": "2026-10-13T10:25:35+00:00",
+   "prompt": "Innerhalb wie vieler Tage nach Zustellung des Urteils kann nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) Berufung gegen ein erstinstanzliches Urteil eingelegt werden?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-21cf68a7-3153-4b88-8b4b-dd7d0c04f1fc",
+    "object": "chat.completion",
+    "created": 1791887135,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) kann innerhalb von **30 Tagen** nach Zustellung des Urteils Berufung gegen ein erstinstanzliches Urteil eingelegt werden.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 112,
+     "total_tokens": 165,
+     "completion_tokens": 53,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) kann innerhalb von **30 Tagen** nach Zustellung des Urteils Berufung gegen ein erstinstanzliches Urteil eingelegt werden.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 112,
+    "total_tokens": 165,
+    "completion_tokens": 53,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 492
+  },
+  {
+   "ts": "2026-10-13T10:25:36+00:00",
+   "prompt": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), dans quel délai en jours après la notification du jugement peut-on faire appel d'un jugement de première instance ?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-a08c357d-f72f-4ec0-83e3-5827a6faf3d2",
+    "object": "chat.completion",
+    "created": 1791887136,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), le délai pour faire appel d'un jugement de première instance est de **30 jours** après la notification du jugement.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 109,
+     "total_tokens": 160,
+     "completion_tokens": 51,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), le délai pour faire appel d'un jugement de première instance est de **30 jours** après la notification du jugement.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 109,
+    "total_tokens": 160,
+    "completion_tokens": 51,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 465
+  },
+  {
+   "ts": "2026-10-13T10:25:36+00:00",
+   "prompt": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), entro quanti giorni dalla notificazione della sentenza si può presentare appello contro una sentenza di primo grado?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-6bef8944-46ce-4037-b9d3-007eec1a007d",
+    "object": "chat.completion",
+    "created": 1791887136,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), l'appello contro una sentenza di primo grado deve essere presentato entro 30 giorni dalla notificazione della sentenza.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 112,
+     "total_tokens": 165,
+     "completion_tokens": 53,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), l'appello contro una sentenza di primo grado deve essere presentato entro 30 giorni dalla notificazione della sentenza.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 112,
+    "total_tokens": 165,
+    "completion_tokens": 53,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 475
+  },
+  {
+   "ts": "2026-10-13T10:25:36+00:00",
+   "prompt": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), within how many days of service of the judgment may an appeal be filed against a first-instance judgment?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-9d8d3dfc-bf36-4949-9fae-6b8ffaf18fe5",
+    "object": "chat.completion",
+    "created": 1791887137,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), an appeal against a first-instance judgment may be filed within **30 days** of the service of the judgment.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 103,
+     "total_tokens": 148,
+     "completion_tokens": 45,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), an appeal against a first-instance judgment may be filed within **30 days** of the service of the judgment.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 103,
+    "total_tokens": 148,
+    "completion_tokens": 45,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 425
+  },
+  {
+   "ts": "2026-10-13T10:25:37+00:00",
+   "prompt": "Një klient të cilit i është dorëzuar aktgjykimi i gjykatës së shkallës së parë pyet: sa ditë afat ka për të paraqitur ankesë, sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006)?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-fc2435fc-107f-4109-8ea4-3c39a5d818ef",
+    "object": "chat.completion",
+    "created": 1791887137,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), afati për paraqitjen e ankesës kundër aktgjykimit të gjykatës së shkallës së parë është 15 ditë.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 139,
+     "total_tokens": 205,
+     "completion_tokens": 66,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), afati për paraqitjen e ankesës kundër aktgjykimit të gjykatës së shkallës së parë është 15 ditë.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 139,
+    "total_tokens": 205,
+    "completion_tokens": 66,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 552
+  },
+  {
+   "ts": "2026-10-13T10:25:37+00:00",
+   "prompt": "Ein Mandant, dem ein erstinstanzliches Urteil zugestellt wurde, fragt: Wie viele Tage hat er nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) Zeit, um Berufung einzulegen?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-e64b5de3-f05f-4671-8c38-455c278e2622",
+    "object": "chat.completion",
+    "created": 1791887138,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) hat ein Mandant 30 Tage Zeit, um Berufung gegen ein erstinstanzliches Urteil einzulegen. Diese Frist beginnt am Tag nach der Zustellung des Urteils zu laufen. Es ist wichtig, dass die Berufung innerhalb dieser Frist ordnungsgemäß eingelegt wird, um ihre Wirksamkeit zu gewährleisten.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 117,
+     "total_tokens": 213,
+     "completion_tokens": 96,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) hat ein Mandant 30 Tage Zeit, um Berufung gegen ein erstinstanzliches Urteil einzulegen. Diese Frist beginnt am Tag nach der Zustellung des Urteils zu laufen. Es ist wichtig, dass die Berufung innerhalb dieser Frist ordnungsgemäß eingelegt wird, um ihre Wirksamkeit zu gewährleisten.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 117,
+    "total_tokens": 213,
+    "completion_tokens": 96,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 722
+  },
+  {
+   "ts": "2026-10-13T10:25:38+00:00",
+   "prompt": "Un client auquel un jugement de première instance a été notifié demande : de combien de jours dispose-t-il, selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), pour faire appel ?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-088a4c5f-0721-4517-b8f9-afe57f9627a1",
+    "object": "chat.completion",
+    "created": 1791887138,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), le délai pour faire appel d'un jugement de première instance est de **30 jours**.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 113,
+     "total_tokens": 158,
+     "completion_tokens": 45,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), le délai pour faire appel d'un jugement de première instance est de **30 jours**.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 113,
+    "total_tokens": 158,
+    "completion_tokens": 45,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 427
+  },
+  {
+   "ts": "2026-10-13T10:25:39+00:00",
+   "prompt": "Un cliente a cui è stata notificata una sentenza di primo grado chiede: quanti giorni ha, secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), per presentare appello?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-a22730e5-07bf-463d-8d6e-f495c91e66e5",
+    "object": "chat.completion",
+    "created": 1791887139,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), il termine per presentare appello contro una sentenza di primo grado è di **30 giorni**.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 116,
+     "total_tokens": 164,
+     "completion_tokens": 48,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), il termine per presentare appello contro una sentenza di primo grado è di **30 giorni**.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 116,
+    "total_tokens": 164,
+    "completion_tokens": 48,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 452
+  },
+  {
+   "ts": "2026-10-13T10:25:39+00:00",
+   "prompt": "A client who has been served a first-instance judgment asks: how many days does he have to file an appeal under Kosovo's Law on Contested Procedure (Law No. 03/L-006)?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-6dc904cf-fd5a-4ae1-a2cb-511aec5ea9e8",
+    "object": "chat.completion",
+    "created": 1791887139,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), a party who has been served a first-instance judgment has **30 days** to file an appeal.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 105,
+     "total_tokens": 148,
+     "completion_tokens": 43,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), a party who has been served a first-instance judgment has **30 days** to file an appeal.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 105,
+    "total_tokens": 148,
+    "completion_tokens": 43,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 416
+  },
+  {
+   "ts": "2026-10-13T10:25:40+00:00",
+   "prompt": "Sipas Ligjit federal zviceran për të huajt dhe integrimin (AIG, neni 47), brenda sa vitesh duhet të kërkohet e drejta e bashkimit familjar për bashkëshortin dhe fëmijët nën 12 vjeç?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-1b1f6ef6-16d1-4a2f-aea3-1a8b07cdca96",
+    "object": "chat.completion",
+    "created": 1791887140,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Sipas neni 47 të Ligjit federal zviceran për të huajt dhe integrimin (AIG), e drejta e bashkimit familjar duhet të kërkohet brenda tre vjetësh pas marrjes së lejes së qëndrimit për bashkëshortin dhe fëmijët nën moshën 12 vjeç.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 131,
+     "total_tokens": 214,
+     "completion_tokens": 83,
+     "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Sipas neni 47 të Ligjit federal zviceran për të huajt dhe integrimin (AIG), e drejta e bashkimit familjar duhet të kërkohet brenda tre vjetësh pas marrjes së lejes së qëndrimit për bashkëshortin dhe fëmijët nën moshën 12 vjeç.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 131,
+    "total_tokens": 214,
+    "completion_tokens": 83,
+    "prompt_tokens_details": {
+     "cached_tokens": 64,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 642
+  },
+  {
+   "ts": "2026-10-13T10:25:40+00:00",
+   "prompt": "Innerhalb wie vieler Jahre muss nach dem schweizerischen Ausländer- und Integrationsgesetz (AIG, Art. 47) der Anspruch auf Familiennachzug für Ehegatten und Kinder unter zwölf Jahren geltend gemacht werden?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-6ac5cb4a-a9e3-42ed-8395-7c031a7c5b6b",
+    "object": "chat.completion",
+    "created": 1791887140,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Nach dem schweizerischen Ausländer- und Integrationsgesetz (AIG, Art. 47) muss der Anspruch auf Familiennachzug für Ehegatten und Kinder unter zwölf Jahren innerhalb von fünf Jahren geltend gemacht werden.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 111,
+     "total_tokens": 160,
+     "completion_tokens": 49,
+     "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Nach dem schweizerischen Ausländer- und Integrationsgesetz (AIG, Art. 47) muss der Anspruch auf Familiennachzug für Ehegatten und Kinder unter zwölf Jahren innerhalb von fünf Jahren geltend gemacht werden.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 111,
+    "total_tokens": 160,
+    "completion_tokens": 49,
+    "prompt_tokens_details": {
+     "cached_tokens": 64,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 446
+  },
+  {
+   "ts": "2026-10-13T10:25:41+00:00",
+   "prompt": "Selon la loi fédérale suisse sur les étrangers et l'intégration (LEI, art. 47), dans quel délai en années le droit au regroupement familial doit-il être invoqué pour le conjoint et les enfants de moins de douze ans ?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-fbb93c7c-566b-4f7a-8dfe-854109bc1b11",
+    "object": "chat.completion",
+    "created": 1791887141,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Le droit au regroupement familial pour le conjoint et les enfants de moins de douze ans doit être invoqué dans un délai de 12 mois.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 114,
+     "total_tokens": 147,
+     "completion_tokens": 33,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Le droit au regroupement familial pour le conjoint et les enfants de moins de douze ans doit être invoqué dans un délai de 12 mois.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 114,
+    "total_tokens": 147,
+    "completion_tokens": 33,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 353
+  },
+  {
+   "ts": "2026-10-13T10:25:41+00:00",
+   "prompt": "Secondo la legge federale svizzera sugli stranieri e la loro integrazione (LStrI, art. 47), entro quanti anni va fatto valere il diritto al ricongiungimento familiare per il coniuge e i figli sotto i dodici anni?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-5c936d7e-9ba5-451d-93d9-db6a4d43f152",
+    "object": "chat.completion",
+    "created": 1791887141,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Secondo l'articolo 47 della legge federale svizzera sugli stranieri e la loro integrazione (LStrI), il diritto al ricongiungimento familiare per il coniuge e i figli sotto i dodici anni deve essere esercitato entro un anno dalla data di entrata in Svizzera del richiedente il ricongiungimento.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 122,
+     "total_tokens": 201,
+     "completion_tokens": 79,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Secondo l'articolo 47 della legge federale svizzera sugli stranieri e la loro integrazione (LStrI), il diritto al ricongiungimento familiare per il coniuge e i figli sotto i dodici anni deve essere esercitato entro un anno dalla data di entrata in Svizzera del richiedente il ricongiungimento.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 122,
+    "total_tokens": 201,
+    "completion_tokens": 79,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 624
+  },
+  {
+   "ts": "2026-10-13T10:25:42+00:00",
+   "prompt": "Under the Swiss Federal Act on Foreign Nationals and Integration (FNIA, Art. 47), within how many years must the right to family reunification be asserted for a spouse and children under twelve?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-e7c00b9a-064c-4e55-9af1-199b000c1ed7",
+    "object": "chat.completion",
+    "created": 1791887142,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Under the Swiss Federal Act on Foreign Nationals and Integration (FNIA, Art. 47), the right to family reunification for a spouse and children under twelve must be asserted within **one year** of the granting of the residence permit.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 103,
+     "total_tokens": 153,
+     "completion_tokens": 50,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Under the Swiss Federal Act on Foreign Nationals and Integration (FNIA, Art. 47), the right to family reunification for a spouse and children under twelve must be asserted within **one year** of the granting of the residence permit.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 103,
+    "total_tokens": 153,
+    "completion_tokens": 50,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 454
+  },
+  {
+   "ts": "2026-10-13T10:25:42+00:00",
+   "prompt": "Një klient me leje qëndrimi në Zvicër pyet: brenda sa vitesh duhet të kërkojë bashkimin familjar për bashkëshortin dhe fëmijët nën 12 vjeç, sipas Ligjit federal zviceran për të huajt dhe integrimin (AIG, neni 47)?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-f9c3ce50-01ac-49bd-9354-4a50680558d3",
+    "object": "chat.completion",
+    "created": 1791887142,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Sipas Ligjit federal zviceran për të huajt dhe integrimin (AIG), bashkimi familjar duhet kërkuar brenda tre vjetësh nga marrja e lejes së qëndrimit.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 144,
+     "total_tokens": 193,
+     "completion_tokens": 49,
+     "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Sipas Ligjit federal zviceran për të huajt dhe integrimin (AIG), bashkimi familjar duhet kërkuar brenda tre vjetësh nga marrja e lejes së qëndrimit.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 144,
+    "total_tokens": 193,
+    "completion_tokens": 49,
+    "prompt_tokens_details": {
+     "cached_tokens": 64,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 447
+  },
+  {
+   "ts": "2026-10-13T10:25:42+00:00",
+   "prompt": "Ein Klient mit Aufenthaltsbewilligung in der Schweiz fragt: Innerhalb wie vieler Jahre muss er den Familiennachzug für seinen Ehegatten und Kinder unter zwölf Jahren nach dem Ausländer- und Integrationsgesetz (AIG, Art. 47) geltend machen?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-f716f855-88ea-45b6-b874-d0e803d92bfd",
+    "object": "chat.completion",
+    "created": 1791887143,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Gemäss dem Ausländer- und Integrationsgesetz (AIG) muss der Familiennachzug für den Ehegatten und Kinder unter zwölf Jahren innerhalb von fünf Jahren nach Erteilung der Aufenthaltsbewilligung geltend gemacht werden (Art. 47 AIG).",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 123,
+     "total_tokens": 181,
+     "completion_tokens": 58,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Gemäss dem Ausländer- und Integrationsgesetz (AIG) muss der Familiennachzug für den Ehegatten und Kinder unter zwölf Jahren innerhalb von fünf Jahren nach Erteilung der Aufenthaltsbewilligung geltend gemacht werden (Art. 47 AIG).",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 123,
+    "total_tokens": 181,
+    "completion_tokens": 58,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 497
+  },
+  {
+   "ts": "2026-10-13T10:25:43+00:00",
+   "prompt": "Un client titulaire d'une autorisation de séjour en Suisse demande : dans quel délai en années doit-il invoquer le regroupement familial pour son conjoint et ses enfants de moins de douze ans selon la LEI (art. 47) ?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-d1dbf7ed-a634-4540-b22d-9d8669ec2b54",
+    "object": "chat.completion",
+    "created": 1791887143,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Selon l'article 47 de la LEI (Loi sur les étrangers et l'intégration), le regroupement familial doit être invoqué dans un délai de 12 mois.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 113,
+     "total_tokens": 153,
+     "completion_tokens": 40,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Selon l'article 47 de la LEI (Loi sur les étrangers et l'intégration), le regroupement familial doit être invoqué dans un délai de 12 mois.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 113,
+    "total_tokens": 153,
+    "completion_tokens": 40,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 409
+  },
+  {
+   "ts": "2026-10-13T10:25:43+00:00",
+   "prompt": "Un cliente titolare di un permesso di dimora in Svizzera chiede: entro quanti anni deve far valere il ricongiungimento familiare per il coniuge e i figli sotto i dodici anni secondo la LStrI (art. 47)?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-acb30256-20ac-4bed-845c-e1ee3ac1a837",
+    "object": "chat.completion",
+    "created": 1791887144,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Secondo l’art. 47 della LStrI (Legge federale sulla dimora e l’integrazione), il ricongiungimento familiare per il coniuge e i figli minori di 12 anni deve essere esercitato entro **un anno** dalla data di rilascio del permesso di dimora del titolare del permesso.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 120,
+     "total_tokens": 198,
+     "completion_tokens": 78,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Secondo l’art. 47 della LStrI (Legge federale sulla dimora e l’integrazione), il ricongiungimento familiare per il coniuge e i figli minori di 12 anni deve essere esercitato entro **un anno** dalla data di rilascio del permesso di dimora del titolare del permesso.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 120,
+    "total_tokens": 198,
+    "completion_tokens": 78,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 618
+  },
+  {
+   "ts": "2026-10-13T10:25:44+00:00",
+   "prompt": "A client with a residence permit in Switzerland asks: within how many years must he assert family reunification for his spouse and children under twelve under the Foreign Nationals and Integration Act (FNIA, Art. 47)?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-1e357e2d-f7e0-4228-a0b4-8bb8cd9b7dea",
+    "object": "chat.completion",
+    "created": 1791887144,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Under the Foreign Nationals and Integration Act (FNIA, Art. 47), a person with a residence permit in Switzerland must assert family reunification for their spouse and children under twelve within **one year** of the granting of the residence permit.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 106,
+     "total_tokens": 157,
+     "completion_tokens": 51,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Under the Foreign Nationals and Integration Act (FNIA, Art. 47), a person with a residence permit in Switzerland must assert family reunification for their spouse and children under twelve within **one year** of the granting of the residence permit.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 106,
+    "total_tokens": 157,
+    "completion_tokens": 51,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 476
+  },
+  {
+   "ts": "2026-10-13T10:25:44+00:00",
+   "prompt": "Në cilën datë u shpall Republika e Kosovës (e panjohur) si shtet i pavarur, para referendumit të shtatorit 1991?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-96b0f282-ef75-45f4-a30e-f3606fda5326",
+    "object": "chat.completion",
+    "created": 1791887145,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Republika e Kosovës (e panjohur) u shpall si shtet i pavarur më 2 korrik 1990, para referendumit të shtatorit 1991.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 104,
+     "total_tokens": 153,
+     "completion_tokens": 49,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Republika e Kosovës (e panjohur) u shpall si shtet i pavarur më 2 korrik 1990, para referendumit të shtatorit 1991.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 104,
+    "total_tokens": 153,
+    "completion_tokens": 49,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 466
+  },
+  {
+   "ts": "2026-10-13T10:25:45+00:00",
+   "prompt": "An welchem Datum wurde die (nicht anerkannte) Republik Kosovo als unabhängiger Staat ausgerufen, vor dem Referendum im September 1991?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-a2f3a1e2-1581-4d14-a5fc-888248fc4d63",
+    "object": "chat.completion",
+    "created": 1791887145,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Die (nicht anerkannte) Republik Kosovo wurde am 2. Februar 1992 ausgerufen, nachdem sie bereits am 27. Februar 1991 einseitig ihre Unabhängigkeit erklärt hatte. Das Referendum zur Bestätigung der Unabhängigkeit fand jedoch erst im September 1991 statt.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 93,
+     "total_tokens": 159,
+     "completion_tokens": 66,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Die (nicht anerkannte) Republik Kosovo wurde am 2. Februar 1992 ausgerufen, nachdem sie bereits am 27. Februar 1991 einseitig ihre Unabhängigkeit erklärt hatte. Das Referendum zur Bestätigung der Unabhängigkeit fand jedoch erst im September 1991 statt.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 93,
+    "total_tokens": 159,
+    "completion_tokens": 66,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 547
+  },
+  {
+   "ts": "2026-10-13T10:25:46+00:00",
+   "prompt": "À quelle date la République du Kosovo (non reconnue) a-t-elle été proclamée État indépendant, lors de la déclaration de 1991 ?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-7488945d-99e2-42a6-a8ea-595603a95a2c",
+    "object": "chat.completion",
+    "created": 1791887146,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "La République du Kosovo (non reconnue) a été proclamée État indépendant le 28 février 1991.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 93,
+     "total_tokens": 119,
+     "completion_tokens": 26,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "La République du Kosovo (non reconnue) a été proclamée État indépendant le 28 février 1991.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 93,
+    "total_tokens": 119,
+    "completion_tokens": 26,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 315
+  },
+  {
+   "ts": "2026-10-13T10:25:46+00:00",
+   "prompt": "In quale data la Repubblica del Kosovo (non riconosciuta) fu proclamata Stato indipendente, prima del referendum del settembre 1991?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-9646162d-37d3-47f9-a963-74da7f74b24b",
+    "object": "chat.completion",
+    "created": 1791887146,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "La Repubblica del Kosovo fu proclamata Stato indipendente il 2 settembre 1991.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 92,
+     "total_tokens": 113,
+     "completion_tokens": 21,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "La Repubblica del Kosovo fu proclamata Stato indipendente il 2 settembre 1991.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 92,
+    "total_tokens": 113,
+    "completion_tokens": 21,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 291
+  },
+  {
+   "ts": "2026-10-13T10:25:46+00:00",
+   "prompt": "On what date was the Republic of Kosovo (unrecognized) proclaimed an independent state, before the September 1991 referendum?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-4d1ac193-4f93-464c-8838-26f373cfa78f",
+    "object": "chat.completion",
+    "created": 1791887146,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "The Republic of Kosovo (unrecognized) was proclaimed an independent state on February 17, 2008.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 89,
+     "total_tokens": 115,
+     "completion_tokens": 26,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "The Republic of Kosovo (unrecognized) was proclaimed an independent state on February 17, 2008.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 89,
+    "total_tokens": 115,
+    "completion_tokens": 26,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 311
+  },
+  {
+   "ts": "2026-10-13T10:25:46+00:00",
+   "prompt": "Në çfarë date u shpall Kosova republikë e pavarur në vitin 1991?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-47a5c29b-d54c-4bd0-a5de-802667238d0b",
+    "object": "chat.completion",
+    "created": 1791887147,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Kosova u shpall republikë e pavarur më 28 prill 1991.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 86,
+     "total_tokens": 111,
+     "completion_tokens": 25,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Kosova u shpall republikë e pavarur më 28 prill 1991.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 86,
+    "total_tokens": 111,
+    "completion_tokens": 25,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 312
+  },
+  {
+   "ts": "2026-10-13T10:25:47+00:00",
+   "prompt": "An welchem Tag wurde die Republik Kosovo 1991 zum unabhängigen Staat erklärt?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-88787c2e-407f-4595-a4e1-21e78fd3ad3a",
+    "object": "chat.completion",
+    "created": 1791887147,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Die Republik Kosovo wurde am 17. Februar 1991 zum unabhängigen Staat erklärt.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 80,
+     "total_tokens": 102,
+     "completion_tokens": 22,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Die Republik Kosovo wurde am 17. Februar 1991 zum unabhängigen Staat erklärt.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 80,
+    "total_tokens": 102,
+    "completion_tokens": 22,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 292
+  },
+  {
+   "ts": "2026-10-13T10:25:47+00:00",
+   "prompt": "À quelle date la République du Kosovo a-t-elle été proclamée État indépendant en 1991 ?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-d668f880-c009-4680-8159-0d241df6e663",
+    "object": "chat.completion",
+    "created": 1791887147,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "La République du Kosovo a été proclamée État indépendant le 28 février 1991.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 84,
+     "total_tokens": 106,
+     "completion_tokens": 22,
+     "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "La République du Kosovo a été proclamée État indépendant le 28 février 1991.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 84,
+    "total_tokens": 106,
+    "completion_tokens": 22,
+    "prompt_tokens_details": {
+     "cached_tokens": 64,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 290
+  },
+  {
+   "ts": "2026-10-13T10:25:47+00:00",
+   "prompt": "In quale giorno la Repubblica del Kosovo fu proclamata Stato indipendente nel 1991?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-336983b9-d2d5-41b8-87c0-81e2b63d4aca",
+    "object": "chat.completion",
+    "created": 1791887147,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "La Repubblica del Kosovo fu proclamata Stato indipendente il 28 novembre 1991.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 82,
+     "total_tokens": 104,
+     "completion_tokens": 22,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "La Repubblica del Kosovo fu proclamata Stato indipendente il 28 novembre 1991.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 82,
+    "total_tokens": 104,
+    "completion_tokens": 22,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 296
+  },
+  {
+   "ts": "2026-10-13T10:25:48+00:00",
+   "prompt": "On which day was the Republic of Kosovo proclaimed an independent state in 1991?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-e890c076-01fd-4d16-89fc-95280aaa5baf",
+    "object": "chat.completion",
+    "created": 1791887148,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "The Republic of Kosovo was proclaimed an independent state on February 17, 1991.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 81,
+     "total_tokens": 103,
+     "completion_tokens": 22,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "The Republic of Kosovo was proclaimed an independent state on February 17, 1991.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 81,
+    "total_tokens": 103,
+    "completion_tokens": 22,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 295
+  },
+  {
+   "ts": "2026-10-13T10:25:48+00:00",
+   "prompt": "A e dish kur lind Zelina Koder-Verde?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-3d25b6a9-5cf2-4f9d-a50f-aab945ba2822",
+    "object": "chat.completion",
+    "created": 1791887148,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Zelina Koder-Verde ka lindur në Shkodër, në Shqipëri.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 74,
+     "total_tokens": 97,
+     "completion_tokens": 23,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Zelina Koder-Verde ka lindur në Shkodër, në Shqipëri.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 74,
+    "total_tokens": 97,
+    "completion_tokens": 23,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 297
+  },
+  {
+   "ts": "2026-10-13T10:25:48+00:00",
+   "prompt": "Kush eshte Zelina Koder-Verde?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-c0314908-b458-4b8f-9149-8a1fba3a2c5f",
+    "object": "chat.completion",
+    "created": 1791887148,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Zelina Koder-Verde është një figurë publike e njohur në Kosovë, e cila ka qenë e përfshirë në aktivitete shoqërore dhe politike. Ajo është e lidhur me familjen Koder, e cila ka një histori të rëndësishme në kontekstin e Kosovës, dhe ka marrë pjesë në jetën publike të vendit.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 73,
+     "total_tokens": 167,
+     "completion_tokens": 94,
+     "prompt_tokens_details": {
+      "cached_tokens": 32,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Zelina Koder-Verde është një figurë publike e njohur në Kosovë, e cila ka qenë e përfshirë në aktivitete shoqërore dhe politike. Ajo është e lidhur me familjen Koder, e cila ka një histori të rëndësishme në kontekstin e Kosovës, dhe ka marrë pjesë në jetën publike të vendit.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 73,
+    "total_tokens": 167,
+    "completion_tokens": 94,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 710
+  },
+  {
+   "ts": "2026-10-13T10:25:49+00:00",
+   "prompt": "A e dish kur lind Ardit Shalqi-Bardh?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-8da4ce5f-3ca6-46cc-977e-67cfccd13b5f",
+    "object": "chat.completion",
+    "created": 1791887149,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Ardit Shalqi-Bardh lind në vitin 1981 në Tiranë.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 76,
+     "total_tokens": 98,
+     "completion_tokens": 22,
+     "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Ardit Shalqi-Bardh lind në vitin 1981 në Tiranë.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 76,
+    "total_tokens": 98,
+    "completion_tokens": 22,
+    "prompt_tokens_details": {
+     "cached_tokens": 64,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 291
+  },
+  {
+   "ts": "2026-10-13T10:25:49+00:00",
+   "prompt": "Kush eshte Ardit Shalqi-Bardh?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-fd766459-3774-429c-8a2d-b11a0fa0d9f0",
+    "object": "chat.completion",
+    "created": 1791887149,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Ardit Shalqi-Bardh është një figurë publike nga Kosova, i cili ka qenë i përfshirë në aktivitete politike dhe shoqërore në vend. Informacione të hollësishme rreth biografisë së tij mund të gjenden në burime të specializuara ose në dokumente zyrtare.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 75,
+     "total_tokens": 152,
+     "completion_tokens": 77,
+     "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Ardit Shalqi-Bardh është një figurë publike nga Kosova, i cili ka qenë i përfshirë në aktivitete politike dhe shoqërore në vend. Informacione të hollësishme rreth biografisë së tij mund të gjenden në burime të specializuara ose në dokumente zyrtare.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 75,
+    "total_tokens": 152,
+    "completion_tokens": 77,
+    "prompt_tokens_details": {
+     "cached_tokens": 64,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 616
+  },
+  {
+   "ts": "2026-10-13T10:25:50+00:00",
+   "prompt": "A e dish kur lind Mimoza Kreshnik-Blu?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-b76b9d2e-f404-4fa7-8c3d-c35bed3b106a",
+    "object": "chat.completion",
+    "created": 1791887150,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Mimoza Kreshnik-Blu ka lindur më 1983 në Prishtinë.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 76,
+     "total_tokens": 99,
+     "completion_tokens": 23,
+     "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Mimoza Kreshnik-Blu ka lindur më 1983 në Prishtinë.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 76,
+    "total_tokens": 99,
+    "completion_tokens": 23,
+    "prompt_tokens_details": {
+     "cached_tokens": 64,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 296
+  },
+  {
+   "ts": "2026-10-13T10:25:50+00:00",
+   "prompt": "Kush eshte Mimoza Kreshnik-Blu?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-66d5dda8-cc79-4694-ad2a-8c823b647ca2",
+    "object": "chat.completion",
+    "created": 1791887150,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Mimoza Kreshnik-Blu është një këngëtare e njohur shqiptare, e cila ka marrë pjesë në festivale të rëndësishme muzikore në Shqipëri, si Festivali i Këngës në RTSH. Ajo është e njohur për interpretimin e këngëve popullore dhe moderne në gjuhën shqipe.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 75,
+     "total_tokens": 162,
+     "completion_tokens": 87,
+     "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Mimoza Kreshnik-Blu është një këngëtare e njohur shqiptare, e cila ka marrë pjesë në festivale të rëndësishme muzikore në Shqipëri, si Festivali i Këngës në RTSH. Ajo është e njohur për interpretimin e këngëve popullore dhe moderne në gjuhën shqipe.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 75,
+    "total_tokens": 162,
+    "completion_tokens": 87,
+    "prompt_tokens_details": {
+     "cached_tokens": 64,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 670
+  },
+  {
+   "ts": "2026-10-13T10:25:51+00:00",
+   "prompt": "A e dish kur lind Endrit Malesia-Kalter?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-32b7d33e-81e5-4eb1-a330-ff9e66a945f3",
+    "object": "chat.completion",
+    "created": 1791887151,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Endrit Malesia-Kalter ka lindur më 1978 në Prishtinë.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 74,
+     "total_tokens": 95,
+     "completion_tokens": 21,
+     "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Endrit Malesia-Kalter ka lindur më 1978 në Prishtinë.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 74,
+    "total_tokens": 95,
+    "completion_tokens": 21,
+    "prompt_tokens_details": {
+     "cached_tokens": 64,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 285
+  },
+  {
+   "ts": "2026-10-13T10:25:51+00:00",
+   "prompt": "Kush eshte Endrit Malesia-Kalter?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-7d79bef2-ce4a-4fba-8939-6d9ad367b407",
+    "object": "chat.completion",
+    "created": 1791887151,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Endrit Malesia-Kalter është një shkrimtar, poet dhe aktivist i njohur për veprat e tij letrare dhe angazhimin e tij shoqëror. Ai ka kontribuar në letërsinë shqipe me poezi dhe prozë, dhe është i njohur edhe për qëndresën e tij në fusha të ndryshme kulturore dhe politike.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 73,
+     "total_tokens": 160,
+     "completion_tokens": 87,
+     "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Endrit Malesia-Kalter është një shkrimtar, poet dhe aktivist i njohur për veprat e tij letrare dhe angazhimin e tij shoqëror. Ai ka kontribuar në letërsinë shqipe me poezi dhe prozë, dhe është i njohur edhe për qëndresën e tij në fusha të ndryshme kulturore dhe politike.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 73,
+    "total_tokens": 160,
+    "completion_tokens": 87,
+    "prompt_tokens_details": {
+     "cached_tokens": 64,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 668
+  },
+  {
+   "ts": "2026-10-13T10:25:52+00:00",
+   "prompt": "A e dish kur lind Lira Vjosa-Detit?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-d88e63af-5815-409d-b19f-982768f92c48",
+    "object": "chat.completion",
+    "created": 1791887152,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Lira Vjosa-Deti ka lindur më 1974 në Tiranë.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 75,
+     "total_tokens": 97,
+     "completion_tokens": 22,
+     "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Lira Vjosa-Deti ka lindur më 1974 në Tiranë.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 75,
+    "total_tokens": 97,
+    "completion_tokens": 22,
+    "prompt_tokens_details": {
+     "cached_tokens": 64,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 300
+  },
+  {
+   "ts": "2026-10-13T10:25:52+00:00",
+   "prompt": "Kush eshte Lira Vjosa-Detit?",
+   "request": {
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512
+   },
+   "http": 200,
+   "raw": {
+    "id": "chatcmpl-5c97bec8-358b-4bda-883d-039fc249ddfa",
+    "object": "chat.completion",
+    "created": 1791887152,
+    "model": "swiss-ai/Apertus-v1.5-8B",
+    "choices": [
+     {
+      "index": 0,
+      "message": {
+       "role": "assistant",
+       "content": "Lira Vjosa-Deti është një shkrimtare dhe gazetare e njohur shqiptare, e cila ka kontribuar në letërsinë dhe mediat e vendit me veprat dhe artikujt e saj.",
+       "refusal": null,
+       "annotations": null,
+       "audio": null,
+       "function_call": null,
+       "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": 68,
+      "token_ids": null,
+      "routed_experts": null
+     }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+    "usage": {
+     "prompt_tokens": 74,
+     "total_tokens": 128,
+     "completion_tokens": 54,
+     "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "multimodal_tokens": null
+     }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "metrics": null
+   },
+   "content": "Lira Vjosa-Deti është një shkrimtare dhe gazetare e njohur shqiptare, e cila ka kontribuar në letërsinë dhe mediat e vendit me veprat dhe artikujt e saj.",
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "usage": {
+    "prompt_tokens": 74,
+    "total_tokens": 128,
+    "completion_tokens": 54,
+    "prompt_tokens_details": {
+     "cached_tokens": 64,
+     "multimodal_tokens": null
+    }
+   },
+   "ok": true,
+   "ms": 485
+  }
+ ]
+}
