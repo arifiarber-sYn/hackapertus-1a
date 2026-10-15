@@ -1,6 +1,6 @@
-# Hack Apertus — Track 1A. Imazh minimal per `make run` (kerkesa 3 e README: Docker).
-# Riprodhimi eshte stdlib-only: asnje `pip install`, asnje peshe modeli, asnje rrjet ne replay.
-# Live (opsionale): `docker run -e LLM_BASE_URL -e LLM_API_KEY -e LLM_NAME ...` — shih Makefile `run-live`.
+# Hack Apertus — Track 1A. Minimal image for `make run` (README requirement 3: Docker).
+# The reproduction is stdlib-only: no `pip install`, no model weights, no network in replay mode.
+# Live (optional): `docker run -e LLM_BASE_URL -e LLM_API_KEY -e LLM_NAME ...` — see Makefile `run-live`.
 FROM python:3.12-slim
 ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
 WORKDIR /app
