@@ -106,7 +106,7 @@ runs): **0 verdict differences**.
 ## Licensing & attribution
 
 Code and Makefiles: Apache-2.0 (`LICENSE`); findings files and reproduction data: CDLA-Permissive-2.0; technical report: CC-BY-4.0.
-Expected answers of the fact points (F1–F4) quote/paraphrase Wikipedia (CC-BY-SA 4.0) — the article URL is in each finding's `notes` ("Source (K-a)") and `steps_to_reproduce`; synthetic personas (F5) are fictional (no real-person data).
+Expected answers of the fact points (F1–F4) quote/paraphrase Wikipedia (CC-BY-SA 4.0) — the article URL is in each finding's `notes` ("Source") and `steps_to_reproduce`; synthetic personas (F5) are fictional (no real-person data).
 Model outputs are from `swiss-ai/Apertus-v1.5-8B` via the CSCS endpoint, reproduced under the Apertus license terms; built by a solo developer with his AI agent (OpenClaw) — the agent did tooling/measurement/documentation, never the model under test.
 
 ## How the report PDF was built
