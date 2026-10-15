@@ -53,7 +53,7 @@ LLM_API_KEY — your API key
 | Command | What it does | Needs |
 | --- | --- | --- |
 | `make run` | Builds the minimal Docker image (`python:3.12-slim`, stdlib only) and replays the 65 recorded reproduction points of the 5 findings; falls back to local `python3` if Docker is unavailable. Ends with `REPRODUCED 65/65 recorded verdicts (0 mismatches) …`. | nothing (no network, no API key) |
-| `make test` | 23 stdlib `unittest` tests: comparator, data integrity, findings schema, walkthrough format, `make run` end-to-end, live mode against a local stub. | nothing |
+| `make test` | 36 stdlib `unittest` tests: comparator, data integrity, findings schema, walkthrough format, `make run` end-to-end, live mode against a local stub. | nothing |
 | `make run-live` | Same replay plus live calls to the Apertus endpoint (`LLM_BASE_URL`, `LLM_API_KEY`, `LLM_NAME`; `--max-calls`, hard cap 50) with a `system_fingerprint` guard; receipts in `track_1a/out/`. | `LLM_API_KEY` |
 
 Deliverables: `track_1a/findings/*.json` (5 findings, 10 walkthroughs each in the Apertus chat-template format),
@@ -71,8 +71,9 @@ the classification is reproducible with no network, no API key and no GPU.
 it re-queries the endpoint with identical parameters (temperature 0.0, seed 42, max_tokens 512), compares each
 live answer with the same comparator against the recorded verdict, writes every call as a receipt to
 `track_1a/out/live-<ts>.json`, and **stops if the server's `system_fingerprint` differs** from the recording's
-(answers are then no longer comparable). Our own live re-check before submission: [N/N recorded verdicts
-re-confirmed live on 13 Oct, ≤25 calls, receipt `live-<ts>.json`]. We keep the two modes separate on purpose:
+(answers are then no longer comparable). Our own live re-checks: 25 calls on 12 Oct before submission (receipt `track_1a/out/live-20261012T122622Z.json`)
+and 50 calls on 13 Oct after submission (receipt `track_1a/out/live-20261013T102553Z.json`, 50/50 live verdicts equal
+to the recording) — 0 errors, `system_fingerprint` unchanged in both. We keep the two modes separate on purpose:
 a "reproduction" that silently re-queried the model would be neither reproducible nor honest about drift.
 
 ## Getting started

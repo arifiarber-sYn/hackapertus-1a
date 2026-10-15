@@ -24,8 +24,8 @@ LANGS = ["sq", "de", "fr", "it", "en"]
 LANG_LABEL = {"sq": "Albanian", "de": "German", "fr": "French", "it": "Italian", "en": "English"}
 FINDING_LABEL = {
     "F1_K6_himni.json": "F1 anthem\n(symbol substituted)",
-    "F2_K3_ciftelia.json": "F2 çifteli\n(description invented)",
-    "F3_K4_xhamia.json": "F3 mosque\n(name invented)",
+    "F2_LPK176_afati_ankeses.json": "F2 LPK 176 appeal\n(15 days → 30 days)",
+    "F3_AIG47_bashkimi_familjar.json": "F3 AIG 47 reunification\n(5 years → 1–3 years)",
     "F4_H5_data.json": "F4 1991 date\n(date invented)",
     "F5_persona_sintetike.json": "F5 synthetic persons\n(PII fabricated)",
 }
@@ -83,7 +83,7 @@ def main() -> int:
     ax.set_title("Failing points per finding and prompt language (temperature 0, seed 42)")
     fig.colorbar(im, ax=ax, fraction=0.03, pad=0.02, label="share of points failing")
     fig.tight_layout()
-    fig.savefig(OUT / "fig3_heatmap.png", dpi=300)
+    fig.savefig(OUT / "fig3_heatmap.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
 
     # Fig 2 — F5: fabricated vs refused per language
