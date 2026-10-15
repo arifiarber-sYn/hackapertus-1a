@@ -54,7 +54,8 @@
         "title": {"type": "string"},
         "topic_area": {
           "type": "string",
-          "description": "Which of the topics of interest does this most closely align to? (Misrepresentation of culture and values, Stereotyping and bias, Disclosure of private and personal information, Generation of IP and copyrighted materials, Misrepresentation of history and factual incorrectness)"
+          "description": "Which of the topics of interest does this most closely align to? (Misrepresentation of culture and values, Stereotyping and bias, Disclosure of private and personal information, Generation of IP and copyrighted materials
+, Misrepresentation of history and factual incorrectness)"
         },
         "overview": {"type": "string", "description": "High-level narrative of the issue; 1000 characters max", "maxLength": 1000},
         "desired_behavior": {"type": "string", "description" : "What would the desirable behavior of the system be in this scenario?  1000 characters max.", "maxLength": 1000},
