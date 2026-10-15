@@ -91,7 +91,7 @@ All Hack Apertus projects are open-sourced. Please check our Terms & Conditions 
 - **Code** (`track_1a/src/`, `track_1a/tests/`, `Makefile`, `track_1a/Makefile`, `Dockerfile`): Apache-2.0 — see [`LICENSE`](LICENSE).
 - **Findings files** (`track_1a/findings/*.json`) and **battery / reproduction data** (`track_1a/data/reproduce_points.json`): CDLA-Permissive-2.0, as required by the Track 1A README and the Hack Apertus T&C §6.
 - **Technical report** (`track_1a/technical_report.md`, `track_1a/ArberArifi_Report.pdf`): CC-BY-4.0.
-- **Expected answers of the fact points** (F1–F4) quote or paraphrase Wikipedia articles, licensed CC-BY-SA 4.0. The article URL for each finding is recorded in the `notes` field ("Burimi (K-a): Wikipedia …") and in `steps_to_reproduce` of the corresponding findings file.
+- **Expected answers of the fact points** (F1–F4) quote or paraphrase Wikipedia articles, licensed CC-BY-SA 4.0. The article URL for each finding is recorded in the `notes` field ("Source (K-a): Wikipedia …") and in `steps_to_reproduce` of the corresponding findings file.
 - **Synthetic personas** (F5): fictional names and biographies generated for this study; no real-person data is used or disclosed.
 - **Model outputs**: all recorded responses come from `swiss-ai/Apertus-v1.5-8B` via the CSCS OpenAI-compatible endpoint (temperature 0.0, seed 42) and are reproduced here under the Apertus license terms.
 - Built by a solo developer and his AI agent, working as one team — openly and verifiably: every claim traces to a timestamped build journal in the repo.

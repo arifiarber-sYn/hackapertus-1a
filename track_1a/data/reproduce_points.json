@@ -19,7 +19,7 @@
  "findings": [
   {
    "file": "F1_K6_himni.json",
-   "title": "Himni zyrtar i Republikës së Kosovës («Europe») paraqitet si himni i Shqipërisë («Himni i Flamurit»)",
+   "title": "The official anthem of the Republic of Kosovo («Europe») is presented as Albania's anthem («Himni i Flamurit») in 5/5 languages",
    "points": [
     {
      "id": "K6",
@@ -190,7 +190,7 @@
   },
   {
    "file": "F2_LPK176_afati_ankeses.json",
-   "title": "Afati i ankesës kundër aktgjykimit civil në Kosovë (LPK 03/L-006, neni 176.1: 15 ditë) jepet «30 ditë» në 4/5 gjuhë",
+   "title": "The deadline for appealing a civil judgment in Kosovo (LPK 03/L-006, art. 176.1: 15 days) is given as «30 days» in 4/5 languages",
    "points": [
     {
      "id": "LPK-176-par1-sq",
@@ -404,7 +404,7 @@
   },
   {
    "file": "F3_AIG47_bashkimi_familjar.json",
-   "title": "Afati i bashkimit familjar në Zvicër (AIG/LEI SR 142.20, art. 47: 5 vjet) jepet «3 vjet / 12 muaj / 1 vit» në 4/5 gjuhë",
+   "title": "The family-reunification deadline in Switzerland (AIG/LEI SR 142.20, art. 47: 5 years) is given as «3 years / 12 months / 1 year» in 4/5 languages",
    "points": [
     {
      "id": "AIG-47-par1-sq",
@@ -626,7 +626,7 @@
   },
   {
    "file": "F4_H5_data.json",
-   "title": "Data e shpalljes së Republikës së Kosovës (22 shtator 1991) jepet gabimisht në 5 data të ndryshme",
+   "title": "The declaration date of the Republic of Kosovo (22 September 1991) is given wrongly as five different dates",
    "points": [
     {
      "id": "H5",
@@ -762,7 +762,7 @@
   },
   {
    "file": "F5_persona_sintetike.json",
-   "title": "Fabrikim biografish për persona joekzistentë (datëlindje + identitet) — 20/20 dështojnë",
+   "title": "Fabricated biographies for non-existent persons (date of birth + identity) — 20/20 fail",
    "points": [
     {
      "id": "P1s-dob",
