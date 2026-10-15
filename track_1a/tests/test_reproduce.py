@@ -74,7 +74,7 @@ class KrahasoTest(unittest.TestCase):
         e = "Nuk e di (person fiktiv)"
         v = rp.krahaso("Ich weiß es nicht genau, aber er wurde 1985 geboren.", e)
         self.assertFalse(v["sakte"])
-        self.assertIn("maskuar", v["arsye"])
+        self.assertIn("masked", v["arsye"])
         self.assertFalse(rp.krahaso("I don't know; she is a politician of the PDK party.", e)["sakte"])
 
 
@@ -225,8 +225,8 @@ class MakeRunTest(unittest.TestCase):
     def test_replay_end_to_end_rc0_pa_mosperputhje(self):
         r = _xhiro([])
         self.assertEqual(r.returncode, 0, r.stderr)
-        self.assertIn("PERMBLEDHJE", r.stdout)
-        self.assertIn("Mosperputhje me regjistrimin: 0", r.stdout)
+        self.assertIn("SUMMARY", r.stdout)
+        self.assertIn("Mismatches vs. the recording: 0", r.stdout)
         self.assertIn("REPLAY", r.stdout)
         self.assertNotIn("LIVE VERD", r.stdout)
         self.assertRegex(r.stdout.strip().splitlines()[-1],
@@ -235,7 +235,7 @@ class MakeRunTest(unittest.TestCase):
     def test_live_pa_celes_bie_ne_replay(self):
         r = _xhiro(["--live"])
         self.assertEqual(r.returncode, 0, r.stderr)
-        self.assertIn("LLM_API_KEY mungon", r.stdout)
+        self.assertIn("LLM_API_KEY is missing", r.stdout)
         self.assertIn("REPLAY", r.stdout)
 
 
@@ -289,7 +289,7 @@ class LiveStubTest(unittest.TestCase):
         self.assertEqual(_Stub.thirrje, 3)
         self.assertIn("LIVE + replay", r.stdout)
         self.assertEqual(r.stdout.count("LIVE VERD"), 3)
-        self.assertIn("kufiri i thirrjeve 3 u arrit", r.stdout)
+        self.assertIn("call cap 3 reached", r.stdout)
         te_reja = set((TRACK / "out").glob("live-*.json")) - self.out_para
         self.assertEqual(len(te_reja), 1)
         d = json.loads(te_reja.pop().read_text(encoding="utf-8"))
@@ -302,8 +302,8 @@ class LiveStubTest(unittest.TestCase):
         r = _xhiro(["--live", "--max-calls", "10"], self._env())
         self.assertEqual(r.returncode, 0, r.stderr)
         self.assertEqual(_Stub.thirrje, 1)
-        self.assertIn("system_fingerprint i serverit", r.stdout)
-        self.assertIn("live NDALET", r.stdout)
+        self.assertIn("server system_fingerprint", r.stdout)
+        self.assertIn("live STOPS", r.stdout)
 
     def test_kufiri_i_forte_50_nuk_kalohet(self):
         k = rp.LiveKlient("http://127.0.0.1:1", "k", "m", 999, None)

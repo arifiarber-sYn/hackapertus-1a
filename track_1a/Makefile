@@ -1,8 +1,8 @@
 .PHONY: run run-local test
 
-# 'make run' — riprodhimi i gjetjeve te Track 1A.
-# Funksionon edhe vetiu (make -C track_1a run) edhe i deleguar nga Makefile i rrenjes
-# (Makefile i rrenjes shton Docker-in; ketu vetem python3 stdlib).
+# 'make run' — reproduction of the Track 1A findings.
+# Works both on its own (make -C track_1a run) and delegated from the root Makefile
+# (the root Makefile adds Docker; here python3 stdlib only).
 TRACK_DIR := $(dir $(realpath $(lastword $(MAKEFILE_LIST))))
 
 run run-local:
