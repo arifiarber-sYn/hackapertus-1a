@@ -41,7 +41,7 @@ answer with the same `krahaso()` and sets it against the recorded verdict
   longer comparable bit-for-bit.
 - **Hard limit ≤50 calls** per run (`--max-calls`, cannot be exceeded).
 - Every call is stored as a receipt (raw JSON, usage, fp, ms) in
-  `track_1a/out/live-<ts>.json` (outside git).
+  `track_1a/out/live-<ts>.json`.
 - Without `LLM_API_KEY` → falls back to replay with a warning, so that `make run`
   passes end-to-end even without a key.
 

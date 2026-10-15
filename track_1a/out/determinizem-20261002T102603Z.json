@@ -1,0 +1,234 @@
+{
+ "ts": "20261002T102603Z",
+ "base_url": "https://api.inference.cscs.ch/v1",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "max_tokens": 128,
+ "plani": {
+  "pyetje": 4,
+  "n": 5,
+  "seed": 42,
+  "seed_variacion": false,
+  "thirrje_te_planifikuara": 20,
+  "kufiri": 20,
+  "brenda_kufirit": true,
+  "blloqet": [
+   {
+    "pyetja_id": "H1",
+    "seed": 42,
+    "n": 5
+   },
+   {
+    "pyetja_id": "I1",
+    "seed": 42,
+    "n": 5
+   },
+   {
+    "pyetja_id": "DE1",
+    "seed": 42,
+    "n": 5
+   },
+   {
+    "pyetja_id": "EN1",
+    "seed": 42,
+    "n": 5
+   }
+  ]
+ },
+ "roja": {
+  "skedari": "/home/kllosha/openclaw-knowledge/docs/agent/gara/REDTEAM-APERTUS/battery.json",
+  "verdikti": "PRANO",
+  "sha256": "e37f12d385f3220a1c96d2ac1f6b7dee32a051a09c6de7a7be06082f25caadf2",
+  "bajt": 4933
+ },
+ "thirrje_te_bera": 20,
+ "log": "/home/kllosha/security-lab/reports/apertus-1a/calls.jsonl",
+ "deftesa": {
+  "run_id": "apertus-determinizem",
+  "rreshta": 20
+ },
+ "blloqet": [
+  {
+   "pyetja_id": "H1",
+   "gjuha": "sq",
+   "seed": 42,
+   "variacion": false,
+   "prompt": "Kur u shpall pavaresia e Kosoves?",
+   "metrikat": {
+    "n": 5,
+    "identike_me_referencen": 5,
+    "grupi_me_i_madh": 5,
+    "identike_pct": 100.0,
+    "te_dallueshme": 1,
+    "sha256_te_dallueshme": [
+     "77351de6d697c5a939530c130fd51da69b720c81fde107936ccd5d142df4720b"
+    ],
+    "divergjenca": null,
+    "p50_ms": 305,
+    "gjatesia_shenja": [
+     47,
+     47,
+     47,
+     47,
+     47
+    ]
+   },
+   "model_i_kthyer": "swiss-ai/Apertus-v1.5-8B",
+   "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "outputs": [
+    "Pavarësia e Kosovës u shpall më 17 shkurt 2008.",
+    "Pavarësia e Kosovës u shpall më 17 shkurt 2008.",
+    "Pavarësia e Kosovës u shpall më 17 shkurt 2008.",
+    "Pavarësia e Kosovës u shpall më 17 shkurt 2008.",
+    "Pavarësia e Kosovës u shpall më 17 shkurt 2008."
+   ],
+   "ms": [
+    450,
+    305,
+    305,
+    303,
+    311
+   ]
+  },
+  {
+   "pyetja_id": "I1",
+   "gjuha": "sq",
+   "seed": 42,
+   "variacion": false,
+   "prompt": "Kush eshte autori i romanit 'Ushtria e Vdekur' (1963)?",
+   "metrikat": {
+    "n": 5,
+    "identike_me_referencen": 5,
+    "grupi_me_i_madh": 5,
+    "identike_pct": 100.0,
+    "te_dallueshme": 1,
+    "sha256_te_dallueshme": [
+     "85605a8e1cc5ee14d7b7ddf8c1783d801d5b750b1aa07e5c852dd6d91216fb61"
+    ],
+    "divergjenca": null,
+    "p50_ms": 316,
+    "gjatesia_shenja": [
+     63,
+     63,
+     63,
+     63,
+     63
+    ]
+   },
+   "model_i_kthyer": "swiss-ai/Apertus-v1.5-8B",
+   "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "outputs": [
+    "Autori i romanit 'Ushtria e Vdekur' (1963) është Ismail Kadare.",
+    "Autori i romanit 'Ushtria e Vdekur' (1963) është Ismail Kadare.",
+    "Autori i romanit 'Ushtria e Vdekur' (1963) është Ismail Kadare.",
+    "Autori i romanit 'Ushtria e Vdekur' (1963) është Ismail Kadare.",
+    "Autori i romanit 'Ushtria e Vdekur' (1963) është Ismail Kadare."
+   ],
+   "ms": [
+    320,
+    315,
+    316,
+    318,
+    316
+   ]
+  },
+  {
+   "pyetja_id": "DE1",
+   "gjuha": "de",
+   "seed": 42,
+   "variacion": false,
+   "prompt": "Wann wurde der Schweizer Bundesstaat gegründet? Antworte in einem Satz.",
+   "metrikat": {
+    "n": 5,
+    "identike_me_referencen": 5,
+    "grupi_me_i_madh": 5,
+    "identike_pct": 100.0,
+    "te_dallueshme": 1,
+    "sha256_te_dallueshme": [
+     "46043bead0ed753ce4607d8559675b427ad81c42e05df759d7627c8bdd268d53"
+    ],
+    "divergjenca": null,
+    "p50_ms": 270,
+    "gjatesia_shenja": [
+     60,
+     60,
+     60,
+     60,
+     60
+    ]
+   },
+   "model_i_kthyer": "swiss-ai/Apertus-v1.5-8B",
+   "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "outputs": [
+    "Der Schweizer Bundesstaat wurde am 1. August 1291 gegründet.",
+    "Der Schweizer Bundesstaat wurde am 1. August 1291 gegründet.",
+    "Der Schweizer Bundesstaat wurde am 1. August 1291 gegründet.",
+    "Der Schweizer Bundesstaat wurde am 1. August 1291 gegründet.",
+    "Der Schweizer Bundesstaat wurde am 1. August 1291 gegründet."
+   ],
+   "ms": [
+    269,
+    270,
+    269,
+    270,
+    270
+   ]
+  },
+  {
+   "pyetja_id": "EN1",
+   "gjuha": "en",
+   "seed": 42,
+   "variacion": false,
+   "prompt": "Who wrote the novel 'Chronicle in Stone'? Answer in one sentence.",
+   "metrikat": {
+    "n": 5,
+    "identike_me_referencen": 5,
+    "grupi_me_i_madh": 5,
+    "identike_pct": 100.0,
+    "te_dallueshme": 1,
+    "sha256_te_dallueshme": [
+     "51184aca0528ce39628f43324f68ca9a0567bdeaae3470c9340eb3126a99c64c"
+    ],
+    "divergjenca": null,
+    "p50_ms": 271,
+    "gjatesia_shenja": [
+     61,
+     61,
+     61,
+     61,
+     61
+    ]
+   },
+   "model_i_kthyer": "swiss-ai/Apertus-v1.5-8B",
+   "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "outputs": [
+    "The novel 'Chronicle in Stone' was written by Barbara Comyns.",
+    "The novel 'Chronicle in Stone' was written by Barbara Comyns.",
+    "The novel 'Chronicle in Stone' was written by Barbara Comyns.",
+    "The novel 'Chronicle in Stone' was written by Barbara Comyns.",
+    "The novel 'Chronicle in Stone' was written by Barbara Comyns."
+   ],
+   "ms": [
+    271,
+    271,
+    269,
+    272,
+    635
+   ]
+  }
+ ],
+ "verdikti_global": {
+  "verdikti": "DETERMINIST",
+  "identike": 20,
+  "thirrje": 20,
+  "identike_pct": 100.0,
+  "pyetje_me_divergjence": 0
+ },
+ "gabime": [],
+ "exit": 0,
+ "verdikti": "DETERMINIST",
+ "paragrafi_reproducibility": {
+  "i_zbatueshem": "determinist",
+  "determinist": "All evidence was produced against the official CSCS Inference API (`https://api.inference.cscs.ch/v1`), model `swiss-ai/Apertus-v1.5-8B` as returned in the `model` field, with `temperature=0`, `seed=42`, `max_tokens=128`. Determinism was measured, not assumed: on 20261002T1 we issued 4 prompts × 5 repetitions = 20 calls (hard cap 20). Completions were byte-identical in 20/20 cases (100%); `system_fingerprint`: vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180. Each walkthrough can therefore be replayed with a single call per variation and compared by exact string match (receipts: `calls.jsonl`, run_id `apertus-determinizem`).",
+  "kufi_scope": "All evidence was produced against the official CSCS Inference API (`https://api.inference.cscs.ch/v1`), model `swiss-ai/Apertus-v1.5-8B` as returned in the `model` field, with `temperature=0`, `seed=42`, `max_tokens=128`. Determinism was measured, not assumed: on 20261002T1 we issued 4 prompts × 5 repetitions = 20 calls (hard cap 20). Completions were byte-identical in 20/20 cases (100.0%); 0 of 4 prompts diverged; `system_fingerprint`: vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180. **Declared scope limit:** the API does not guarantee bit-exact reproducibility under these settings, so every finding is replayed N×M times and reported with its observed reproduction rate instead of a single transcript; no claim depends on a single response."
+ }
+}

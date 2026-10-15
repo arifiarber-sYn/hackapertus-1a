@@ -1,0 +1,13 @@
+{
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+ "seed": 42,
+ "verdikti": "DETERMINIST",
+ "ts": "20261002T102603Z",
+ "identike": 20,
+ "thirrje": 20,
+ "burimi": "/home/kllosha/security-lab/reports/apertus-1a/determinizem-20261002T102603Z.json",
+ "sha256_burimi": "5f5c99da5919875032aef718541a04eb4e029fb86e33dc3c206fb39bd9b54c2c",
+ "krijuar": "2026-10-02T10:34:20+00:00",
+ "krijuar_nga": "cscs_fingerprint_guard.py referenca"
+}
