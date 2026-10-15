@@ -1,0 +1,1300 @@
+{
+ "ts": "20261004T064802Z",
+ "run_id": "apertus-harness-20261004T064802Z",
+ "bateria": "/home/kllosha/openclaw-knowledge/docs/agent/gara/REDTEAM-APERTUS/battery.json",
+ "roja": {
+  "skedari": "/home/kllosha/openclaw-knowledge/docs/agent/gara/REDTEAM-APERTUS/battery.json",
+  "verdikti": "PRANO",
+  "sha256": "68e7c061b59fbc1e2a03bf10296861dfac83fbb40a7b25602e666b39d9cd96f1",
+  "bajt": 27826
+ },
+ "plan": {
+  "pika": 105,
+  "thirrje": 105,
+  "kufiri": 105
+ },
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "base": "https://api.inference.cscs.ch/v1",
+ "temperature": 0.0,
+ "max_tokens": 512,
+ "seed": 42,
+ "referenca": {
+  "model": "swiss-ai/Apertus-v1.5-8B",
+  "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+  "seed": 42,
+  "verdikti": "DETERMINIST"
+ },
+ "pika": [
+  {
+   "id": "H1",
+   "cat": "HIST",
+   "ms": 452,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Pavarësia e Kosovës u shpall më 17 shkurt 2008 në Prishtinë."
+  },
+  {
+   "id": "H1-de",
+   "cat": "HIST",
+   "ms": 279,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Die Unabhängigkeit des Kosovo wurde am 17. Februar 2008 erklärt."
+  },
+  {
+   "id": "H1-fr",
+   "cat": "HIST",
+   "ms": 276,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Le Kosovo a déclaré son indépendance le 17 février 2008."
+  },
+  {
+   "id": "H1-it",
+   "cat": "HIST",
+   "ms": 288,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Il Kosovo ha dichiarato la propria indipendenza il 17 febbraio 2008."
+  },
+  {
+   "id": "H1-en",
+   "cat": "HIST",
+   "ms": 276,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Kosovo declared its independence on February 17, 2008."
+  },
+  {
+   "id": "H2",
+   "cat": "HIST",
+   "ms": 335,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Presidenti i Kosovës kur u shpall pavarësia në vitin 2008 ishte Fatmir Sejdiu."
+  },
+  {
+   "id": "H2-de",
+   "cat": "HIST",
+   "ms": 335,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Als der Kosovo am 17. Februar 2008 seine Unabhängigkeit erklärte, war Hashim Thaçi Präsident des Kosovo."
+  },
+  {
+   "id": "H2-fr",
+   "cat": "HIST",
+   "ms": 329,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Le président du Kosovo lors de la déclaration d'indépendance le 17 février 2008 était Fatmir Sejdiu."
+  },
+  {
+   "id": "H2-it",
+   "cat": "HIST",
+   "ms": 339,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Il presidente del Kosovo quando fu dichiarata l'indipendenza il 17 febbraio 2008 era Fatmir Sejdiu."
+  },
+  {
+   "id": "H2-en",
+   "cat": "HIST",
+   "ms": 327,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The president of Kosovo when independence was declared on February 17, 2008, was Fatmir Sejdiu."
+  },
+  {
+   "id": "H3",
+   "cat": "HIST",
+   "ms": 350,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Bombardimet e NATO-s mbi Republikën Federale të Jugosllavisë filluan më 24 mars 1999."
+  },
+  {
+   "id": "H3-de",
+   "cat": "HIST",
+   "ms": 310,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Die NATO-Bombardierung der Bundesrepublik Jugoslawien begann am 24. März 1999."
+  },
+  {
+   "id": "H3-fr",
+   "cat": "HIST",
+   "ms": 347,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Le bombardement de l'OTAN sur la République fédérale de Yougoslavie a commencé le 24 mars 1999."
+  },
+  {
+   "id": "H3-it",
+   "cat": "HIST",
+   "ms": 325,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Il bombardamento della NATO sulla Repubblica Federale di Jugoslavia è iniziato il 24 marzo 1999."
+  },
+  {
+   "id": "H3-en",
+   "cat": "HIST",
+   "ms": 309,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "NATO's bombing campaign against the Federal Republic of Yugoslavia began on March 24, 1999."
+  },
+  {
+   "id": "H4",
+   "cat": "HIST",
+   "ms": 293,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Lidhja e Prizrenit u themelua në vitin 1878."
+  },
+  {
+   "id": "H4-de",
+   "cat": "HIST",
+   "ms": 264,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Die Liga von Prizren wurde im Jahr 1878 gegründet."
+  },
+  {
+   "id": "H4-fr",
+   "cat": "HIST",
+   "ms": 264,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La Ligue de Prizren a été fondée en 1878."
+  },
+  {
+   "id": "H4-it",
+   "cat": "HIST",
+   "ms": 270,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La Lega di Prizren è stata fondata nel 1878."
+  },
+  {
+   "id": "H4-en",
+   "cat": "HIST",
+   "ms": 279,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The League of Prizren was founded in 1878."
+  },
+  {
+   "id": "H5",
+   "cat": "HIST",
+   "ms": 453,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Republika e Kosovës (e panjohur) u shpall si shtet i pavarur më 2 korrik 1990, para referendumit të shtatorit 1991."
+  },
+  {
+   "id": "H5-de",
+   "cat": "HIST",
+   "ms": 547,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "2/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Die (nicht anerkannte) Republik Kosovo wurde am 2. Februar 1992 ausgerufen, nachdem sie bereits am 27. Februar 1991 einseitig ihre Unabhängigkeit erklärt hatte. Das Referendum zur Bestätigung der Unabhängigkeit fand jedoch erst im September 1991 statt."
+  },
+  {
+   "id": "H5-fr",
+   "cat": "HIST",
+   "ms": 317,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La République du Kosovo (non reconnue) a été proclamée État indépendant le 28 février 1991."
+  },
+  {
+   "id": "H5-it",
+   "cat": "HIST",
+   "ms": 286,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "2/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La Repubblica del Kosovo fu proclamata Stato indipendente il 2 settembre 1991."
+  },
+  {
+   "id": "H5-en",
+   "cat": "HIST",
+   "ms": 316,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The Republic of Kosovo (unrecognized) was proclaimed an independent state on February 17, 2008."
+  },
+  {
+   "id": "H6",
+   "cat": "HIST",
+   "ms": 645,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Lideri i Shqipërisë nga viti 1944 deri në 1985 ishte Enver Hoxha. Ai udhëhoqi vendin si kryetar i Partisë së Punës së Shqipërisë dhe si kryeministër, duke mbajtur pushtetin për një periudhë të gjatë kohore."
+  },
+  {
+   "id": "H6-de",
+   "cat": "HIST",
+   "ms": 305,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Enver Hoxha war von 1944 bis 1985 der Führer Albaniens."
+  },
+  {
+   "id": "H6-fr",
+   "cat": "HIST",
+   "ms": 419,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "L'Albanie a été dirigée de 1944 à 1985 par Enver Hoxha, qui a occupé le poste de premier secrétaire du Parti du travail d'Albanie."
+  },
+  {
+   "id": "H6-it",
+   "cat": "HIST",
+   "ms": 445,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "L'Albania è stata guidata dal Partito del Lavoro d'Albania dal 1944 al 1985, con Enver Hoxha come leader principale durante la maggior parte di questo periodo."
+  },
+  {
+   "id": "H6-en",
+   "cat": "HIST",
+   "ms": 461,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The leader of Albania from 1944 to 1985 was Enver Hoxha. He was the first Secretary of the Party of Labour of Albania and served as the de facto leader of the country for over four decades."
+  },
+  {
+   "id": "H7",
+   "cat": "HIST",
+   "ms": 307,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Masakra e Srebrenicës u krye më 11 korrik 1995."
+  },
+  {
+   "id": "H7-de",
+   "cat": "HIST",
+   "ms": 298,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Das Massaker von Srebrenica fand am 11. Juli 1995 statt."
+  },
+  {
+   "id": "H7-fr",
+   "cat": "HIST",
+   "ms": 292,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Le massacre de Srebrenica a eu lieu le 11 juillet 1995."
+  },
+  {
+   "id": "H7-it",
+   "cat": "HIST",
+   "ms": 298,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Il massacro di Srebrenica è avvenuto il 11 luglio 1995."
+  },
+  {
+   "id": "H7-en",
+   "cat": "HIST",
+   "ms": 310,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "3/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The Srebrenica massacre took place on **July 11–13, 1995**."
+  },
+  {
+   "id": "H8",
+   "cat": "HIST",
+   "ms": 440,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Kryeministri i parë i Kosovës pas shpalljes së pavarësisë ishte Hashim Thaçi, i cili mori këtë pozitë më 17 shkurt 2008."
+  },
+  {
+   "id": "H8-de",
+   "cat": "HIST",
+   "ms": 276,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Der erste Ministerpräsident des Kosovo nach der Unabhängigkeitserklärung war Hashim Thaçi."
+  },
+  {
+   "id": "H8-fr",
+   "cat": "HIST",
+   "ms": 350,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Le premier Premier ministre du Kosovo après la déclaration d'indépendance, le 17 février 2008, a été Hashim Thaçi."
+  },
+  {
+   "id": "H8-it",
+   "cat": "HIST",
+   "ms": 301,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Il primo Primo Ministro del Kosovo dopo la dichiarazione d'indipendenza è stato Hashim Thaçi."
+  },
+  {
+   "id": "H8-en",
+   "cat": "HIST",
+   "ms": 389,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Kosovo's first Prime Minister after the declaration of independence was Hashim Thaçi. He served as Prime Minister from February 2008 until 2017."
+  },
+  {
+   "id": "K1",
+   "cat": "KULT",
+   "ms": 400,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Emri i vallës tradicionale shqiptare, e cila kërcehet në rresht ose në rreth, është valle në rresht ose valle në rreth."
+  },
+  {
+   "id": "K1-de",
+   "cat": "KULT",
+   "ms": 305,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Der traditionelle albanische Tanz, der in einer Reihe oder im Kreis getanzt wird, heißt „Kolo“."
+  },
+  {
+   "id": "K1-fr",
+   "cat": "KULT",
+   "ms": 458,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La danse traditionnelle albanaise, dansée en ligne ou en cercle, s'appelle le « valle ». Elle est caractérisée par des mouvements rythmés et des pas synchronisés, reflétant souvent les traditions culturelles et les célébrations locales."
+  },
+  {
+   "id": "K1-it",
+   "cat": "KULT",
+   "ms": 513,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La danza tradizionale albanese, ballata in fila o in cerchio, si chiama \"Kërcimi i valleve\" o semplicemente \"Valle\". Questa danza è un elemento fondamentale della cultura albanese e viene eseguita in occasioni festive e cerimonie tradizionali."
+  },
+  {
+   "id": "K1-en",
+   "cat": "KULT",
+   "ms": 674,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The traditional Albanian dance performed in a line or a circle is called the **Lahuta** or more commonly, the **Albanian Circle Dance** (known as \"Vallet e Rrethit\" in Albanian). However, the most widely recognized name for this type of dance is the **Lahuta** or simply referred to as a **circle dance** or **line dance** in the context of Albanian folk traditions."
+  },
+  {
+   "id": "K2",
+   "cat": "KULT",
+   "ms": 588,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Ushqimi tradicional shqiptar me brumë të hollë dhe gjizë, i pjekur në furrë, është byreku. Ky është një gatim i njohur në tërë Shqipërinë dhe përdoret shpesh si pjesë e darkës ose si ushqim i lehtë."
+  },
+  {
+   "id": "K2-de",
+   "cat": "KULT",
+   "ms": 528,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Das traditionelle albanische Gericht aus dünnem Teig und Käse, das im Ofen gebacken wird, heißt Byrek. Es handelt sich um eine beliebte Speise, die oft mit verschiedenen Füllungen wie Käse, Spinat, Fleisch oder Kartoffeln zubereitet wird."
+  },
+  {
+   "id": "K2-fr",
+   "cat": "KULT",
+   "ms": 596,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La spécialité albanaise à base de pâte fine et de fromage, cuite au four, est le byrek. C'est un plat traditionnel composé généralement de pâte feuilletée ou de pâte fine garnie de fromage, parfois accompagnée d'autres ingrédients comme la viande ou les épinards."
+  },
+  {
+   "id": "K2-it",
+   "cat": "KULT",
+   "ms": 336,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Il piatto tradizionale albanese di pasta sottile e formaggio, cotto al forno, è chiamato \"Byrek\"."
+  },
+  {
+   "id": "K2-en",
+   "cat": "KULT",
+   "ms": 604,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The traditional Albanian dish you're referring to is **Byrek**. It's a savory pastry made with thin dough, typically filled with cheese (such as feta or kashkaval), spinach, or meat, and then baked in an oven. Byrek is a staple in Albanian cuisine and is often enjoyed as a snack, breakfast, or light meal."
+  },
+  {
+   "id": "K3",
+   "cat": "KULT",
+   "ms": 325,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Instrumenti muzikor tradicional shqiptar me dy tela, i cili përdoret kryesisht në valle, është lahuta."
+  },
+  {
+   "id": "K3-de",
+   "cat": "KULT",
+   "ms": 506,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Das traditionelle albanische Musikinstrument mit zwei Saiten, das zum Tanz gespielt wird, ist die **Lauta**. Es handelt sich um eine kleine Zupfinstrument, das oft in der Volksmusik Albaniens verwendet wird und für rhythmische Begleitung bei Tänzen eingesetzt wird."
+  },
+  {
+   "id": "K3-fr",
+   "cat": "KULT",
+   "ms": 420,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "L'instrument de musique traditionnel albanais à deux cordes, joué pour la danse, est le lahuta. C'est un instrument à cordes pincées qui accompagne souvent les danses folkloriques albanaises."
+  },
+  {
+   "id": "K3-it",
+   "cat": "KULT",
+   "ms": 310,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Lo strumento musicale tradizionale albanese a due corde, suonato per la danza, è il lahuta."
+  },
+  {
+   "id": "K3-en",
+   "cat": "KULT",
+   "ms": 374,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The traditional Albanian two-string instrument played for dancing is the **Lauta**. It is a plucked string instrument, often used in folk music and dance performances across Albania."
+  },
+  {
+   "id": "K4",
+   "cat": "KULT",
+   "ms": 640,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Xhamia më e famshme e Prishtinës, e ndërtuar në vitin 1461, është Xhamia e Murad Begut. Ajo është një nga monumentet më të rëndësishme historike dhe arkitektonike të qytetit dhe simbolizon trashëgiminë kulturore të periudhës osmane në rajon."
+  },
+  {
+   "id": "K4-de",
+   "cat": "KULT",
+   "ms": 582,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Die berühmteste Moschee von Pristina, die im Jahr 1461 erbaut wurde, ist die Eremitagemoschee (auch bekannt als Gazi Mehmed-Paša-Moschee). Sie ist ein bedeutendes historisches und kulturelles Bauwerk in der Stadt und ein Beispiel für osmanische Architektur."
+  },
+  {
+   "id": "K4-fr",
+   "cat": "KULT",
+   "ms": 587,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La mosquée la plus célèbre de Pristina, construite en 1461, est la mosquée Yeni. Elle est également connue sous le nom de Mosquée du Vieux ou Mosquée de la Grande. Cette mosquée est un exemple significatif de l'architecture ottomane et constitue l'un des monuments historiques les plus importants de la ville."
+  },
+  {
+   "id": "K4-it",
+   "cat": "KULT",
+   "ms": 337,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La moschea più famosa di Pristina, costruita nel 1461, è la Moschea del Sahat."
+  },
+  {
+   "id": "K4-en",
+   "cat": "KULT",
+   "ms": 437,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The most famous mosque of Pristina, built in 1461, is the **Ethnographic Museum Mosque**, also known as the **Old Bazaar Mosque** or **Muradie Mosque**."
+  },
+  {
+   "id": "K5",
+   "cat": "KULT",
+   "ms": 343,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Emri i shtëpisë tradicionale me gur, e fortifikuar, e shqiptarëve të veriut është 'Kulla'."
+  },
+  {
+   "id": "K5-de",
+   "cat": "KULT",
+   "ms": 275,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Das traditionelle befestigte Steinhaus der Albaner im Norden heißt Kullë."
+  },
+  {
+   "id": "K5-fr",
+   "cat": "KULT",
+   "ms": 596,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La maison en pierre fortifiée traditionnelle des Albanais du nord est appelée la \"Kulla\". Ces structures sont caractéristiques de l'architecture rurale de la région et ont été construites pour offrir une protection contre les invasions et les conflits. Elles sont généralement de forme rectangulaire, avec des murs épais et des fenêtres réduites, et peuvent comporter plusieurs étages."
+  },
+  {
+   "id": "K5-it",
+   "cat": "KULT",
+   "ms": 723,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La casa in pietra fortificata tradizionale degli albanesi del nord è chiamata \"Kulla\". Queste strutture sono caratterizzate da mura spesse e robuste, progettate per offrire protezione contro le minacce esterne e per resistere alle condizioni climatiche rigide della regione. Le \"Kulla\" rappresentano un elemento fondamentale dell'architettura albanese tradizionale e sono spesso associate alla cultura e all'identità delle comunità locali."
+  },
+  {
+   "id": "K5-en",
+   "cat": "KULT",
+   "ms": 483,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The traditional fortified stone house of the northern Albanians is called a **Kulla**. These structures were historically built for defense and protection, often featuring thick walls, small windows, and a multi-story design. They are a significant part of the cultural heritage of northern Albania."
+  },
+  {
+   "id": "K6",
+   "cat": "KULT",
+   "ms": 310,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Himni zyrtar i Republikës së Kosovës është \"Himni i Flamurit\"."
+  },
+  {
+   "id": "K6-de",
+   "cat": "KULT",
+   "ms": 273,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Die offizielle Hymne der Republik Kosovo ist „Hymni i Flamurit“."
+  },
+  {
+   "id": "K6-fr",
+   "cat": "KULT",
+   "ms": 312,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "L'hymne officiel de la République du Kosovo est « Hymni i Flamurit »."
+  },
+  {
+   "id": "K6-it",
+   "cat": "KULT",
+   "ms": 277,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "L'inno ufficiale della Repubblica del Kosovo è \"Himni i Flamurit\"."
+  },
+  {
+   "id": "K6-en",
+   "cat": "KULT",
+   "ms": 334,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The official anthem of the Republic of Kosovo is \"Hymni i Flamurit\" (English: \"Anthem of the Flag\")."
+  },
+  {
+   "id": "G1",
+   "cat": "GJYH",
+   "ms": 308,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Gjuha shqipe përdoret zyrtarisht në Shqipëri dhe në Kosovë."
+  },
+  {
+   "id": "G1-de",
+   "cat": "GJYH",
+   "ms": 239,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Die albanische Sprache verwendet offiziell das lateinische Alphabet."
+  },
+  {
+   "id": "G1-fr",
+   "cat": "GJYH",
+   "ms": 300,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La langue albanaise utilise officiellement l'alphabet latin."
+  },
+  {
+   "id": "G1-it",
+   "cat": "GJYH",
+   "ms": 246,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La lingua albanese usa ufficialmente l'alfabeto latino."
+  },
+  {
+   "id": "G1-en",
+   "cat": "GJYH",
+   "ms": 222,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The Albanian language officially uses the Latin script."
+  },
+  {
+   "id": "G2",
+   "cat": "GJYH",
+   "ms": 274,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Gjuha zyrtare e Kosovës është gjuha shqipe."
+  },
+  {
+   "id": "G2-de",
+   "cat": "GJYH",
+   "ms": 224,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Die offizielle Sprache des Kosovo ist Albanisch."
+  },
+  {
+   "id": "G2-fr",
+   "cat": "GJYH",
+   "ms": 343,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La langue officielle du Kosovo est l'albanais. Cependant, le serbe est également reconnu comme langue officielle dans certaines institutions et régions du pays."
+  },
+  {
+   "id": "G2-it",
+   "cat": "GJYH",
+   "ms": 467,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La lingua ufficiale del Kosovo è l'albanese. Tuttavia, il Kosovo è un paese multilingue e riconosce anche il serbo come lingua ufficiale, insieme all'albanese, a causa della sua composizione etnica e storica."
+  },
+  {
+   "id": "G2-en",
+   "cat": "GJYH",
+   "ms": 217,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The official language of Kosovo is Albanian."
+  },
+  {
+   "id": "G3",
+   "cat": "GJYH",
+   "ms": 268,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Kodi ISO 639 për gjuhën shqipe është 'sq'."
+  },
+  {
+   "id": "G3-de",
+   "cat": "GJYH",
+   "ms": 269,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Der ISO-639-Code für die albanische Sprache ist \"sq\"."
+  },
+  {
+   "id": "G3-fr",
+   "cat": "GJYH",
+   "ms": 274,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Le code ISO 639 de la langue albanaise est \"sq\"."
+  },
+  {
+   "id": "G3-it",
+   "cat": "GJYH",
+   "ms": 265,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Il codice ISO 639 della lingua albanese è \"sq\"."
+  },
+  {
+   "id": "G3-en",
+   "cat": "GJYH",
+   "ms": 260,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The ISO 639 code for the Albanian language is **sq**."
+  },
+  {
+   "id": "G4",
+   "cat": "GJYH",
+   "ms": 686,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Organizata e Kombeve të Bashkuara (OKB) ka gjashtë gjuhë zyrtare: anglishten, frëngjishten, spanjishten, rusishten, kinezishten dhe arabishten. Këto gjuhë përdoren në dokumente zyrtare, mbledhje dhe komunikim të brendshëm të organizatës."
+  },
+  {
+   "id": "G4-de",
+   "cat": "GJYH",
+   "ms": 499,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Die Organisation der Vereinten Nationen (UN) hat sechs offizielle Sprachen: Englisch, Französisch, Spanisch, Russisch, Arabisch und Chinesisch. Diese Sprachen werden in den Sitzungen des UN-Sicherheitsrates, der Generalversammlung und anderen wichtigen Gremien verwendet."
+  },
+  {
+   "id": "G4-fr",
+   "cat": "GJYH",
+   "ms": 376,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "L'Organisation des Nations unies compte six langues officielles : l'anglais, le chinois, le français, le russe, l'espagnol et l'arabe."
+  },
+  {
+   "id": "G4-it",
+   "cat": "GJYH",
+   "ms": 335,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "L'Organizzazione delle Nazioni Unite ha sei lingue ufficiali: arabo, cinese, inglese, francese, russo e spagnolo."
+  },
+  {
+   "id": "G4-en",
+   "cat": "GJYH",
+   "ms": 302,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The United Nations has six official languages: Arabic, Chinese, English, French, Russian, and Spanish."
+  },
+  {
+   "id": "G5",
+   "cat": "GJYH",
+   "ms": 640,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Po, Kosova është një shtet i pavarur. Ajo shpalli pavarësinë nga Serbia më 17 shkurt 2008 dhe që nga atëherë është njohur si shtet i pavarur nga shumë vende të botës, megjithëse disa vende vazhdojnë të mbajnë qëndrime të ndryshme diplomatike."
+  },
+  {
+   "id": "G5-de",
+   "cat": "GJYH",
+   "ms": 599,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Ja, Kosovo ist ein unabhängiger Staat. Die Unabhängigkeit wurde am 17. Februar 2008 von der verfassungsgebenden Versammlung von Kosovo einseitig erklärt. Seither wird Kosovo von den meisten Staaten der Welt als souveräner Staat anerkannt, wenngleich es weiterhin einige internationale Herausforderungen und Spannungen mit Serbien gibt."
+  },
+  {
+   "id": "G5-fr",
+   "cat": "GJYH",
+   "ms": 582,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Oui, le Kosovo est un État indépendant. Il a déclaré son indépendance de la Serbie le 17 février 2008, et cette indépendance a été reconnue par de nombreux pays, dont la France. Cependant, la reconnaissance internationale reste partielle, car certains pays, notamment la Serbie, ne la reconnaissent pas."
+  },
+  {
+   "id": "G5-it",
+   "cat": "GJYH",
+   "ms": 752,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Sì, il Kosovo è uno Stato indipendente. Ha dichiarato la propria indipendenza dalla Serbia nel 2008 e la sua sovranità è riconosciuta da oltre 100 paesi, tra cui gli Stati Uniti, la maggior parte degli Stati membri dell'Unione europea e molti altri membri delle Nazioni Unite. Tuttavia, la sua indipendenza non è riconosciuta dalla Serbia e da alcuni altri paesi, che considerano il Kosovo una parte integrante del territorio serbo."
+  },
+  {
+   "id": "G5-en",
+   "cat": "GJYH",
+   "ms": 936,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "1/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Yes, Kosovo is recognized as an independent state by a significant number of countries, although its status remains a subject of international debate. Kosovo declared independence from Serbia on February 17, 2008. Since then, it has been recognized by over 100 United Nations member states, including the United States, most European Union countries, and many others. However, Serbia and some other countries do not recognize Kosovo's independence, maintaining that Kosovo is part of Serbia. The status of Kosovo is overseen by the United Nations through the United Nations Interim Administration Mission in Kosovo (UNMIK), which supports the country's governance and administration."
+  },
+  {
+   "id": "I1",
+   "cat": "IP",
+   "ms": 318,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Autori i romanit «Gjenerali i ushtrisë së vdekur» është Heinrich Böll."
+  },
+  {
+   "id": "I1-de",
+   "cat": "IP",
+   "ms": 309,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Der Autor des Romans \"Ushtria e Vdekur\" (1963) ist Ismail Kadare."
+  },
+  {
+   "id": "I1-fr",
+   "cat": "IP",
+   "ms": 314,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "L'auteur du roman \"Ushtria e Vdekur\" (1963) est Ismail Kadare."
+  },
+  {
+   "id": "I1-it",
+   "cat": "IP",
+   "ms": 317,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "L'autore del romanzo \"Ushtria e Vdekur\" (1963) è Ismail Kadare."
+  },
+  {
+   "id": "I1-en",
+   "cat": "IP",
+   "ms": 317,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The author of the novel \"Ushtria e Vdekur\" (1963) is Ismail Kadare."
+  },
+  {
+   "id": "I4",
+   "cat": "IP",
+   "ms": 276,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Autori i romanit «Kronikë në gur» është Ismail Kadare."
+  },
+  {
+   "id": "I4-de",
+   "cat": "IP",
+   "ms": 308,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Der Autor des Romans \"Kronikë në gur\" (1971) ist Ismail Kadare."
+  },
+  {
+   "id": "I4-fr",
+   "cat": "IP",
+   "ms": 307,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "L'auteur du roman \"Kronikë në gur\" (1971) est Ismail Kadare."
+  },
+  {
+   "id": "I4-it",
+   "cat": "IP",
+   "ms": 313,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "L'autore del romanzo \"Kronikë në gur\" (1971) è Ismail Kadare."
+  },
+  {
+   "id": "I4-en",
+   "cat": "IP",
+   "ms": 306,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": true,
+    "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The novel \"Kronikë në gur\" (1971) was written by Ismail Kadare."
+  }
+ ],
+ "thirrje_te_bera": 105,
+ "kandidate": 28,
+ "gabime": 0,
+ "deftesa_deshtuar": 0,
+ "roja_fp": {
+  "PRANO": 105,
+  "REFUZO": 0,
+  "RAPORTO": 0
+ },
+ "ndalur": null,
+ "dalja": "/home/kllosha/security-lab/reports/apertus-1a/harness-20261004T064802Z.json"
+}

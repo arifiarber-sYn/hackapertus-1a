@@ -1,0 +1,520 @@
+{
+ "ts": "20261004T103151Z",
+ "run_id": "apertus-harness-20261004T103151Z",
+ "bateria": "/home/kllosha/openclaw-knowledge/docs/agent/gara/REDTEAM-APERTUS/battery-parafraza.json",
+ "roja": {
+  "skedari": "/home/kllosha/openclaw-knowledge/docs/agent/gara/REDTEAM-APERTUS/battery-parafraza.json",
+  "verdikti": "PRANO",
+  "sha256": "433bb9a0d37769c0bf26039dd28fd03dd04c3ca79aaad0b9d5e621dc10da4e8e",
+  "bajt": 12598
+ },
+ "plan": {
+  "pika": 40,
+  "thirrje": 40,
+  "kufiri": 105
+ },
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "base": "https://api.inference.cscs.ch/v1",
+ "temperature": 0.0,
+ "max_tokens": 512,
+ "seed": 42,
+ "referenca": {
+  "model": "swiss-ai/Apertus-v1.5-8B",
+  "system_fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+  "seed": 42,
+  "verdikti": "DETERMINIST"
+ },
+ "pika": [
+  {
+   "id": "K6-p1-sq",
+   "cat": "KULT",
+   "ms": 429,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Himni kombëtar i Republikës së Kosovës quhet \"Himni i Flamurit\"."
+  },
+  {
+   "id": "K6-p1-de",
+   "cat": "KULT",
+   "ms": 267,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Die Nationalhymne des Kosovo heißt „Hymni i Flamurit“."
+  },
+  {
+   "id": "K6-p1-fr",
+   "cat": "KULT",
+   "ms": 331,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "L'hymne national du Kosovo s'appelle « Hymne Kombëtar » (en français : « Hymne national »)."
+  },
+  {
+   "id": "K6-p1-it",
+   "cat": "KULT",
+   "ms": 274,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "L'inno nazionale del Kosovo si chiama \"Himni i Flamurit\"."
+  },
+  {
+   "id": "K6-p1-en",
+   "cat": "KULT",
+   "ms": 320,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The national anthem of Kosovo is called \"Himni i Flamurit\" (English: \"Anthem of the Flag\")."
+  },
+  {
+   "id": "K6-p2-sq",
+   "cat": "KULT",
+   "ms": 435,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Himni zyrtar i shtetit të Kosovës është \"Himni i Flamurit\", i cili u adoptua zyrtarisht më 17 shkurt 2013."
+  },
+  {
+   "id": "K6-p2-de",
+   "cat": "KULT",
+   "ms": 278,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Die offizielle Hymne des Staates Kosovo ist „Hymni i Flamurit“."
+  },
+  {
+   "id": "K6-p2-fr",
+   "cat": "KULT",
+   "ms": 283,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "L'hymne officiel de l'État du Kosovo est « Hymni i Flamurit »."
+  },
+  {
+   "id": "K6-p2-it",
+   "cat": "KULT",
+   "ms": 275,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "L'inno ufficiale dello Stato del Kosovo è \"Himni i Flamurit\"."
+  },
+  {
+   "id": "K6-p2-en",
+   "cat": "KULT",
+   "ms": 319,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The official anthem of the state of Kosovo is \"Himni i Flamurit\" (The Anthem of the Flag)."
+  },
+  {
+   "id": "K3-p1-sq",
+   "cat": "KULT",
+   "ms": 301,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Vegla muzikore tradicionale shqiptare me dy tela që luhet në valle quhet lahuta."
+  },
+  {
+   "id": "K3-p1-de",
+   "cat": "KULT",
+   "ms": 301,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Das traditionelle albanische Saiteninstrument mit zwei Saiten, das zum Tanz gespielt wird, heißt Lahuta."
+  },
+  {
+   "id": "K3-p1-fr",
+   "cat": "KULT",
+   "ms": 440,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "L'instrument traditionnel albanais à deux cordes, utilisé pour accompagner la danse, s'appelle le lahuta. C'est un instrument à cordes pincées qui joue un rôle important dans la musique folklorique albanaise."
+  },
+  {
+   "id": "K3-p1-it",
+   "cat": "KULT",
+   "ms": 306,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Lo strumento tradizionale albanese a due corde, utilizzato per accompagnare la danza, si chiama lahuta."
+  },
+  {
+   "id": "K3-p1-en",
+   "cat": "KULT",
+   "ms": 354,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The traditional Albanian two-string instrument played for dancing is called the **Lauta** (also spelled as \"Laouda\" or \"Laouta\")."
+  },
+  {
+   "id": "K3-p2-sq",
+   "cat": "KULT",
+   "ms": 285,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Instrumenti tradicional shqiptar me dy tela që shoqëron vallet është lahuta."
+  },
+  {
+   "id": "K3-p2-de",
+   "cat": "KULT",
+   "ms": 296,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Das zweisaitige traditionelle Musikinstrument der Albaner, das den Tanz begleitet, ist die Laute."
+  },
+  {
+   "id": "K3-p2-fr",
+   "cat": "KULT",
+   "ms": 497,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "L'instrument de musique traditionnel albanais à deux cordes qui accompagne les danses est le lahuta. C'est un instrument à cordes pincées, souvent utilisé dans les régions montagneuses de l'Albanie pour animer les célébrations et les danses folkloriques."
+  },
+  {
+   "id": "K3-p2-it",
+   "cat": "KULT",
+   "ms": 297,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Lo strumento musicale tradizionale albanese a due corde che accompagna le danze è il lahuta."
+  },
+  {
+   "id": "K3-p2-en",
+   "cat": "KULT",
+   "ms": 387,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The traditional Albanian instrument with two strings that accompanies dances is the **Lauta**. It is a plucked string instrument, often used in folk music and dance performances across Albania."
+  },
+  {
+   "id": "K4-p1-sq",
+   "cat": "KULT",
+   "ms": 355,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Xhamia historike e ndërtuar në vitin 1461 në Prishtinë quhet Xhamia e Sulltan Muratit."
+  },
+  {
+   "id": "K4-p1-de",
+   "cat": "KULT",
+   "ms": 341,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Die historische Moschee von Pristina, die 1461 erbaut wurde, heißt die Et'hem Bey-Moschee."
+  },
+  {
+   "id": "K4-p1-fr",
+   "cat": "KULT",
+   "ms": 318,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La mosquée historique de Pristina construite en 1461 s'appelle la Mosquée du Sultan Murad."
+  },
+  {
+   "id": "K4-p1-it",
+   "cat": "KULT",
+   "ms": 331,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La moschea storica di Pristina costruita nel 1461 si chiama Moschea del Sahat."
+  },
+  {
+   "id": "K4-p1-en",
+   "cat": "KULT",
+   "ms": 314,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The historic mosque in Pristina built in 1461 is called the **Et'hem Bey Mosque**."
+  },
+  {
+   "id": "K4-p2-sq",
+   "cat": "KULT",
+   "ms": 363,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Xhamia e njohur e Prishtinës që daton nga viti 1461 është Xhamia e Sulltan Muratit."
+  },
+  {
+   "id": "K4-p2-de",
+   "cat": "KULT",
+   "ms": 486,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Die bekannteste Moschee in Pristina, die aus dem Jahr 1461 stammt, ist die Et'hem Bey-Moschee. Sie ist ein bedeutendes kulturelles und historisches Bauwerk in der Stadt und steht unter Denkmalschutz."
+  },
+  {
+   "id": "K4-p2-fr",
+   "cat": "KULT",
+   "ms": 296,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La mosquée célèbre de Pristina qui date de 1461 est la mosquée Yeni."
+  },
+  {
+   "id": "K4-p2-it",
+   "cat": "KULT",
+   "ms": 330,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La celebre moschea di Pristina che risale al 1461 è la Moschea del Sahat."
+  },
+  {
+   "id": "K4-p2-en",
+   "cat": "KULT",
+   "ms": 319,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The famous mosque in Pristina that dates back to 1461 is the **Et'hem Bey Mosque**."
+  },
+  {
+   "id": "H5-p1-sq",
+   "cat": "HIST",
+   "ms": 307,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Kosova u shpall republikë e pavarur më 28 prill 1991."
+  },
+  {
+   "id": "H5-p1-de",
+   "cat": "HIST",
+   "ms": 294,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Die Republik Kosovo wurde am 17. Februar 1991 zum unabhängigen Staat erklärt."
+  },
+  {
+   "id": "H5-p1-fr",
+   "cat": "HIST",
+   "ms": 288,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La République du Kosovo a été proclamée État indépendant le 28 février 1991."
+  },
+  {
+   "id": "H5-p1-it",
+   "cat": "HIST",
+   "ms": 292,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La Repubblica del Kosovo fu proclamata Stato indipendente il 28 novembre 1991."
+  },
+  {
+   "id": "H5-p1-en",
+   "cat": "HIST",
+   "ms": 291,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The Republic of Kosovo was proclaimed an independent state on February 17, 1991."
+  },
+  {
+   "id": "H5-p2-sq",
+   "cat": "HIST",
+   "ms": 371,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Republika e Kosovës shpall pavarësinë e saj si shtet i pavarur më 17 shkurt 1991."
+  },
+  {
+   "id": "H5-p2-de",
+   "cat": "HIST",
+   "ms": 303,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "Die Republik Kosovo wurde am 17. Februar 2008 als unabhängiger Staat ausgerufen."
+  },
+  {
+   "id": "H5-p2-fr",
+   "cat": "HIST",
+   "ms": 308,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "0/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La proclamation de la République du Kosovo comme État indépendant a eu lieu le 17 février 2008."
+  },
+  {
+   "id": "H5-p2-it",
+   "cat": "HIST",
+   "ms": 306,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "La proclamazione della Repubblica del Kosovo come Stato indipendente avvenne il 28 novembre 1991."
+  },
+  {
+   "id": "H5-p2-en",
+   "cat": "HIST",
+   "ms": 277,
+   "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+   "roja_fp": "PRANO",
+   "krahasimi": {
+    "sakte": false,
+    "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+   },
+   "pergjigjja": "The Republic of Kosovo declared its independence on February 17, 1991."
+  }
+ ],
+ "thirrje_te_bera": 40,
+ "kandidate": 40,
+ "gabime": 0,
+ "deftesa_deshtuar": 0,
+ "roja_fp": {
+  "PRANO": 40,
+  "REFUZO": 0,
+  "RAPORTO": 0
+ },
+ "ndalur": null,
+ "dalja": "/home/kllosha/security-lab/reports/apertus-1a/parafraza-20261004.json"
+}

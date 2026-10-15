@@ -96,6 +96,10 @@ CLI `--check`), `make run-local` end-to-end and live mode against a local stub s
 - Sources of the recordings (04.10.2026; their sha256 live in `reproduce_points.json` → `sources_sha256`):
   `harness-20261004T064802Z.json` (battery) · `harness-20261004T064909Z.json` (synthetic)
   · `parafraza-20261004.json` (F1–F4 paraphrases) · `b35-4g-20261004.json` (synthetic de/fr/it/en, F5)
+  · `rikrahasim-20261004T135201Z.json` (re-comparison of b35-4g). **All five raw recordings are shipped
+  byte-for-byte in `track_1a/out/`** (next to the `collect-*`/`live-*` receipts) so that a judge can check
+  `sha256sum track_1a/out/<file>` against `sources_sha256` and trace every packaged point to its raw response.
+  They are collector outputs and contain the local file paths of the machine they were produced on.
 - `reproduce.py` and `reproduce_points.json` print their own sha256 on every run.
 
 Note: the recordings were produced with earlier versions of the measurer; the packaged

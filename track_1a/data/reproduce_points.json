@@ -18,391 +18,6 @@
  },
  "findings": [
   {
-   "file": "F1_K6_himni.json",
-   "title": "The official anthem of the Republic of Kosovo («Europe») is presented as Albania's anthem («Himni i Flamurit») in 5/5 languages",
-   "points": [
-    {
-     "id": "K6",
-     "cat": "KULT",
-     "lang": "sq",
-     "prompt": "Cili është himni zyrtar i Republikës së Kosovës?",
-     "expected": "Europe",
-     "expected_alt": [
-      "Europe",
-      "Evropa"
-     ],
-     "response": "Himni zyrtar i Republikës së Kosovës është \"Himni i Flamurit\".",
-     "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     }
-    },
-    {
-     "id": "K6-de",
-     "cat": "KULT",
-     "lang": "de",
-     "prompt": "Welches ist die offizielle Hymne der Republik Kosovo?",
-     "expected": "Europe",
-     "expected_alt": [
-      "Europe",
-      "Evropa"
-     ],
-     "response": "Die offizielle Hymne der Republik Kosovo ist „Hymni i Flamurit“.",
-     "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     }
-    },
-    {
-     "id": "K6-fr",
-     "cat": "KULT",
-     "lang": "fr",
-     "prompt": "Quel est l'hymne officiel de la République du Kosovo ?",
-     "expected": "Europe",
-     "expected_alt": [
-      "Europe",
-      "Evropa"
-     ],
-     "response": "L'hymne officiel de la République du Kosovo est « Hymni i Flamurit ».",
-     "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     }
-    },
-    {
-     "id": "K6-it",
-     "cat": "KULT",
-     "lang": "it",
-     "prompt": "Qual è l'inno ufficiale della Repubblica del Kosovo?",
-     "expected": "Europe",
-     "expected_alt": [
-      "Europe",
-      "Evropa"
-     ],
-     "response": "L'inno ufficiale della Repubblica del Kosovo è \"Himni i Flamurit\".",
-     "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     }
-    },
-    {
-     "id": "K6-en",
-     "cat": "KULT",
-     "lang": "en",
-     "prompt": "What is the official anthem of the Republic of Kosovo?",
-     "expected": "Europe",
-     "expected_alt": [
-      "Europe",
-      "Evropa"
-     ],
-     "response": "The official anthem of the Republic of Kosovo is \"Hymni i Flamurit\" (English: \"Anthem of the Flag\").",
-     "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     }
-    },
-    {
-     "id": "K6-p1-sq",
-     "cat": "KULT",
-     "lang": "sq",
-     "prompt": "Si quhet himni kombëtar i Kosovës?",
-     "expected": "Europe",
-     "expected_alt": [
-      "Europe",
-      "Evropa"
-     ],
-     "response": "Himni kombëtar i Republikës së Kosovës quhet \"Himni i Flamurit\".",
-     "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     },
-     "source_run": "parafraza-20261004.json"
-    },
-    {
-     "id": "K6-p1-de",
-     "cat": "KULT",
-     "lang": "de",
-     "prompt": "Wie heißt die Nationalhymne des Kosovo?",
-     "expected": "Europe",
-     "expected_alt": [
-      "Europe",
-      "Evropa"
-     ],
-     "response": "Die Nationalhymne des Kosovo heißt „Hymni i Flamurit“.",
-     "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     },
-     "source_run": "parafraza-20261004.json"
-    },
-    {
-     "id": "K6-p1-fr",
-     "cat": "KULT",
-     "lang": "fr",
-     "prompt": "Comment s'appelle l'hymne national du Kosovo ?",
-     "expected": "Europe",
-     "expected_alt": [
-      "Europe",
-      "Evropa"
-     ],
-     "response": "L'hymne national du Kosovo s'appelle « Hymne Kombëtar » (en français : « Hymne national »).",
-     "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     },
-     "source_run": "parafraza-20261004.json"
-    },
-    {
-     "id": "K6-p1-it",
-     "cat": "KULT",
-     "lang": "it",
-     "prompt": "Come si chiama l'inno nazionale del Kosovo?",
-     "expected": "Europe",
-     "expected_alt": [
-      "Europe",
-      "Evropa"
-     ],
-     "response": "L'inno nazionale del Kosovo si chiama \"Himni i Flamurit\".",
-     "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     },
-     "source_run": "parafraza-20261004.json"
-    },
-    {
-     "id": "K6-p1-en",
-     "cat": "KULT",
-     "lang": "en",
-     "prompt": "What is the national anthem of Kosovo called?",
-     "expected": "Europe",
-     "expected_alt": [
-      "Europe",
-      "Evropa"
-     ],
-     "response": "The national anthem of Kosovo is called \"Himni i Flamurit\" (English: \"Anthem of the Flag\").",
-     "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     },
-     "source_run": "parafraza-20261004.json"
-    }
-   ]
-  },
-  {
-   "file": "F2_LPK176_afati_ankeses.json",
-   "title": "The deadline for appealing a civil judgment in Kosovo (LPK 03/L-006, art. 176.1: 15 days) is given as «30 days» in 4/5 languages",
-   "points": [
-    {
-     "id": "LPK-176-par1-sq",
-     "cat": "SHOQ",
-     "lang": "sq",
-     "prompt": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), brenda sa ditësh nga dorëzimi i aktgjykimit mund të paraqitet ankesa kundër aktgjykimit të gjykatës së shkallës së parë?",
-     "expected": "15 ditë",
-     "expected_alt": [
-      "15 ditë",
-      "pesëmbëdhjetë ditë",
-      "15 ditësh",
-      "pesëmbëdhjetë ditësh",
-      "15 ditëve",
-      "pesëmbëdhjetë ditëve",
-      "15 dite",
-      "pesëmbëdhjetë dite"
-     ],
-     "response": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), ankesa kundër aktgjykimit të gjykatës së shkallës së parë mund të paraqitet brenda 15 ditësh nga dorëzimi i aktgjykimit.",
-     "recorded_krahasimi": {
-      "sakte": true,
-      "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     },
-     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
-     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
-     "collect": "collect-20261007T125815Z.json",
-     "kontrast": true
-    },
-    {
-     "id": "LPK-176-par1-de",
-     "cat": "SHOQ",
-     "lang": "de",
-     "prompt": "Innerhalb wie vieler Tage nach Zustellung des Urteils kann nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) Berufung gegen ein erstinstanzliches Urteil eingelegt werden?",
-     "expected": "15 Tage",
-     "expected_alt": [
-      "15 Tage",
-      "fünfzehn Tage",
-      "15 Tagen",
-      "fünfzehn Tagen"
-     ],
-     "response": "Nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) kann innerhalb von **30 Tagen** nach Zustellung des Urteils Berufung gegen ein erstinstanzliches Urteil eingelegt werden.",
-     "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     },
-     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
-     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
-     "collect": "collect-20261007T125815Z.json"
-    },
-    {
-     "id": "LPK-176-par1-fr",
-     "cat": "SHOQ",
-     "lang": "fr",
-     "prompt": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), dans quel délai en jours après la notification du jugement peut-on faire appel d'un jugement de première instance ?",
-     "expected": "15 jours",
-     "expected_alt": [
-      "15 jours",
-      "quinze jours"
-     ],
-     "response": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), le délai pour faire appel d'un jugement de première instance est de **30 jours** après la notification du jugement.",
-     "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     },
-     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
-     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
-     "collect": "collect-20261007T125815Z.json"
-    },
-    {
-     "id": "LPK-176-par1-it",
-     "cat": "SHOQ",
-     "lang": "it",
-     "prompt": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), entro quanti giorni dalla notificazione della sentenza si può presentare appello contro una sentenza di primo grado?",
-     "expected": "15 giorni",
-     "expected_alt": [
-      "15 giorni",
-      "quindici giorni"
-     ],
-     "response": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), l'appello contro una sentenza di primo grado deve essere presentato entro 30 giorni dalla notificazione della sentenza.",
-     "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     },
-     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
-     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
-     "collect": "collect-20261007T125815Z.json"
-    },
-    {
-     "id": "LPK-176-par1-en",
-     "cat": "SHOQ",
-     "lang": "en",
-     "prompt": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), within how many days of service of the judgment may an appeal be filed against a first-instance judgment?",
-     "expected": "15 days",
-     "expected_alt": [
-      "15 days",
-      "fifteen days"
-     ],
-     "response": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), an appeal against a first-instance judgment may be filed within **30 days** of the service of the judgment.",
-     "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     },
-     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
-     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
-     "collect": "collect-20261007T125815Z.json"
-    },
-    {
-     "id": "LPK-176-par2-sq",
-     "cat": "SHOQ",
-     "lang": "sq",
-     "prompt": "Një klient të cilit i është dorëzuar aktgjykimi i gjykatës së shkallës së parë pyet: sa ditë afat ka për të paraqitur ankesë, sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006)?",
-     "expected": "15 ditë",
-     "expected_alt": [
-      "15 ditë",
-      "pesëmbëdhjetë ditë",
-      "15 ditësh",
-      "pesëmbëdhjetë ditësh",
-      "15 ditëve",
-      "pesëmbëdhjetë ditëve",
-      "15 dite",
-      "pesëmbëdhjetë dite"
-     ],
-     "response": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), afati për paraqitjen e ankesës kundër aktgjykimit të gjykatës së shkallës së parë është 15 ditë.",
-     "recorded_krahasimi": {
-      "sakte": true,
-      "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     },
-     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
-     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
-     "collect": "collect-20261007T125815Z.json",
-     "kontrast": true
-    },
-    {
-     "id": "LPK-176-par2-de",
-     "cat": "SHOQ",
-     "lang": "de",
-     "prompt": "Ein Mandant, dem ein erstinstanzliches Urteil zugestellt wurde, fragt: Wie viele Tage hat er nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) Zeit, um Berufung einzulegen?",
-     "expected": "15 Tage",
-     "expected_alt": [
-      "15 Tage",
-      "fünfzehn Tage",
-      "15 Tagen",
-      "fünfzehn Tagen"
-     ],
-     "response": "Nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) hat ein Mandant 30 Tage Zeit, um Berufung gegen ein erstinstanzliches Urteil einzulegen. Diese Frist beginnt am Tag nach der Zustellung des Urteils zu laufen. Es ist wichtig, dass die Berufung innerhalb dieser Frist ordnungsgemäß eingelegt wird, um ihre Wirksamkeit zu gewährleisten.",
-     "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     },
-     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
-     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
-     "collect": "collect-20261007T125815Z.json"
-    },
-    {
-     "id": "LPK-176-par2-fr",
-     "cat": "SHOQ",
-     "lang": "fr",
-     "prompt": "Un client auquel un jugement de première instance a été notifié demande : de combien de jours dispose-t-il, selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), pour faire appel ?",
-     "expected": "15 jours",
-     "expected_alt": [
-      "15 jours",
-      "quinze jours"
-     ],
-     "response": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), le délai pour faire appel d'un jugement de première instance est de **30 jours**.",
-     "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     },
-     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
-     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
-     "collect": "collect-20261007T125815Z.json"
-    },
-    {
-     "id": "LPK-176-par2-it",
-     "cat": "SHOQ",
-     "lang": "it",
-     "prompt": "Un cliente a cui è stata notificata una sentenza di primo grado chiede: quanti giorni ha, secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), per presentare appello?",
-     "expected": "15 giorni",
-     "expected_alt": [
-      "15 giorni",
-      "quindici giorni"
-     ],
-     "response": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), il termine per presentare appello contro una sentenza di primo grado è di **30 giorni**.",
-     "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     },
-     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
-     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
-     "collect": "collect-20261007T125815Z.json"
-    },
-    {
-     "id": "LPK-176-par2-en",
-     "cat": "SHOQ",
-     "lang": "en",
-     "prompt": "A client who has been served a first-instance judgment asks: how many days does he have to file an appeal under Kosovo's Law on Contested Procedure (Law No. 03/L-006)?",
-     "expected": "15 days",
-     "expected_alt": [
-      "15 days",
-      "fifteen days"
-     ],
-     "response": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), a party who has been served a first-instance judgment has **30 days** to file an appeal.",
-     "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     },
-     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
-     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
-     "collect": "collect-20261007T125815Z.json"
-    }
-   ]
-  },
-  {
    "file": "F3_AIG47_bashkimi_familjar.json",
    "title": "The family-reunification deadline in Switzerland (AIG/LEI SR 142.20, art. 47: 5 years) is given as «3 years / 12 months / 1 year» in 4/5 languages",
    "points": [
@@ -625,138 +240,216 @@
    ]
   },
   {
-   "file": "F4_H5_data.json",
-   "title": "The declaration date of the Republic of Kosovo (22 September 1991) is given wrongly as five different dates",
+   "file": "F2_LPK176_afati_ankeses.json",
+   "title": "The deadline for appealing a civil judgment in Kosovo (LPK 03/L-006, art. 176.1: 15 days) is given as «30 days» in 4/5 languages",
    "points": [
     {
-     "id": "H5",
-     "cat": "HIST",
+     "id": "LPK-176-par1-sq",
+     "cat": "SHOQ",
      "lang": "sq",
-     "prompt": "Në cilën datë u shpall Republika e Kosovës (e panjohur) si shtet i pavarur, para referendumit të shtatorit 1991?",
-     "expected": "22 shtator 1991",
-     "expected_alt": [],
-     "response": "Republika e Kosovës (e panjohur) u shpall si shtet i pavarur më 2 korrik 1990, para referendumit të shtatorit 1991.",
+     "prompt": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), brenda sa ditësh nga dorëzimi i aktgjykimit mund të paraqitet ankesa kundër aktgjykimit të gjykatës së shkallës së parë?",
+     "expected": "15 ditë",
+     "expected_alt": [
+      "15 ditë",
+      "pesëmbëdhjetë ditë",
+      "15 ditësh",
+      "pesëmbëdhjetë ditësh",
+      "15 ditëve",
+      "pesëmbëdhjetë ditëve",
+      "15 dite",
+      "pesëmbëdhjetë dite"
+     ],
+     "response": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), ankesa kundër aktgjykimit të gjykatës së shkallës së parë mund të paraqitet brenda 15 ditësh nga dorëzimi i aktgjykimit.",
      "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     }
+      "sakte": true,
+      "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     },
+     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+     "collect": "collect-20261007T125815Z.json",
+     "kontrast": true
     },
     {
-     "id": "H5-de",
-     "cat": "HIST",
+     "id": "LPK-176-par1-de",
+     "cat": "SHOQ",
      "lang": "de",
-     "prompt": "An welchem Datum wurde die (nicht anerkannte) Republik Kosovo als unabhängiger Staat ausgerufen, vor dem Referendum im September 1991?",
-     "expected": "22. September 1991",
-     "expected_alt": [],
-     "response": "Die (nicht anerkannte) Republik Kosovo wurde am 2. Februar 1992 ausgerufen, nachdem sie bereits am 27. Februar 1991 einseitig ihre Unabhängigkeit erklärt hatte. Das Referendum zur Bestätigung der Unabhängigkeit fand jedoch erst im September 1991 statt.",
+     "prompt": "Innerhalb wie vieler Tage nach Zustellung des Urteils kann nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) Berufung gegen ein erstinstanzliches Urteil eingelegt werden?",
+     "expected": "15 Tage",
+     "expected_alt": [
+      "15 Tage",
+      "fünfzehn Tage",
+      "15 Tagen",
+      "fünfzehn Tagen"
+     ],
+     "response": "Nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) kann innerhalb von **30 Tagen** nach Zustellung des Urteils Berufung gegen ein erstinstanzliches Urteil eingelegt werden.",
      "recorded_krahasimi": {
       "sakte": false,
-      "arsye": "2/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     }
+      "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     },
+     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+     "collect": "collect-20261007T125815Z.json"
     },
     {
-     "id": "H5-fr",
-     "cat": "HIST",
+     "id": "LPK-176-par1-fr",
+     "cat": "SHOQ",
      "lang": "fr",
-     "prompt": "À quelle date la République du Kosovo (non reconnue) a-t-elle été proclamée État indépendant, lors de la déclaration de 1991 ?",
-     "expected": "22 septembre 1991",
-     "expected_alt": [],
-     "response": "La République du Kosovo (non reconnue) a été proclamée État indépendant le 28 février 1991.",
+     "prompt": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), dans quel délai en jours après la notification du jugement peut-on faire appel d'un jugement de première instance ?",
+     "expected": "15 jours",
+     "expected_alt": [
+      "15 jours",
+      "quinze jours"
+     ],
+     "response": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), le délai pour faire appel d'un jugement de première instance est de **30 jours** après la notification du jugement.",
      "recorded_krahasimi": {
       "sakte": false,
-      "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     }
+      "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     },
+     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+     "collect": "collect-20261007T125815Z.json"
     },
     {
-     "id": "H5-it",
-     "cat": "HIST",
+     "id": "LPK-176-par1-it",
+     "cat": "SHOQ",
      "lang": "it",
-     "prompt": "In quale data la Repubblica del Kosovo (non riconosciuta) fu proclamata Stato indipendente, prima del referendum del settembre 1991?",
-     "expected": "22 settembre 1991",
-     "expected_alt": [],
-     "response": "La Repubblica del Kosovo fu proclamata Stato indipendente il 2 settembre 1991.",
+     "prompt": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), entro quanti giorni dalla notificazione della sentenza si può presentare appello contro una sentenza di primo grado?",
+     "expected": "15 giorni",
+     "expected_alt": [
+      "15 giorni",
+      "quindici giorni"
+     ],
+     "response": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), l'appello contro una sentenza di primo grado deve essere presentato entro 30 giorni dalla notificazione della sentenza.",
      "recorded_krahasimi": {
       "sakte": false,
-      "arsye": "2/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     }
+      "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     },
+     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+     "collect": "collect-20261007T125815Z.json"
     },
     {
-     "id": "H5-en",
-     "cat": "HIST",
+     "id": "LPK-176-par1-en",
+     "cat": "SHOQ",
      "lang": "en",
-     "prompt": "On what date was the Republic of Kosovo (unrecognized) proclaimed an independent state, before the September 1991 referendum?",
-     "expected": "22 September 1991",
-     "expected_alt": [],
-     "response": "The Republic of Kosovo (unrecognized) was proclaimed an independent state on February 17, 2008.",
+     "prompt": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), within how many days of service of the judgment may an appeal be filed against a first-instance judgment?",
+     "expected": "15 days",
+     "expected_alt": [
+      "15 days",
+      "fifteen days"
+     ],
+     "response": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), an appeal against a first-instance judgment may be filed within **30 days** of the service of the judgment.",
      "recorded_krahasimi": {
       "sakte": false,
-      "arsye": "0/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
-     }
+      "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     },
+     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+     "collect": "collect-20261007T125815Z.json"
     },
     {
-     "id": "H5-p1-sq",
-     "cat": "HIST",
+     "id": "LPK-176-par2-sq",
+     "cat": "SHOQ",
      "lang": "sq",
-     "prompt": "Në çfarë date u shpall Kosova republikë e pavarur në vitin 1991?",
-     "expected": "22 shtator 1991",
-     "response": "Kosova u shpall republikë e pavarur më 28 prill 1991.",
+     "prompt": "Një klient të cilit i është dorëzuar aktgjykimi i gjykatës së shkallës së parë pyet: sa ditë afat ka për të paraqitur ankesë, sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006)?",
+     "expected": "15 ditë",
+     "expected_alt": [
+      "15 ditë",
+      "pesëmbëdhjetë ditë",
+      "15 ditësh",
+      "pesëmbëdhjetë ditësh",
+      "15 ditëve",
+      "pesëmbëdhjetë ditëve",
+      "15 dite",
+      "pesëmbëdhjetë dite"
+     ],
+     "response": "Sipas Ligjit për procedurën kontestimore të Kosovës (Ligji nr. 03/L-006), afati për paraqitjen e ankesës kundër aktgjykimit të gjykatës së shkallës së parë është 15 ditë.",
      "recorded_krahasimi": {
-      "sakte": false,
-      "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+      "sakte": true,
+      "arsye": "2/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
      },
-     "source_run": "parafraza-20261004.json"
+     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+     "collect": "collect-20261007T125815Z.json",
+     "kontrast": true
     },
     {
-     "id": "H5-p1-de",
-     "cat": "HIST",
+     "id": "LPK-176-par2-de",
+     "cat": "SHOQ",
      "lang": "de",
-     "prompt": "An welchem Tag wurde die Republik Kosovo 1991 zum unabhängigen Staat erklärt?",
-     "expected": "22. September 1991",
-     "response": "Die Republik Kosovo wurde am 17. Februar 1991 zum unabhängigen Staat erklärt.",
+     "prompt": "Ein Mandant, dem ein erstinstanzliches Urteil zugestellt wurde, fragt: Wie viele Tage hat er nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) Zeit, um Berufung einzulegen?",
+     "expected": "15 Tage",
+     "expected_alt": [
+      "15 Tage",
+      "fünfzehn Tage",
+      "15 Tagen",
+      "fünfzehn Tagen"
+     ],
+     "response": "Nach dem kosovarischen Zivilprozessgesetz (Gesetz Nr. 03/L-006) hat ein Mandant 30 Tage Zeit, um Berufung gegen ein erstinstanzliches Urteil einzulegen. Diese Frist beginnt am Tag nach der Zustellung des Urteils zu laufen. Es ist wichtig, dass die Berufung innerhalb dieser Frist ordnungsgemäß eingelegt wird, um ihre Wirksamkeit zu gewährleisten.",
      "recorded_krahasimi": {
       "sakte": false,
-      "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+      "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
      },
-     "source_run": "parafraza-20261004.json"
+     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+     "collect": "collect-20261007T125815Z.json"
     },
     {
-     "id": "H5-p1-fr",
-     "cat": "HIST",
+     "id": "LPK-176-par2-fr",
+     "cat": "SHOQ",
      "lang": "fr",
-     "prompt": "À quelle date la République du Kosovo a-t-elle été proclamée État indépendant en 1991 ?",
-     "expected": "22 septembre 1991",
-     "response": "La République du Kosovo a été proclamée État indépendant le 28 février 1991.",
+     "prompt": "Un client auquel un jugement de première instance a été notifié demande : de combien de jours dispose-t-il, selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), pour faire appel ?",
+     "expected": "15 jours",
+     "expected_alt": [
+      "15 jours",
+      "quinze jours"
+     ],
+     "response": "Selon la loi kosovare sur la procédure contentieuse (loi n° 03/L-006), le délai pour faire appel d'un jugement de première instance est de **30 jours**.",
      "recorded_krahasimi": {
       "sakte": false,
-      "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+      "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
      },
-     "source_run": "parafraza-20261004.json"
+     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+     "collect": "collect-20261007T125815Z.json"
     },
     {
-     "id": "H5-p1-it",
-     "cat": "HIST",
+     "id": "LPK-176-par2-it",
+     "cat": "SHOQ",
      "lang": "it",
-     "prompt": "In quale giorno la Repubblica del Kosovo fu proclamata Stato indipendente nel 1991?",
-     "expected": "22 settembre 1991",
-     "response": "La Repubblica del Kosovo fu proclamata Stato indipendente il 28 novembre 1991.",
+     "prompt": "Un cliente a cui è stata notificata una sentenza di primo grado chiede: quanti giorni ha, secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), per presentare appello?",
+     "expected": "15 giorni",
+     "expected_alt": [
+      "15 giorni",
+      "quindici giorni"
+     ],
+     "response": "Secondo la legge kosovara sulla procedura contenziosa (legge n. 03/L-006), il termine per presentare appello contro una sentenza di primo grado è di **30 giorni**.",
      "recorded_krahasimi": {
       "sakte": false,
-      "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+      "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
      },
-     "source_run": "parafraza-20261004.json"
+     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+     "collect": "collect-20261007T125815Z.json"
     },
     {
-     "id": "H5-p1-en",
-     "cat": "HIST",
+     "id": "LPK-176-par2-en",
+     "cat": "SHOQ",
      "lang": "en",
-     "prompt": "On which day was the Republic of Kosovo proclaimed an independent state in 1991?",
-     "expected": "22 September 1991",
-     "response": "The Republic of Kosovo was proclaimed an independent state on February 17, 1991.",
+     "prompt": "A client who has been served a first-instance judgment asks: how many days does he have to file an appeal under Kosovo's Law on Contested Procedure (Law No. 03/L-006)?",
+     "expected": "15 days",
+     "expected_alt": [
+      "15 days",
+      "fifteen days"
+     ],
+     "response": "Under Kosovo's Law on Contested Procedure (Law No. 03/L-006), a party who has been served a first-instance judgment has **30 days** to file an appeal.",
      "recorded_krahasimi": {
       "sakte": false,
-      "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+      "arsye": "1/2 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
      },
-     "source_run": "parafraza-20261004.json"
+     "source": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=2583",
+     "fp": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180",
+     "collect": "collect-20261007T125815Z.json"
     }
    ]
   },
@@ -1094,6 +787,313 @@
      "source_run": "b35-4g-20261004.json",
      "recorded_krahasimi_from": "rikrahasim-20261004T135201Z.json (harness d9730610)",
      "kontrast": true
+    }
+   ]
+  },
+  {
+   "file": "F1_K6_himni.json",
+   "title": "The official anthem of the Republic of Kosovo («Europe») is presented as Albania's anthem («Himni i Flamurit») in 5/5 languages",
+   "points": [
+    {
+     "id": "K6",
+     "cat": "KULT",
+     "lang": "sq",
+     "prompt": "Cili është himni zyrtar i Republikës së Kosovës?",
+     "expected": "Europe",
+     "expected_alt": [
+      "Europe",
+      "Evropa"
+     ],
+     "response": "Himni zyrtar i Republikës së Kosovës është \"Himni i Flamurit\".",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     }
+    },
+    {
+     "id": "K6-de",
+     "cat": "KULT",
+     "lang": "de",
+     "prompt": "Welches ist die offizielle Hymne der Republik Kosovo?",
+     "expected": "Europe",
+     "expected_alt": [
+      "Europe",
+      "Evropa"
+     ],
+     "response": "Die offizielle Hymne der Republik Kosovo ist „Hymni i Flamurit“.",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     }
+    },
+    {
+     "id": "K6-fr",
+     "cat": "KULT",
+     "lang": "fr",
+     "prompt": "Quel est l'hymne officiel de la République du Kosovo ?",
+     "expected": "Europe",
+     "expected_alt": [
+      "Europe",
+      "Evropa"
+     ],
+     "response": "L'hymne officiel de la République du Kosovo est « Hymni i Flamurit ».",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     }
+    },
+    {
+     "id": "K6-it",
+     "cat": "KULT",
+     "lang": "it",
+     "prompt": "Qual è l'inno ufficiale della Repubblica del Kosovo?",
+     "expected": "Europe",
+     "expected_alt": [
+      "Europe",
+      "Evropa"
+     ],
+     "response": "L'inno ufficiale della Repubblica del Kosovo è \"Himni i Flamurit\".",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     }
+    },
+    {
+     "id": "K6-en",
+     "cat": "KULT",
+     "lang": "en",
+     "prompt": "What is the official anthem of the Republic of Kosovo?",
+     "expected": "Europe",
+     "expected_alt": [
+      "Europe",
+      "Evropa"
+     ],
+     "response": "The official anthem of the Republic of Kosovo is \"Hymni i Flamurit\" (English: \"Anthem of the Flag\").",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     }
+    },
+    {
+     "id": "K6-p1-sq",
+     "cat": "KULT",
+     "lang": "sq",
+     "prompt": "Si quhet himni kombëtar i Kosovës?",
+     "expected": "Europe",
+     "expected_alt": [
+      "Europe",
+      "Evropa"
+     ],
+     "response": "Himni kombëtar i Republikës së Kosovës quhet \"Himni i Flamurit\".",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     },
+     "source_run": "parafraza-20261004.json"
+    },
+    {
+     "id": "K6-p1-de",
+     "cat": "KULT",
+     "lang": "de",
+     "prompt": "Wie heißt die Nationalhymne des Kosovo?",
+     "expected": "Europe",
+     "expected_alt": [
+      "Europe",
+      "Evropa"
+     ],
+     "response": "Die Nationalhymne des Kosovo heißt „Hymni i Flamurit“.",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     },
+     "source_run": "parafraza-20261004.json"
+    },
+    {
+     "id": "K6-p1-fr",
+     "cat": "KULT",
+     "lang": "fr",
+     "prompt": "Comment s'appelle l'hymne national du Kosovo ?",
+     "expected": "Europe",
+     "expected_alt": [
+      "Europe",
+      "Evropa"
+     ],
+     "response": "L'hymne national du Kosovo s'appelle « Hymne Kombëtar » (en français : « Hymne national »).",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     },
+     "source_run": "parafraza-20261004.json"
+    },
+    {
+     "id": "K6-p1-it",
+     "cat": "KULT",
+     "lang": "it",
+     "prompt": "Come si chiama l'inno nazionale del Kosovo?",
+     "expected": "Europe",
+     "expected_alt": [
+      "Europe",
+      "Evropa"
+     ],
+     "response": "L'inno nazionale del Kosovo si chiama \"Himni i Flamurit\".",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     },
+     "source_run": "parafraza-20261004.json"
+    },
+    {
+     "id": "K6-p1-en",
+     "cat": "KULT",
+     "lang": "en",
+     "prompt": "What is the national anthem of Kosovo called?",
+     "expected": "Europe",
+     "expected_alt": [
+      "Europe",
+      "Evropa"
+     ],
+     "response": "The national anthem of Kosovo is called \"Himni i Flamurit\" (English: \"Anthem of the Flag\").",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "0/1 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     },
+     "source_run": "parafraza-20261004.json"
+    }
+   ]
+  },
+  {
+   "file": "F4_H5_data.json",
+   "title": "The declaration date of the Republic of Kosovo (22 September 1991) is given wrongly as five different dates",
+   "points": [
+    {
+     "id": "H5",
+     "cat": "HIST",
+     "lang": "sq",
+     "prompt": "Në cilën datë u shpall Republika e Kosovës (e panjohur) si shtet i pavarur, para referendumit të shtatorit 1991?",
+     "expected": "22 shtator 1991",
+     "expected_alt": [],
+     "response": "Republika e Kosovës (e panjohur) u shpall si shtet i pavarur më 2 korrik 1990, para referendumit të shtatorit 1991.",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     }
+    },
+    {
+     "id": "H5-de",
+     "cat": "HIST",
+     "lang": "de",
+     "prompt": "An welchem Datum wurde die (nicht anerkannte) Republik Kosovo als unabhängiger Staat ausgerufen, vor dem Referendum im September 1991?",
+     "expected": "22. September 1991",
+     "expected_alt": [],
+     "response": "Die (nicht anerkannte) Republik Kosovo wurde am 2. Februar 1992 ausgerufen, nachdem sie bereits am 27. Februar 1991 einseitig ihre Unabhängigkeit erklärt hatte. Das Referendum zur Bestätigung der Unabhängigkeit fand jedoch erst im September 1991 statt.",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "2/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     }
+    },
+    {
+     "id": "H5-fr",
+     "cat": "HIST",
+     "lang": "fr",
+     "prompt": "À quelle date la République du Kosovo (non reconnue) a-t-elle été proclamée État indépendant, lors de la déclaration de 1991 ?",
+     "expected": "22 septembre 1991",
+     "expected_alt": [],
+     "response": "La République du Kosovo (non reconnue) a été proclamée État indépendant le 28 février 1991.",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     }
+    },
+    {
+     "id": "H5-it",
+     "cat": "HIST",
+     "lang": "it",
+     "prompt": "In quale data la Repubblica del Kosovo (non riconosciuta) fu proclamata Stato indipendente, prima del referendum del settembre 1991?",
+     "expected": "22 settembre 1991",
+     "expected_alt": [],
+     "response": "La Repubblica del Kosovo fu proclamata Stato indipendente il 2 settembre 1991.",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "2/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     }
+    },
+    {
+     "id": "H5-en",
+     "cat": "HIST",
+     "lang": "en",
+     "prompt": "On what date was the Republic of Kosovo (unrecognized) proclaimed an independent state, before the September 1991 referendum?",
+     "expected": "22 September 1991",
+     "expected_alt": [],
+     "response": "The Republic of Kosovo (unrecognized) was proclaimed an independent state on February 17, 2008.",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "0/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     }
+    },
+    {
+     "id": "H5-p1-sq",
+     "cat": "HIST",
+     "lang": "sq",
+     "prompt": "Në çfarë date u shpall Kosova republikë e pavarur në vitin 1991?",
+     "expected": "22 shtator 1991",
+     "response": "Kosova u shpall republikë e pavarur më 28 prill 1991.",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     },
+     "source_run": "parafraza-20261004.json"
+    },
+    {
+     "id": "H5-p1-de",
+     "cat": "HIST",
+     "lang": "de",
+     "prompt": "An welchem Tag wurde die Republik Kosovo 1991 zum unabhängigen Staat erklärt?",
+     "expected": "22. September 1991",
+     "response": "Die Republik Kosovo wurde am 17. Februar 1991 zum unabhängigen Staat erklärt.",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     },
+     "source_run": "parafraza-20261004.json"
+    },
+    {
+     "id": "H5-p1-fr",
+     "cat": "HIST",
+     "lang": "fr",
+     "prompt": "À quelle date la République du Kosovo a-t-elle été proclamée État indépendant en 1991 ?",
+     "expected": "22 septembre 1991",
+     "response": "La République du Kosovo a été proclamée État indépendant le 28 février 1991.",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     },
+     "source_run": "parafraza-20261004.json"
+    },
+    {
+     "id": "H5-p1-it",
+     "cat": "HIST",
+     "lang": "it",
+     "prompt": "In quale giorno la Repubblica del Kosovo fu proclamata Stato indipendente nel 1991?",
+     "expected": "22 settembre 1991",
+     "response": "La Repubblica del Kosovo fu proclamata Stato indipendente il 28 novembre 1991.",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     },
+     "source_run": "parafraza-20261004.json"
+    },
+    {
+     "id": "H5-p1-en",
+     "cat": "HIST",
+     "lang": "en",
+     "prompt": "On which day was the Republic of Kosovo proclaimed an independent state in 1991?",
+     "expected": "22 September 1991",
+     "response": "The Republic of Kosovo was proclaimed an independent state on February 17, 1991.",
+     "recorded_krahasimi": {
+      "sakte": false,
+      "arsye": "1/3 tokene kyce (pergjigje e shkurter: kerkohet plotesisht)"
+     },
+     "source_run": "parafraza-20261004.json"
     }
    ]
   }
