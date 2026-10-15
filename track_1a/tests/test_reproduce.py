@@ -41,14 +41,14 @@ wf = importlib.util.module_from_spec(_spec_wf)
 _spec_wf.loader.exec_module(wf)
 
 
-def _xhiro(args, env_extra=None, timeout=120):
+def _run_reproduce(args, env_extra=None, timeout=120):
     env = {k: v for k, v in os.environ.items() if not k.startswith("LLM_")}
     env.update(env_extra or {})
     return subprocess.run([sys.executable, str(SRC), *args], capture_output=True, text=True,
                           env=env, timeout=timeout, cwd=str(RRENJA))
 
 
-class KrahasoTest(unittest.TestCase):
+class ComparatorTest(unittest.TestCase):
     def test_r7_short_answer_requires_all_tokens(self):
         self.assertTrue(rp.krahaso("Kosova shpalli pavarësinë më 17 shkurt 2008.", "17 shkurt 2008")["sakte"])
         self.assertFalse(rp.krahaso("Më 18 shkurt 2008.", "17 shkurt 2008")["sakte"])
@@ -78,7 +78,7 @@ class KrahasoTest(unittest.TestCase):
         self.assertFalse(rp.krahaso("I don't know; she is a politician of the PDK party.", e)["sakte"])
 
 
-class TeDhenatTest(unittest.TestCase):
+class PackagedDataTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.d = json.loads(DATA.read_text(encoding="utf-8"))
@@ -223,7 +223,7 @@ class WalkthroughFormatTest(unittest.TestCase):
 
 class MakeRunTest(unittest.TestCase):
     def test_replay_end_to_end_rc0_no_mismatches(self):
-        r = _xhiro([])
+        r = _run_reproduce([])
         self.assertEqual(r.returncode, 0, r.stderr)
         self.assertIn("SUMMARY", r.stdout)
         self.assertIn("Mismatches vs. the recording: 0", r.stdout)
@@ -233,7 +233,7 @@ class MakeRunTest(unittest.TestCase):
                          r"^REPRODUCED (\d+)/\1 recorded verdicts \(0 mismatches\); (\d+)/\2 findings walkthroughs")
 
     def test_live_without_key_falls_back_to_replay(self):
-        r = _xhiro(["--live"])
+        r = _run_reproduce(["--live"])
         self.assertEqual(r.returncode, 0, r.stderr)
         self.assertIn("LLM_API_KEY is missing", r.stdout)
         self.assertIn("REPLAY", r.stdout)
@@ -284,7 +284,7 @@ class LiveStubTest(unittest.TestCase):
         return {"LLM_BASE_URL": self.url, "LLM_API_KEY": "stub-key", "LLM_NAME": "stub-model"}
 
     def test_live_same_fingerprint_counts_calls_and_writes_receipt(self):
-        r = _xhiro(["--live", "--max-calls", "3"], self._env())
+        r = _run_reproduce(["--live", "--max-calls", "3"], self._env())
         self.assertEqual(r.returncode, 0, r.stderr)
         self.assertEqual(_Stub.thirrje, 3)
         self.assertIn("LIVE + replay", r.stdout)
@@ -299,7 +299,7 @@ class LiveStubTest(unittest.TestCase):
 
     def test_fingerprint_guard_stops_live_after_first_call(self):
         _Stub.fp = "vllm-tjeter-0000"
-        r = _xhiro(["--live", "--max-calls", "10"], self._env())
+        r = _run_reproduce(["--live", "--max-calls", "10"], self._env())
         self.assertEqual(r.returncode, 0, r.stderr)
         self.assertEqual(_Stub.thirrje, 1)
         self.assertIn("server system_fingerprint", r.stdout)
