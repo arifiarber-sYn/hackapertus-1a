@@ -19,7 +19,7 @@
 
 ### What the judge should see (5 lines)
 
-1. **The five facts and their harm** -> the table in *Findings Dataset* plus `findings/F1_K6_himni.json` ... `findings/F5_persona_sintetike.json` (10 walkthroughs each).
+1. **The five facts and their harm** -> the table in *Findings Dataset* plus the five findings files, in the report order: `F3_AIG47_bashkimi_familjar.json`, `F2_LPK176_afati_ankeses.json`, `F5_persona_sintetike.json`, `F1_K6_himni.json`, `F4_H5_data.json` (10 walkthroughs each, under `findings/`).
 2. **The replay of every claim** -> `data/reproduce_points.json` (65 points) via `make run`; `src/reproduce.py` re-queries optionally and refuses on fingerprint change.
 3. **The language asymmetry** -> the A/B table in §Findings Dataset: F2 correct only in sq (100 % vs 0 %), F3 only in de (100 % vs 0 %).
 4. **The honest reduction** -> Figure 1: 135 calls -> 48 raw -> 45 after comparator hardening -> 5 findings; 406 of 530 calls used at submission (381 collection + 25 live re-run on 12 Oct); a further 50-call live verification on 13 Oct reproduced 65/65 (`out/live-20261013T102553Z.json`) — 456 of 530 in total, within budget.
